@@ -23,7 +23,7 @@ palette:
   orange: '#c68a75'
   purple: '#B48EAD'
   pale_purple: '#7199ee'
-  magenta: "#D16D9E"
+  magenta: '#D16D9E'
 
   cursor_fg: '#515052'
   cursor_bg: '#AEAFAD'
@@ -41,94 +41,117 @@ palette:
 
 highlights:
   Normal: 'fg bg'
-  Comment: 'accent - i'
-  Constant: 'yellow'
-  String: 'green'
-  Character: 'orange'
-  Number: 'light_green'
-  Boolean: 'orange'
-  Float: 'red'
-  Identifier: 'blue'
-  Function: 'yellow'
-  Statement: 'blue'
-  Conditional: 'grey_blue'
-  Repeat: 'blue'
-  Label: 'cyan'
-  Operator: 'grey_blue'
-  Keyword: 'blue'
-  Exception: 'blue'
-  PreProc: 'yellow'
-  Include: 'blue'
-  Define: 'blue'
-  Title: 'cyan'
-  Macro: 'blue'
-  PreCondit: 'cyan'
-  Type: 'purple'
-  StorageClass: 'cyan'
-  Structure: 'yellow'
-  Typedef: 'purple'
-  Special: 'blue - i'
-  SpecialComment: 'accent'
-  Error: 'error_red - br'
-  Todo: 'purple - bi'
-  Underlined: 'cyan . u'
-  Cursor: 'cursor_fg cursor_bg'
-  ColorColumn: '- alt_bg'
-  CursorLineNr: 'white - b'
   SignColumn: '- bg'
-  Conceal: 'accent'
-  CursorColumn: '- alt_bg'
-  CursorLine: '- alt_bg'
-  Directory: 'blue'
-  DiffAdd: 'alt_bg green'
-  DiffChange: 'yellow - u'
-  DiffDelete: 'alt_bg red'
-  DiffText: 'alt_bg yellow'
-  ErrorMsg: 'error_red'
-  accent: 'accent'
-  Folded: 'accent'
-  FoldColumn: ''
-  IncSearch: '- accent'
-  LineNr: 'accent'
-  NonText: 'alt_bg'
+  MsgArea: 'fg bg'
+  ModeMsg: 'fg bg'
+  MsgSeparator: 'fg bg'
+  SpellBad: 'error_red - u'
+  SpellCap: 'yellow - u'
+  SpellLocal: 'green - u'
+  SpellRare: 'purple - u'
+  NormalNC: 'fg bg'
   Pmenu: 'white accent'
   PmenuSel: 'alt_bg blue'
+  WildMenu: 'alt_bg blue'
+  CursorLineNr: 'light_grey - b'
+  Comment: 'grey - i'
+  Folded: 'accent alt_bg'
+  FoldColumn: 'accent alt_bg'
+  LineNr: 'grey -'
+  FloatBoder: 'grey alt_bg'
+  Whitespace: 'grey -'
+  VertSplit: 'accent -'
+  CursorLine: '- alt_bg'
+  CursorColumn: '- alt_bg'
+  ColorColumn: '- alt_bg'
+  NormalFloat: '- accent'
+  Visual: '- alt_bg'
+  VisualNOS: '- alt_bg'
+  WarningMsg: 'error_red'
+  DiffText: '- -'
+  DiffAdd: 'alt_bg sign_add'
+  DiffChange: 'alt_bg sign_change u'
+  DiffDelete: 'alt_bg sign_delete'
+  QuickFixLine: '- accent'
   PmenuSbar: '- alt_bg'
   PmenuThumb: '- white'
-  Question: 'purple'
-  QuickFixLine: '- accent'
-  Search: '- accent'
-  SpecialKey: 'alt_bg'
-  SpellBad: 'error_red - u'
-  SpellCap: 'yellow'
-  SpellLocal: 'yellow'
-  SpellRare: 'yellow'
-  StatusLine: 'white alt_bg'
-  StatusLineNC: 'accent'
-  StatusLineTerm: 'white alt_bg'
-  StatusLineTermNC: 'alt_bg'
-  TabLine: 'accent'
-  TabLineSel: 'white'
-  TabLineFill: '- alt_bg'
-  Terminal: 'white alt_bg'
-  Visual: '- alt_bg'
-  VisualNOS: 'alt_bg'
-  WarningMsg: 'yellow'
-  WildMenu: 'alt_bg blue'
+  MatchWord: '- - u'
+  MatchParen: 'pale_purple - u'
+  MatchWordCur: '- - u'
+  MatchParenCur: '- - u'
+  Cursor: 'cursor_fg cursor_bg'
+  lCursor: 'cursor_fg cursor_bg'
+  CursorIM: 'cursor_fg cursor_bg'
+  TermCursor: 'cursor_fg cursor_bg'
+  TermCursorNC: 'cursor_fg cursor_bg'
+  Conceal: 'accent'
+  Directory: 'blue'
+  SpecialKey: 'blue - b'
+  Title: 'blue - b'
+  ErrorMsg: 'error_red'
+  Search: 'alt_bg grey_blue'
+  IncSearch: 'alt_bg grey_blue'
+  Substitute: 'alt_bg grey_blue'
+  MoreMsg: 'cyan'
+  Question: 'cyan'
   EndOfBuffer: 'bg'
+  NonText: 'bg'
 
-Treesitter:
-  # -- Start Treesitter --
-  # Misc
+  String: 'green'
+  Character: 'light_green'
+  Constant: 'orange'
+  Number: 'red'
+  Boolean: 'red'
+  Float: 'red'
+
+  Identifier: 'white'
+  Function: 'yellow'
+  Operator: 'grey_blue'
+
+  Type: 'purple'
+  StorageClass: 'purple'
+  Structure: 'purple'
+  Typedef: 'purple'
+
+  Keyword: 'blue'
+  Statement: 'blue'
+  Conditional: 'blue'
+  Repeat: 'blue'
+  Label: 'blue'
+  Exception: 'blue'
+  Include: 'blue'
+
+  PreProc: 'cyan'
+  Define: 'cyan'
+  Macro: 'cyan'
+  PreCondit: 'cyan'
+
+  Special: 'orange'
+  SpecialChar: 'orange'
+  Tag: 'pale_purple'
+  Debug: 'red'
+  Delimiter: 'light_grey'
+  SpecialComment: 'grey'
+  Underlined: '- - u'
+  Bold: '- - b'
+  Italic: '- - i'
+
+  Ignore: 'cyan bg b'
+  Todo: 'red bg b'
+  Error: 'error_red bg b'
+
+  TabLine: 'white alt_bg'
+  TabLineSel: 'white alt_bg'
+  TabLineFill: 'white alt_bg'
+
+treesitter:
   TSComment: 'accent - i'
   TSError: 'error_red'
   TSPunctDelimiter: 'white'
   TSPunctBracket: 'white'
   TSPunctSpecial: 'white'
-  # Constants
   TSConstant: 'yellow'
   TSConstBuiltin: 'blue'
-  # Not sure about this guy
   TSConstMacro: 'cyan'
   TSStringRegex: 'green'
   TSString: 'green'
@@ -227,31 +250,6 @@ Treesitter:
   markdownUrl: 'cyan - u'
   # -- END Languages --
 
-  # -- START CoC --
-  CocExplorerIndentLine: 'accent'
-  CocExplorerBufferRoot: 'cyan'
-  CocExplorerFileRoot: 'cyan'
-  CocExplorerBufferFullPath: 'accent'
-  CocExplorerFileFullPath: 'accent'
-  CocExplorerBufferReadonly: 'purple'
-  CocExplorerBufferModified: 'purple'
-  CocExplorerBufferNameVisible: 'orange'
-  CocExplorerFileReadonly: 'purple'
-  CocExplorerFileModified: 'purple'
-  CocExplorerFileHidden: 'accent'
-  CocExplorerHelpLine: 'purple'
-  # -- END CoC --
-
-  # -- START Easymotion --
-  EasyMotionTarget: 'error_red - b'
-  EasyMotionTarget2First: 'error_red - b'
-  EasyMotionTarget2Second: 'error_red - b'
-  EasyMotionShade: ''
-  # EasyMotionIncSearch:
-  # EasyMotionMoveHL:
-
-  # -- END Easymotion --
-
   # -- START Startify --
   StartifyNumber: 'red'
   StartifySelect: 'green'
@@ -265,13 +263,14 @@ Treesitter:
   StartifySection: 'purple'
   StartifyFooter: 'green'
   # -- END Startify --
+
   # -- START WhichKey --
   WhichKey: 'purple'
   WhichKeySeperator: 'green'
   WhichKeyGroup: 'hint_blue'
   WhichKeyDesc: 'blue'
   # -- END WhichKey --
-  #
+
   # old stuff
   diffAdded: 'green'
   diffRemoved: 'red'
@@ -305,11 +304,6 @@ Treesitter:
 
   QuickScopePrimary: '#00C7DF - u'
   QuickScopeSecondary: '#eF5F70 - u'
-
-  MatchWord: '- - u'
-  MatchParen: '- - u'
-  MatchWordCur: '- - u'
-  MatchParenCur: '- - u'
 
   NvimTreeImageFile: 'purple'
   NvimTreeGitDirty: 'sign_add'
@@ -355,26 +349,10 @@ Treesitter:
   # DashboardShortCut:
 
   WhichKeyFloat: 'bg'
-
-  # terminal: "bg red green yellow blue magenta cyan silver gray red green yellow blue magenta cyan fg"
-  # -- Other junk you can define --
-  # Debug
-  # Ignore
-  # Tag
-  # Delimiter
-  # SpecialChar
-  # Cursor", { "fg": s:alt_bg, "bg": s:blue }) " the character under the cursor
-  # CursorIM", {}) " like Cursor, but used when in IME mode
-  # FoldColumn", {}) " 'foldcolumn'
-  # CursorLineNr", {}) " Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
-  # MoreMsg", {}) " more-prompt
-  # ModeMsg", {}) " 'showmode' message (e.g., "-- INSERT --")
-  # ErrorMsg: "red - br"
-  # WarningMsg: "orange - br"
-  # ModeMsg: "yellow - br"
-  # MoreMsg: "green - br"
-  # Question: "cyan - br"
-  # Directory: "blue - b"
+  # StatusLine: 'white alt_bg'
+  # StatusLineNC: 'accent'
+  # StatusLineTerm: 'white alt_bg'
+  # StatusLineTermNC: 'alt_bg'
 
   # VimWiki
   VimwikiHeader1: 'orange - b'
