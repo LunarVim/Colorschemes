@@ -10,10 +10,11 @@ local util = require("aurora.util")
 Config = require("aurora.config")
 C = require("aurora.palette")
 local highlights = require("aurora.highlights")
+local Treesitter = require("aurora.Treesitter")
 
 
 local skeletons = {
-    highlights
+    highlights, Treesitter
 }
 
 for _, skeleton in ipairs(skeletons) do

@@ -5,61 +5,42 @@ information:
 
 palette:
   fg: '#ABB2BF'
-  # bg: "#252932"
   bg: '#232731'
 
+  alt_bg: '#2C323C'
+  accent: '#434C5E'
+
+  white: '#D8DEE9'
+  grey: '#9BA1AB'
+  light_grey: '#c8c9c1'
+  blue: '#5e81ac'
+  grey_blue: '#81A1C1'
+  cyan: '#88c0d0'
   red: '#BF616A'
-  error_red: '#F44747'
   green: '#A3BE8C'
   light_green: '#B5CEA8'
   yellow: '#E7cb93'
-  dark_yellow: '#D7BA7D'
   orange: '#c68a75'
-  grey: '#9BA1AB'
-  blue: '#5e81ac'
-  grey_blue: '#81A1C1'
-  # #8cacb4
-  # light_blue: "#69A8C6"
-  # light_blue: "#69BAC8"
-  light_blue: '#88C0D0'
-  cyan: '#88c0d0'
-  # cyan: "#8fbcbb"
-  # cyan: "#69BAC8"
-  vivid_blue: '#4FC1FF'
   purple: '#B48EAD'
-  white: '#D8DEE9'
-  # white: "#767A8B"
-  black: '#3b4252'
-  line_grey: '#5C6370'
-  gutter_fg_grey: '#6A6E7E'
-  cursor_grey: '#2C323C'
-  visual_grey: '#3E4452'
-  menu_grey: '#434C5E'
-  special_grey: '#3B4048'
-  vertsplit: '#4C566A'
-  warning_orange: '#ff8800'
-  info_yellow: '#FFCC66'
-  search_blue: '#1da1f2'
-  git_green: '#81B88B'
-  symlink: '#29B8D8'
-  executable: '#23D18B'
-  tabfill: '#292D38'
-  bg_inactive: '#2F343F'
+  pale_purple: '#7199ee'
+
   cursor_fg: '#515052'
   cursor_bg: '#AEAFAD'
-  indentlinehighlight: '#767A8B'
-#     "black": "#3b4252",
-#     "brightBlack": "#4c566a",
-#     "brightWhite": "#eceff4",
-#     "brightYellow": "#ebcb8b",
-#     "foreground": "#d8dee9",
-#     "white": "#e5e9f0",
-#     "yellow": "#ebcb8b"
+
+  sign_add: '#587c0c'
+  sign_change: '#0c7d9d'
+  sign_delete: '#94151b'
+
+  error_red: '#F44747'
+  warning_orange: '#ff8800'
+  info_yellow: '#FFCC66'
+  hint_blue: '#4FC1FF'
+
+  test: '#ff00ff'
 
 highlights:
   Normal: 'fg bg'
-
-  Comment: 'vertsplit - i'
+  Comment: 'accent - i'
   Constant: 'yellow'
   String: 'green'
   Character: 'orange'
@@ -71,7 +52,7 @@ highlights:
   Statement: 'blue'
   Conditional: 'grey_blue'
   Repeat: 'blue'
-  Label: 'light_blue'
+  Label: 'cyan'
   Operator: 'grey_blue'
   Keyword: 'blue'
   Exception: 'blue'
@@ -80,65 +61,65 @@ highlights:
   Define: 'blue'
   Title: 'cyan'
   Macro: 'blue'
-  PreCondit: 'light_blue'
+  PreCondit: 'cyan'
   Type: 'purple'
-  StorageClass: 'light_blue'
+  StorageClass: 'cyan'
   Structure: 'yellow'
   Typedef: 'purple'
   Special: 'blue - i'
-  SpecialComment: 'vertsplit'
+  SpecialComment: 'accent'
   Error: 'error_red - br'
   Todo: 'purple - bi'
   Underlined: 'cyan . u'
   Cursor: 'cursor_fg cursor_bg'
-
-  ColorColumn: '- cursor_grey'
+  ColorColumn: '- alt_bg'
   CursorLineNr: 'white - b'
   SignColumn: '- bg'
-  Conceal: 'line_grey'
-  CursorColumn: '- cursor_grey'
-  CursorLine: '- cursor_grey'
+  Conceal: 'accent'
+  CursorColumn: '- alt_bg'
+  CursorLine: '- alt_bg'
   Directory: 'blue'
-  DiffAdd: 'black green'
+  DiffAdd: 'alt_bg green'
   DiffChange: 'yellow - u'
-  DiffDelete: 'black red'
-  DiffText: 'black yellow'
+  DiffDelete: 'alt_bg red'
+  DiffText: 'alt_bg yellow'
   ErrorMsg: 'error_red'
-  VertSplit: 'vertsplit'
-  Folded: 'line_grey'
+  accent: 'accent'
+  Folded: 'accent'
   FoldColumn: ''
-  IncSearch: '- line_grey'
-  LineNr: 'gutter_fg_grey'
-  NonText: 'special_grey'
-  Pmenu: 'white menu_grey'
-  PmenuSel: 'black blue'
-  PmenuSbar: '- special_grey'
+  IncSearch: '- accent'
+  LineNr: 'accent'
+  NonText: 'alt_bg'
+  Pmenu: 'white accent'
+  PmenuSel: 'alt_bg blue'
+  PmenuSbar: '- alt_bg'
   PmenuThumb: '- white'
   Question: 'purple'
-  QuickFixLine: '- line_grey'
-  Search: '- line_grey'
-  SpecialKey: 'special_grey'
+  QuickFixLine: '- accent'
+  Search: '- accent'
+  SpecialKey: 'alt_bg'
   SpellBad: 'error_red - u'
-  SpellCap: 'dark_yellow'
-  SpellLocal: 'dark_yellow'
-  SpellRare: 'dark_yellow'
-  StatusLine: 'white cursor_grey'
-  StatusLineNC: 'line_grey'
-  StatusLineTerm: 'white cursor_grey'
-  StatusLineTermNC: 'cursor_grey'
-  TabLine: 'line_grey'
+  SpellCap: 'yellow'
+  SpellLocal: 'yellow'
+  SpellRare: 'yellow'
+  StatusLine: 'white alt_bg'
+  StatusLineNC: 'accent'
+  StatusLineTerm: 'white alt_bg'
+  StatusLineTermNC: 'alt_bg'
+  TabLine: 'accent'
   TabLineSel: 'white'
-  TabLineFill: '- tabfill'
-  Terminal: 'white black'
-  Visual: '- visual_grey'
-  VisualNOS: 'visual_grey'
+  TabLineFill: '- alt_bg'
+  Terminal: 'white alt_bg'
+  Visual: '- alt_bg'
+  VisualNOS: 'alt_bg'
   WarningMsg: 'yellow'
-  WildMenu: 'black blue'
+  WildMenu: 'alt_bg blue'
   EndOfBuffer: 'bg'
 
+Treesitter:
   # -- Start Treesitter --
   # Misc
-  TSComment: 'vertsplit - i'
+  TSComment: 'accent - i'
   TSError: 'error_red'
   TSPunctDelimiter: 'white'
   TSPunctBracket: 'white'
@@ -147,17 +128,17 @@ highlights:
   TSConstant: 'yellow'
   TSConstBuiltin: 'blue'
   # Not sure about this guy
-  TSConstMacro: 'light_blue'
+  TSConstMacro: 'cyan'
   TSStringRegex: 'green'
   TSString: 'green'
-  TSStringEscape: 'dark_yellow'
+  TSStringEscape: 'yellow'
   TSCharacter: 'orange'
   TSNumber: 'red'
   TSBoolean: 'orange'
   TSFloat: 'red'
   TSAnnotation: 'yellow'
-  TSAttribute: 'light_blue'
-  TSNamespace: 'light_blue'
+  TSAttribute: 'cyan'
+  TSNamespace: 'cyan'
   # Functions
   TSFuncBuiltin: 'yellow'
   TSFunction: 'yellow'
@@ -171,7 +152,7 @@ highlights:
   # Keywords
   TSConditional: 'grey_blue'
   TSRepeat: 'blue'
-  TSLabel: 'light_blue'
+  TSLabel: 'cyan'
   # Does not work for yield and return they should be diff then class and def
   TSKeyword: 'blue'
   TSKeywordFunction: 'grey_blue'
@@ -195,14 +176,14 @@ highlights:
   TSURI: '- - u'
   # Tags
   TSTag: 'blue'
-  TSTagDelimiter: 'menu_grey'
+  TSTagDelimiter: 'accent'
   TSQueryLinterError: 'warning_orange'
   # -- END Treesitter --
 
   # -- START Languages --
   # HTML (keep consistent with Markdown, below)
-  htmlArg: 'dark_yellow'
-  htmlBold: 'dark_yellow - b'
+  htmlArg: 'yellow'
+  htmlBold: 'yellow - b'
   htmlEndTag: 'white'
   htmlH1: 'blue'
   htmlH2: 'blue'
@@ -212,7 +193,7 @@ highlights:
   htmlH6: 'blue'
   htmlItalic: 'purple - i'
   htmlLink: 'cyan - u'
-  htmlSpecialChar: 'dark_yellow'
+  htmlSpecialChar: 'yellow'
   htmlSpecialTagName: 'blue'
   htmlTag: 'white'
   htmlTagN: 'blue'
@@ -220,8 +201,8 @@ highlights:
   htmlTitle: 'white'
 
   # Markdown (keep consistent with HTML, above)
-  markdownBlockquote: 'line_grey'
-  markdownBold: 'dark_yellow - b'
+  markdownBlockquote: 'accent'
+  markdownBold: 'yellow - b'
   markdownCode: 'green'
   markdownCodeBlock: 'green'
   markdownCodeDelimiter: 'green'
@@ -232,7 +213,7 @@ highlights:
   markdownH5: 'blue'
   markdownH6: 'blue'
   markdownHeadingDelimiter: 'red'
-  markdownHeadingRule: 'line_grey'
+  markdownHeadingRule: 'accent'
   markdownId: 'purple'
   markdownIdDeclaration: 'blue'
   markdownIdDelimiter: 'purple'
@@ -241,22 +222,22 @@ highlights:
   markdownLinkText: 'blue'
   markdownListMarker: 'red'
   markdownOrderedListMarker: 'red'
-  markdownRule: 'line_grey'
+  markdownRule: 'accent'
   markdownUrl: 'cyan - u'
   # -- END Languages --
 
   # -- START CoC --
-  CocExplorerIndentLine: 'line_grey'
+  CocExplorerIndentLine: 'accent'
   CocExplorerBufferRoot: 'cyan'
   CocExplorerFileRoot: 'cyan'
-  CocExplorerBufferFullPath: 'line_grey'
-  CocExplorerFileFullPath: 'line_grey'
+  CocExplorerBufferFullPath: 'accent'
+  CocExplorerFileFullPath: 'accent'
   CocExplorerBufferReadonly: 'purple'
   CocExplorerBufferModified: 'purple'
   CocExplorerBufferNameVisible: 'orange'
   CocExplorerFileReadonly: 'purple'
   CocExplorerFileModified: 'purple'
-  CocExplorerFileHidden: 'line_grey'
+  CocExplorerFileHidden: 'accent'
   CocExplorerHelpLine: 'purple'
   # -- END CoC --
 
@@ -279,14 +260,14 @@ highlights:
   StartifyPath: 'blue'
   StartifyFile: 'cyan'
   StartifySlash: 'blue'
-  StartifyHeader: 'light_blue'
+  StartifyHeader: 'cyan'
   StartifySection: 'purple'
   StartifyFooter: 'green'
   # -- END Startify --
   # -- START WhichKey --
   WhichKey: 'purple'
   WhichKeySeperator: 'green'
-  WhichKeyGroup: 'vivid_blue'
+  WhichKeyGroup: 'hint_blue'
   WhichKeyDesc: 'blue'
   # -- END WhichKey --
   #
@@ -294,7 +275,7 @@ highlights:
   diffAdded: 'green'
   diffRemoved: 'red'
   diffFileId: 'blue - br'
-  diffFile: 'special_grey'
+  diffFile: 'alt_bg'
   diffNewFile: 'green'
   diffOldFile: 'red'
   # ToolbarLine: ". darkgray"
@@ -302,9 +283,9 @@ highlights:
   debugPc: '- cyan'
   debugBreakpoint: 'red - r'
 
-  GitSignsAdd: '#587C0C'
-  GitSignsChange: '#0C7D9D'
-  GitSignsDelete: '#94151B'
+  GitSignsAdd: 'sign_add'
+  GitSignsChange: 'sign_change'
+  GitSignsDelete: 'sign_delete'
 
   # LspDiagnosticsUnderlineError: "error_red"
   # LspDiagnosticsUnderlineWarning: "orange"
@@ -314,12 +295,12 @@ highlights:
   LspDiagnosticsSignError: 'error_red'
   LspDiagnosticsSignWarning: 'warning_orange'
   LspDiagnosticsSignInformation: 'info_yellow'
-  LspDiagnosticsSignHint: 'vivid_blue'
+  LspDiagnosticsSignHint: 'hint_blue'
 
   LspDiagnosticsVirtualTextError: 'error_red'
   LspDiagnosticsVirtualTextWarning: 'warning_orange'
   LspDiagnosticsVirtualTextInformation: 'info_yellow'
-  LspDiagnosticsVirtualTextHint: 'vivid_blue'
+  LspDiagnosticsVirtualTextHint: 'hint_blue'
 
   QuickScopePrimary: '#00C7DF - u'
   QuickScopeSecondary: '#eF5F70 - u'
@@ -330,17 +311,17 @@ highlights:
   MatchParenCur: '- - u'
 
   NvimTreeImageFile: 'purple'
-  NvimTreeGitDirty: 'git_green'
-  NvimTreeGitDeleted: 'git_green'
-  NvimTreeGitStaged: 'git_green'
-  NvimTreeGitMerge: 'git_green'
-  NvimTreeGitRenamed: 'git_green'
-  NvimTreeGitNew: 'git_green'
-  NvimTreeIndentMarker: 'line_grey'
-  NvimTreeSymlink: 'symlink'
+  NvimTreeGitDirty: 'sign_add'
+  NvimTreeGitDeleted: 'sign_add'
+  NvimTreeGitStaged: 'sign_add'
+  NvimTreeGitMerge: 'sign_add'
+  NvimTreeGitRenamed: 'sign_add'
+  NvimTreeGitNew: 'sign_add'
+  NvimTreeIndentMarker: 'accent'
+  NvimTreeSymlink: 'cyan'
   NvimTreeFolderIcon: 'blue'
   NvimTreeRootFolder: 'fg - b'
-  NvimTreeExecFile: 'executable'
+  NvimTreeExecFile: 'light_green'
   NvimTreeSpecialFile: 'info_yellow'
   NvimTreeLspDiagnostics: 'warning_orange'
 
@@ -356,20 +337,20 @@ highlights:
   BufferVisibleSign: 'fg bg'
   BufferVisibleTarget: 'red bg b'
 
-  BufferInactive: 'gutter_fg_grey bg_inactive'
-  BufferInactiveIndex: 'gutter_fg_grey bg_inactive'
-  BufferInactiveMod: 'gutter_fg_grey bg_inactive'
-  BufferInactiveSign: 'gutter_fg_grey bg_inactive'
-  BufferInactiveTarget: 'red bg_inactive b'
+  BufferInactive: 'accent alt_bg'
+  BufferInactiveIndex: 'accent alt_bg'
+  BufferInactiveMod: 'accent alt_bg'
+  BufferInactiveSign: 'accent alt_bg'
+  BufferInactiveTarget: 'red alt_bg b'
 
-  # BufferTabpages: "blue bg_inactive b"
-  # BufferTabpageFill: "gutter_fg_grey bg_inactive"
+  # BufferTabpages: "blue alt_bg b"
+  # BufferTabpageFill: "accent alt_bg"
 
-  CodiVirtualText: '#6395EC'
-  IndentBlanklineContextChar: 'indentlinehighlight'
-  DashboardHeader: '#88C0D0'
+  CodiVirtualText: 'pale_purple'
+  IndentBlanklineContextChar: 'accent'
+  DashboardHeader: 'cyan'
   DashboardCenter: 'orange'
-  DashboardFooter: 'light_blue'
+  DashboardFooter: 'cyan'
   # DashboardShortCut:
 
   WhichKeyFloat: 'bg'
@@ -381,7 +362,7 @@ highlights:
   # Tag
   # Delimiter
   # SpecialChar
-  # Cursor", { "fg": s:black, "bg": s:blue }) " the character under the cursor
+  # Cursor", { "fg": s:alt_bg, "bg": s:blue }) " the character under the cursor
   # CursorIM", {}) " like Cursor, but used when in IME mode
   # FoldColumn", {}) " 'foldcolumn'
   # CursorLineNr", {}) " Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
@@ -399,11 +380,11 @@ highlights:
   VimwikiHeader2: 'green - b'
   VimwikiHeader3: 'blue - b'
   VimwikiHeader4: 'cyan - b'
-  VimwikiHeader5: 'dark_yellow - b'
+  VimwikiHeader5: 'yellow - b'
   VimwikiHeader6: 'purple - b'
-  VimwikiLink: 'vivid_blue'
-  VimwikiHeaderChar: 'line_grey'
+  VimwikiLink: 'hint_blue'
+  VimwikiHeaderChar: 'accent'
   VimwikiHR: 'yellow'
   VimwikiList: 'orange'
   VimwikiTag: 'orange'
-  VimwikiMarkers: 'line_grey'
+  VimwikiMarkers: 'accent'
