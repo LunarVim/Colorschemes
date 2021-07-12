@@ -28,7 +28,7 @@ local treesitter = {
 		TSProperty = {fg = C.cyan, },
 		TSOperator = {fg = C.Operator, },
 		TSField = {fg = C.Variable, },
-		TSParameter = {fg = C.Variable, },
+		TSParameter = {fg = C.white, },
 		TSParameterReference = {fg = C.Variable, },
 		TSSymbol = {fg = C.Identifier, },
 		TSText = {fg = C.fg, },

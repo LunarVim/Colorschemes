@@ -170,7 +170,7 @@ treesitter:
   TSProperty: 'cyan'
   TSOperator: 'Operator'
   TSField: 'Variable'
-  TSParameter: 'Variable'
+  TSParameter: 'white'
   TSParameterReference: 'Variable'
   TSSymbol: 'Identifier'
   TSText: 'fg'
