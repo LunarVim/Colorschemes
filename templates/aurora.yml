@@ -77,7 +77,7 @@ highlights:
   PmenuSbar: '- alt_bg'
   PmenuThumb: '- white'
   MatchWord: '- - u'
-  MatchParen: 'pale_purple - u'
+  MatchParen: 'pale_purple bg u'
   MatchWordCur: '- - u'
   MatchParenCur: '- - u'
   Cursor: 'cursor_fg cursor_bg'
