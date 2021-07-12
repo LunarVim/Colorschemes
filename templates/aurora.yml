@@ -274,7 +274,7 @@ LSP:
   NvimTreeFolderName: 'blue'
   NvimTreeOpenedFolderName: 'cyan - i'
   NvimTreeImageFile: 'purple'
-  NvimTreeSpecialFile: 'purple'
+  NvimTreeSpecialFile: 'orange'
   NvimTreeGitStaged: 'sign_add'
   NvimTreeGitNew: 'sign_add'
   NvimTreeGitDirty: 'sign_add'
