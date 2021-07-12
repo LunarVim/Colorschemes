@@ -286,9 +286,9 @@ LSP:
   NvimTreeExecFile: 'green'
 
   BufferCurrent: 'fg bg'
-  BufferCurrentIndex: 'cyan bg'
+  BufferCurrentIndex: 'fg bg'
   BufferCurrentMod: 'info_yellow bg'
-  BufferCurrentSign: 'cyan bg'
+  BufferCurrentSign: 'hint_blue bg'
   BufferCurrentTarget: 'red bg b'
 
   BufferVisible: 'fg bg'
