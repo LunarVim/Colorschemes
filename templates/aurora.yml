@@ -139,7 +139,7 @@ highlights:
   TabLineFill: 'white alt_bg'
 
 Treesitter:
-  TSComment: 'gray'
+  TSComment: 'grey'
   TSAnnotation: 'purple'
   TSAttribute: 'cyan'
   TSConstructor: 'purple'
@@ -172,9 +172,8 @@ Treesitter:
   TSField: 'white'
   TSParameter: 'white'
   TSParameterReference: 'white'
-  TSSymbol: 'Identifier'
+  TSSymbol: 'white'
   TSText: 'fg'
-
 
   TSPunctDelimiter: 'light_grey'
   TSTagDelimiter: 'light_grey'

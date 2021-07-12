@@ -1,5 +1,5 @@
 local Treesitter = {
-		TSComment = {fg = C.gray, },
+		TSComment = {fg = C.grey, },
 		TSAnnotation = {fg = C.purple, },
 		TSAttribute = {fg = C.cyan, },
 		TSConstructor = {fg = C.purple, },
@@ -32,7 +32,7 @@ local Treesitter = {
 		TSField = {fg = C.white, },
 		TSParameter = {fg = C.white, },
 		TSParameterReference = {fg = C.white, },
-		TSSymbol = {fg = C.Identifier, },
+		TSSymbol = {fg = C.white, },
 		TSText = {fg = C.fg, },
 		TSPunctDelimiter = {fg = C.light_grey, },
 		TSTagDelimiter = {fg = C.light_grey, },
