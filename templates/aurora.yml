@@ -138,7 +138,8 @@ highlights:
   TabLineSel: 'white alt_bg'
   TabLineFill: 'white alt_bg'
 
-  # TSComment: 'gray'
+Treesitter:
+  TSComment: 'gray'
   TSAnnotation: 'purple'
   TSAttribute: 'cyan'
   TSConstructor: 'purple'
