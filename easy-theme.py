@@ -137,7 +137,7 @@ def gen_skeleton(syntax, name, colorscheme_name):
                         style = ','.join([styles[char] for char in props[i]])
                         skeleton += f'{prop_keys[i]} = "{style}", '
                     elif i == 1:
-                        if group == "Normal":
+                        if group in ["Normal", "NormalNC", "MsgArea", "TelescopeBorder"]:
                             skeleton += f'{prop_keys[i]} = Config.transparent_background and "NONE" or C.{props[i]}, '
                         elif group == "Keyword":
                             skeleton += f'{prop_keys[i]} = Config.italic_keywords, '
