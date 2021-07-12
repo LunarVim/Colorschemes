@@ -65,7 +65,7 @@ highlights:
   CursorLine: '- alt_bg'
   CursorColumn: '- alt_bg'
   ColorColumn: '- alt_bg'
-  NormalFloat: '- accent'
+  NormalFloat: '- bg'
   Visual: '- alt_bg'
   VisualNOS: '- alt_bg'
   WarningMsg: 'error_red'
