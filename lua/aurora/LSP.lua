@@ -31,6 +31,7 @@ local LSP = {
 		NvimTreeFolderIcon = {fg = C.blue, },
 		NvimTreeIndentMarker = {fg = C.grey, },
 		NvimTreeNormal = {fg = C.light_grey, bg = C.alt_bg, },
+		NvimTreeVertSplit = {fg = C.alt_bg, bg = C.alt_bg, },
 		NvimTreeFolderName = {fg = C.blue, },
 		NvimTreeOpenedFolderName = {fg = C.cyan, style = "italic", },
 		NvimTreeImageFile = {fg = C.purple, },

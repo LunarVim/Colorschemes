@@ -270,6 +270,7 @@ LSP:
   NvimTreeFolderIcon: 'blue'
   NvimTreeIndentMarker: 'grey'
   NvimTreeNormal: 'light_grey alt_bg'
+  NvimTreeVertSplit: 'alt_bg alt_bg'
   NvimTreeFolderName: 'blue'
   NvimTreeOpenedFolderName: 'cyan - i'
   NvimTreeImageFile: 'purple'
