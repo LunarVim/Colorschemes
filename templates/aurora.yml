@@ -147,7 +147,7 @@ treesitter:
   TSTypeBuiltin: 'Type'
   TSConditional: 'Conditional'
   TSException: 'Exception'
-  TSInclude: 'Exception'
+  # TSInclude: 'Exception'
   TSKeyword: 'Keyword'
   TSKeywordFunction: 'Keyword'
   TSLabel: 'Label'
