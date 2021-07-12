@@ -27,7 +27,6 @@ local highlights = {
 		Visual = {bg = C.alt_bg, },
 		VisualNOS = {bg = C.alt_bg, },
 		WarningMsg = {fg = C.error_red, },
-		DiffText = {},
 		DiffAdd = {fg = C.alt_bg, bg = C.sign_add, },
 		DiffChange = {fg = C.alt_bg, bg = C.sign_change, style = "underline", },
 		DiffDelete = {fg = C.alt_bg, bg = C.sign_delete, },

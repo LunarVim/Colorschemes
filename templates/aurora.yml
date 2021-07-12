@@ -69,7 +69,7 @@ highlights:
   Visual: '- alt_bg'
   VisualNOS: '- alt_bg'
   WarningMsg: 'error_red'
-  DiffText: '- -'
+  # DiffText: '- -'
   DiffAdd: 'alt_bg sign_add'
   DiffChange: 'alt_bg sign_change u'
   DiffDelete: 'alt_bg sign_delete'
