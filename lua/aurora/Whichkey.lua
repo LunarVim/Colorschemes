@@ -1,4 +1,4 @@
-local whichkey = {
+local Whichkey = {
 		WhichKey = {fg = C.purple, },
 		WhichKeySeperator = {fg = C.green, },
 		WhichKeyGroup = {fg = C.blue, },
@@ -6,4 +6,4 @@ local whichkey = {
 		WhichKeyFloat = {fg = C.bg, },
 }
 
-return whichkey
+return Whichkey

@@ -61,7 +61,7 @@ highlights:
   LineNr: 'grey -'
   FloatBoder: 'grey alt_bg'
   Whitespace: 'grey -'
-  VertSplit: 'accent -'
+  VertSplit: 'purple_test cyan_test'
   CursorLine: '- alt_bg'
   CursorColumn: '- alt_bg'
   ColorColumn: '- alt_bg'
@@ -174,22 +174,17 @@ Treesitter:
   TSParameterReference: 'white'
   TSSymbol: 'white'
   TSText: 'fg'
-
   TSPunctDelimiter: 'light_grey'
   TSTagDelimiter: 'light_grey'
   TSPunctBracket: 'light_grey'
   TSPunctSpecial: 'light_grey'
-
-  # TODO
   TSString: 'green'
   TSStringRegex: 'light_green'
   TSStringEscape: 'light_green'
-
-  # TSWarning: 'red - bold'
   TSTag: 'pale_purple'
-
   TSEmphasis: '- - i'
   TSUnderline: '- - u'
+  # TSWarning: 'red - bold'
   # TSStrike: '- - s'
   TSTitle: 'blue - b'
   TSLiteral: 'green'
@@ -224,14 +219,14 @@ markdown:
   markdownRule: 'accent'
   markdownUrl: 'cyan - u'
 
-whichkey:
+Whichkey:
   WhichKey: 'purple'
   WhichKeySeperator: 'green'
   WhichKeyGroup: 'blue'
   WhichKeyDesc: 'cyan'
   WhichKeyFloat: 'bg'
 
-git:
+Git:
   SignAdd: 'sign_add'
   SignChange: 'sign_change'
   SignDelete: 'sign_delete'
@@ -239,7 +234,7 @@ git:
   GitSignsChange: 'sign_change'
   GitSignsDelete: 'sign_delete'
 
-lsp:
+LSP:
   LspDiagnosticsDefaultError: 'error_red'
   LspDiagnosticsDefaultWarning: 'warning_orange'
   LspDiagnosticsDefaultInformation: 'info_yellow'
@@ -330,7 +325,7 @@ lsp:
   DiffviewStatusDeleted: 'sign_delete'
   DiffviewFilePanelInsertion: 'sign_add'
   DiffviewFilePanelDeletion: 'sign_delete'
-  DiffviewVertSplit: 'grey bg'
+  DiffviewVertSplit: '- bg'
 
   diffAdded: 'sign_add'
   diffRemoved: 'sign_delete'

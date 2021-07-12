@@ -1,4 +1,4 @@
-local git = {
+local Git = {
 		SignAdd = {fg = C.sign_add, },
 		SignChange = {fg = C.sign_change, },
 		SignDelete = {fg = C.sign_delete, },
@@ -7,4 +7,4 @@ local git = {
 		GitSignsDelete = {fg = C.sign_delete, },
 }
 
-return git
+return Git

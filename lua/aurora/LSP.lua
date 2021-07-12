@@ -1,4 +1,4 @@
-local lsp = {
+local LSP = {
 		LspDiagnosticsDefaultError = {fg = C.error_red, },
 		LspDiagnosticsDefaultWarning = {fg = C.warning_orange, },
 		LspDiagnosticsDefaultInformation = {fg = C.info_yellow, },
@@ -77,7 +77,7 @@ local lsp = {
 		DiffviewStatusDeleted = {fg = C.sign_delete, },
 		DiffviewFilePanelInsertion = {fg = C.sign_add, },
 		DiffviewFilePanelDeletion = {fg = C.sign_delete, },
-		DiffviewVertSplit = {fg = C.grey, bg = C.bg, },
+		DiffviewVertSplit = {bg = C.bg, },
 		diffAdded = {fg = C.sign_add, },
 		diffRemoved = {fg = C.sign_delete, },
 		diffFileId = {fg = C.blue, style = "bold,reverse", },
@@ -88,4 +88,4 @@ local lsp = {
 		debugBreakpoint = {fg = C.red, style = "reverse", },
 }
 
-return lsp
+return LSP

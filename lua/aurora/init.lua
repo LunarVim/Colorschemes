@@ -12,13 +12,13 @@ C = require("aurora.palette")
 local highlights = require("aurora.highlights")
 local Treesitter = require("aurora.Treesitter")
 local markdown = require("aurora.markdown")
-local whichkey = require("aurora.whichkey")
-local git = require("aurora.git")
-local lsp = require("aurora.lsp")
+local Whichkey = require("aurora.Whichkey")
+local Git = require("aurora.Git")
+local LSP = require("aurora.LSP")
 
 
 local skeletons = {
-    highlights, Treesitter, markdown, whichkey, git, lsp
+    highlights, Treesitter, markdown, Whichkey, Git, LSP
 }
 
 for _, skeleton in ipairs(skeletons) do
