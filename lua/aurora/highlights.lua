@@ -23,7 +23,7 @@ local highlights = {
 		CursorLine = {bg = C.alt_bg, },
 		CursorColumn = {bg = C.alt_bg, },
 		ColorColumn = {bg = C.alt_bg, },
-		NormalFloat = {bg = C.bg, },
+		NormalFloat = {bg = C.alt_bg, },
 		Visual = {bg = C.alt_bg, },
 		VisualNOS = {bg = C.alt_bg, },
 		WarningMsg = {fg = C.error_red, },
