@@ -90,8 +90,8 @@ highlights:
   SpecialKey: 'blue - b'
   Title: 'blue - b'
   ErrorMsg: 'error_red'
-  Search: 'grey_blue alt_bg'
-  IncSearch: 'grey_blue alt_bg'
+  Search: 'hint_blue alt_bg'
+  IncSearch: 'hint_blue alt_bg'
   Substitute: 'alt_bg grey_blue'
   MoreMsg: 'cyan'
   Question: 'cyan'
@@ -303,11 +303,11 @@ LSP:
   BufferInactiveSign: 'grey alt_bg'
   BufferInactiveTarget: 'red alt_bg b'
 
-  StatusLine: 'grey alt_bg'
-  StatusLineNC: 'grey alt_bg'
-  StatusLineSeparator: 'grey alt_bg'
-  StatusLineTerm: 'grey alt_bg'
-  StatusLineTermNC: 'grey alt_bg'
+  StatusLine: 'alt_bg'
+  StatusLineNC: 'alt_bg'
+  StatusLineSeparator: 'alt_bg'
+  StatusLineTerm: 'alt_bg'
+  StatusLineTermNC: 'alt_bg'
 
   CodiVirtualText: 'pale_purple'
 
