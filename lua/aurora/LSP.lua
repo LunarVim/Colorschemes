@@ -44,7 +44,7 @@ local LSP = {
 		NvimTreeGitRenamed = {fg = C.sign_change, },
 		NvimTreeSymlink = {fg = C.cyan, },
 		NvimTreeRootFolder = {fg = C.fg, style = "bold", },
-		NvimTreeExecFile = {fg = C.light_green, },
+		NvimTreeExecFile = {fg = C.green, },
 		BufferCurrent = {fg = C.fg, bg = C.bg, },
 		BufferCurrentIndex = {fg = C.cyan, bg = C.bg, },
 		BufferCurrentMod = {fg = C.info_yellow, bg = C.bg, },
