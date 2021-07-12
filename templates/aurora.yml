@@ -89,7 +89,7 @@ highlights:
   Directory: 'blue'
   SpecialKey: 'blue - b'
   Title: 'blue - b'
-  ErrorMsg: 'error_red'
+  ErrorMsg: 'error_red bg b'
   Search: 'hint_blue alt_bg'
   IncSearch: 'hint_blue alt_bg'
   Substitute: 'alt_bg grey_blue'

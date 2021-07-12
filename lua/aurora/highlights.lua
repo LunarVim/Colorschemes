@@ -46,7 +46,7 @@ local highlights = {
 		Directory = {fg = C.blue, },
 		SpecialKey = {fg = C.blue, style = "bold", },
 		Title = {fg = C.blue, style = "bold", },
-		ErrorMsg = {fg = C.error_red, },
+		ErrorMsg = {fg = C.error_red, bg = C.bg, style = "bold", },
 		Search = {fg = C.hint_blue, bg = C.alt_bg, },
 		IncSearch = {fg = C.hint_blue, bg = C.alt_bg, },
 		Substitute = {fg = C.alt_bg, bg = C.grey_blue, },
