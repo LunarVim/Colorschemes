@@ -95,7 +95,6 @@ local highlights = {
 		TabLine = {fg = C.white, bg = C.alt_bg, },
 		TabLineSel = {fg = C.white, bg = C.alt_bg, },
 		TabLineFill = {fg = C.white, bg = C.alt_bg, },
-		TSComment = {fg = C.gray, },
 		TSAnnotation = {fg = C.purple, },
 		TSAttribute = {fg = C.cyan, },
 		TSConstructor = {fg = C.purple, },
