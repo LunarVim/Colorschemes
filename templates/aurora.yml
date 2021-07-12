@@ -224,7 +224,7 @@ Whichkey:
   WhichKeySeperator: 'green'
   WhichKeyGroup: 'blue'
   WhichKeyDesc: 'cyan'
-  WhichKeyFloat: 'alt_bg'
+  WhichKeyFloat: '- alt_bg'
 
 Git:
   SignAdd: 'sign_add'
