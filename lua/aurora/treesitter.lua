@@ -6,7 +6,6 @@ local treesitter = {
 		TSType = {fg = C.Type, },
 		TSTypeBuiltin = {fg = C.Type, },
 		TSConditional = {fg = C.Conditional, },
-		TSException = {fg = C.Exception, },
 		TSKeyword = {fg = C.Keyword, },
 		TSKeywordFunction = {fg = C.Keyword, },
 		TSLabel = {fg = C.Label, },
