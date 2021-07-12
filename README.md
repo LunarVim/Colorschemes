@@ -18,4 +18,4 @@ I recommend copying one of the themes in template and using it as a base to crea
 python easy-theme.py <your_cool_theme>.yml
 ```
 
-Credit for the script for creating colorschemes: [repo](https://github.com/Murtaza-Udaipurwala/easy-theme.nvim)
+**Credit** for the script for creating colorschemes: [repo](https://github.com/Murtaza-Udaipurwala/easy-theme.nvim)
