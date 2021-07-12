@@ -263,9 +263,9 @@ LSP:
   QuickScopePrimary: 'cyan_test - u'
   QuickScopeSecondary: 'purple_test - u'
 
-  TelescopeSelection: 'cyan'
-  TelescopeMatching: 'red - b'
-  TelescopeBorder: 'hint_blue alt_bg'
+  TelescopeSelection: 'hint_blue'
+  TelescopeMatching: 'info_yellow - b'
+  TelescopeBorder: 'cyan bg'
 
   NvimTreeFolderIcon: 'blue'
   NvimTreeIndentMarker: 'grey'
