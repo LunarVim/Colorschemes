@@ -288,13 +288,13 @@ LSP:
   BufferCurrent: 'fg bg'
   BufferCurrentIndex: 'fg bg'
   BufferCurrentMod: 'info_yellow bg'
-  BufferCurrentSign: 'warning_orange bg'
+  BufferCurrentSign: 'hint_blue bg'
   BufferCurrentTarget: 'red bg b'
 
   BufferVisible: 'fg bg'
   BufferVisibleIndex: 'fg bg'
   BufferVisibleMod: 'info_yellow bg'
-  BufferVisibleSign: 'warning_orange bg'
+  BufferVisibleSign: 'hint_blue bg'
   BufferVisibleTarget: 'red bg b'
 
   BufferInactive: 'grey alt_bg'
