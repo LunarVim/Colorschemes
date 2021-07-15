@@ -6,6 +6,7 @@ local colors = {
 	accent = "#BBBBBB",
 	popup_back = "#2D2D30",
 	search_orange = "#613214",
+	search_blue = "#5e81ac",
 	white = "#D8DEE9",
 	gray = "#808080",
 	light_gray = "#c8c9c1",

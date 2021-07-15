@@ -42,6 +42,7 @@ palette:
   popup_back: '#2D2D30'
   search_orange: '#613214'
 
+  search_blue: '#5e81ac'
   white: '#D8DEE9'
   gray: '#808080'
   light_gray: '#c8c9c1'
@@ -129,8 +130,8 @@ highlights:
   SpecialKey: 'blue - b'
   Title: 'blue - b'
   ErrorMsg: 'error_red bg b'
-  Search: 'search_orange light_gray'
-  IncSearch: 'search_orange light_gray'
+  Search: 'light_gray search_blue'
+  IncSearch: 'light_gray search_blue'
   Substitute: 'light_gray search_orange'
   MoreMsg: 'orange'
   Question: 'orange'
