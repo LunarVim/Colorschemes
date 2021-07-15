@@ -3,6 +3,7 @@ local colors = {
 	bg = "#1E1E1E",
 	alt_bg = "#2D2D2D",
 	accent = "#BBBBBB",
+	popup_back = "#2D2D30",
 	white = "#D8DEE9",
 	gray = "#808080",
 	light_gray = "#c8c9c1",
