@@ -15,7 +15,7 @@ I recommend copying one of the themes in template and using it as a base to crea
 ## Generate your colorscheme
 
 ```
-python easy-theme.py <your_cool_theme>.yml
+python ez.py <your_cool_theme>.yml
 ```
 
 ## After generating your colorscheme the following configuration options should be available
@@ -27,4 +27,4 @@ vim.g.italic_functions = true              -- italic functions(Default: false)
 vim.g.italic_variables = true              -- italic variables(Default: false)
 ```
 
-**Credit** for the script for creating colorschemes: [repo](https://github.com/Murtaza-Udaipurwala/easy-theme.nvim)
+**Credit** for the script for creating colorschemes: [repo](https://github.com/Murtaza-Udaipurwala/ez.nvim)

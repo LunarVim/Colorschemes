@@ -83,10 +83,15 @@ return M'''
     write('util.lua', code)
 
 
-def init(name, background, keys):
-    requirements = ""
-    for key in keys:
-        requirements += f'local {key} = require("{name}.{key}")\n'
+def init(name, background, synchronous, asynchronous):
+    synchronous_requirements = ""
+    asynchronous_requirements = ""
+
+    for key in synchronous:
+        synchronous_requirements += f'local {key} = require("{name}.{key}")\n'
+
+    for key in asynchronous:
+        asynchronous_requirements += f'local {key} = require("{name}.{key}")\n\t'
 
     code = f'''vim.api.nvim_command("hi clear")
 if vim.fn.exists("syntax_on") then
@@ -99,15 +104,33 @@ vim.g.colors_name = "{name}"
 local util = require("{name}.util")
 Config = require("{name}.config")
 C = require("{name}.palette")
-{requirements}
+
+local async
+async = vim.loop.new_async(vim.schedule_wrap(function ()
+    {asynchronous_requirements}
+
+    local skeletons = {{
+        {", ".join(asynchronous)}
+    }}
+
+    for _, skeleton in ipairs(skeletons) do
+        util.initialise(skeleton)
+    end
+
+    async:close()
+end))
+
+{synchronous_requirements}
 
 local skeletons = {{
-    {", ".join(keys)}
+    {", ".join(synchronous)}
 }}
 
 for _, skeleton in ipairs(skeletons) do
     util.initialise(skeleton)
-end'''
+end
+
+async:send()'''
 
     write('init.lua', code)
 
@@ -179,16 +202,24 @@ if __name__ == "__main__":
         print("information key not found in yaml file")
         sys.exit()
 
+    keys.remove('palette')
+    keys.remove('information')
+
     styles = {
         'i': 'italic',
         'b': 'bold',
         'u': 'underline',
         'r': 'reverse'
     }
-    colorscheme = obj['information']['name']
-    author = obj['information']['author']
-    background = obj['information']['background']
-    base_path = os.path.join(colorscheme, 'lua', colorscheme)
+
+    try:
+        colorscheme = obj['information']['name']
+        author = obj['information']['author']
+        background = obj['information']['background']
+        base_path = os.path.join(colorscheme, 'lua', colorscheme)
+    except:
+        print("One of the following keys missing in information: ['name', 'author', 'background']")
+        sys.exit()
 
     try:
         os.makedirs(base_path)
@@ -197,14 +228,21 @@ if __name__ == "__main__":
     except:
         pass
 
-    keys.remove('palette')
-    keys.remove('information')
+    asynchronous = obj['async'] if 'async' in keys else None
+
+    if asynchronous is None:
+        asynchronous = []
+    else:
+        for key in asynchronous:
+            gen_skeleton(asynchronous[key], key, colorscheme)
+        keys.remove('async')
 
     gen_palette(obj['palette'])
-    init(colorscheme, background, keys)
     util()
     colors(colorscheme, author)
     config(colorscheme)
 
     for key in keys:
         gen_skeleton(obj[key], key, colorscheme)
+
+    init(colorscheme, background, keys, asynchronous)
