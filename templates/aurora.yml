@@ -220,6 +220,7 @@ async:
     markdownRule: 'accent'
     markdownUrl: 'cyan - u'
 
+
   Whichkey:
     WhichKey: 'purple'
     WhichKeySeperator: 'green'
@@ -304,6 +305,7 @@ async:
     BufferInactiveSign: 'gray alt_bg'
     BufferInactiveTarget: 'red alt_bg b'
 
+
     StatusLine: 'alt_bg'
     StatusLineNC: 'alt_bg'
     StatusLineSeparator: 'alt_bg'
@@ -328,6 +330,7 @@ async:
     DiffviewFilePanelInsertion: 'sign_add'
     DiffviewFilePanelDeletion: 'sign_delete'
     DiffviewVertSplit: '- bg'
+
 
     diffAdded: 'sign_add'
     diffRemoved: 'sign_delete'
