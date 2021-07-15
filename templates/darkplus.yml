@@ -129,7 +129,7 @@ highlights:
   Title: 'blue - b'
   ErrorMsg: 'error_red bg b'
   Search: 'ui_blue alt_bg'
-  IncSearch: 'hint_blue alt_bg'
+  IncSearch: 'ui_blue alt_bg'
   Substitute: 'alt_bg ui_blue'
   MoreMsg: 'orange'
   Question: 'orange'
