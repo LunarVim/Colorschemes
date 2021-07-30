@@ -9,6 +9,22 @@ vim.g.colors_name = "darkplus"
 local util = require("darkplus.util")
 Config = require("darkplus.config")
 C = require("darkplus.palette")
+
+local async
+async = vim.loop.new_async(vim.schedule_wrap(function ()
+    
+
+    local skeletons = {
+        
+    }
+
+    for _, skeleton in ipairs(skeletons) do
+        util.initialise(skeleton)
+    end
+
+    async:close()
+end))
+
 local highlights = require("darkplus.highlights")
 local Treesitter = require("darkplus.Treesitter")
 local markdown = require("darkplus.markdown")
@@ -24,3 +40,5 @@ local skeletons = {
 for _, skeleton in ipairs(skeletons) do
     util.initialise(skeleton)
 end
+
+async:send()
