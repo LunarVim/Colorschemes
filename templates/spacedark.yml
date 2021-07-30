@@ -4,6 +4,7 @@ information:
   author: 'Christian Chiarulli <chrisatmachine@gmail.com>'
 
 # local colors = {
+    # tested on aurora
 # 	fg = "#ABB2BF",
 # 	bg = "#202020",
 # 	alt_bg = "#242424",
