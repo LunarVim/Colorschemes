@@ -325,6 +325,11 @@ LSP:
   NvimTreeRootFolder: 'fg - b'
   NvimTreeExecFile: 'green'
 
+  LirFloatNormal: "light_gray alt_bg"
+  LirDir: "blue"
+  LirSymLink: "cyan"
+  LirEmptyDirText: "blue"
+
   BufferCurrent: 'fg bg'
   BufferCurrentIndex: 'fg bg'
   BufferCurrentMod: 'info_yellow bg'
