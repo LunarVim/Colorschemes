@@ -72,8 +72,8 @@ palette:
   info_yellow: '#FFCC66'
   hint_blue: '#4FC1FF'
 
-  purple_test: '#ff00ff'
-  cyan_test: '#00ffff'
+  purple_test: '#ff007c'
+  cyan_test: '#00dfff'
 
   # aViolet: '#646695'
   # UiBlue: '#0451A5'
@@ -300,8 +300,8 @@ LSP:
   LspDiagnosticsUnderlineInformation: '- - u'
   LspDiagnosticsUnderlineHint: '- - u'
 
-  QuickScopePrimary: 'cyan_test - u'
-  QuickScopeSecondary: 'purple_test - u'
+  QuickScopePrimary: 'purple_test - u'
+  QuickScopeSecondary: 'cyan_test - u'
 
   TelescopeSelection: 'hint_blue'
   TelescopeMatching: 'info_yellow - b'
