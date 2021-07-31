@@ -57,7 +57,7 @@ local LSP = {
 		BufferVisible = {fg = C.fg, bg = C.bg, },
 		BufferVisibleIndex = {fg = C.fg, bg = C.bg, },
 		BufferVisibleMod = {fg = C.info_yellow, bg = C.bg, },
-		BufferVisibleSign = {fg = C.hint_blue, bg = C.bg, },
+		BufferVisibleSign = {fg = C.warning_orange, bg = C.bg, },
 		BufferVisibleTarget = {fg = C.red, bg = C.bg, style = "bold", },
 		BufferInactive = {fg = C.gray, bg = C.alt_bg, },
 		BufferInactiveIndex = {fg = C.gray, bg = C.alt_bg, },
