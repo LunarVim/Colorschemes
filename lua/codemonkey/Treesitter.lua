@@ -17,7 +17,7 @@ local Treesitter = {
 		TSConstBuiltin = {fg = C.red, },
 		TSFloat = {fg = C.red, },
 		TSNumber = {fg = C.red, },
-		TSBoolean = {fg = C.purple, },
+		TSBoolean = {fg = C.red, },
 		TSCharacter = {fg = C.green, },
 		TSError = {fg = C.error_red, },
 		TSFunction = {fg = C.orange, },

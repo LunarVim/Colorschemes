@@ -167,7 +167,7 @@ Treesitter:
   TSConstBuiltin: 'red'
   TSFloat: 'red'
   TSNumber: 'red'
-  TSBoolean: 'purple'
+  TSBoolean: 'red'
   TSCharacter: 'green'
   TSError: 'error_red'
   TSFunction: 'orange'
