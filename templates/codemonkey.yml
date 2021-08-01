@@ -4,7 +4,7 @@ information:
   author: 'Christian Chiarulli <chrisatmachine@gmail.com>'
 
 palette:
-  fg: '#9CDCFE'
+  fg: '#cccbca'
   # bg: '#282c34'
   bg: '#212329'
 
