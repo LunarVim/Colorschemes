@@ -5,7 +5,7 @@ information:
 
 palette:
   fg: '#D4D4D4'
-  bg: '#1E1E1E'
+  bg: '#282c34'
 
   alt_bg: '#252525'
   dark: '#222222'
@@ -19,14 +19,14 @@ palette:
   light_gray: '#c8c9c1'
   blue: '#cc99cd'
   dark_blue: '#223E55'
-  light_blue: '#67cdcc'
+  light_blue: '#B5B4B2'
   green: '#6A9955'
   cyan: '#42b983'
   light_green: '#e2777a'
   red: '#F44747'
   orange: '#7ec699'
   light_red: '#D16969'
-  yellow: '#eb7132'
+  yellow: '#f08d49'
   yellow_orange: '#D7BA7D'
   purple: '#6196cc'
   magenta: '#D16D9E'
