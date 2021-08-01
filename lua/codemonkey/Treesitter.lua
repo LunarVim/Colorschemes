@@ -27,7 +27,7 @@ local Treesitter = {
 		TSFuncMacro = {fg = C.orange, },
 		TSVariable = {fg = C.fg, },
 		TSVariableBuiltin = {fg = C.fg, },
-		TSProperty = {fg = C.fg, },
+		TSProperty = {fg = C.light_blue, },
 		TSOperator = {fg = C.light_blue, },
 		TSField = {fg = C.fg, },
 		TSParameter = {fg = C.fg, },

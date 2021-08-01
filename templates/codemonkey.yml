@@ -177,7 +177,7 @@ Treesitter:
   TSFuncMacro: 'orange'
   TSVariable: 'fg'
   TSVariableBuiltin: 'fg'
-  TSProperty: 'fg'
+  TSProperty: 'light_blue'
   TSOperator: 'light_blue'
   TSField: 'fg'
   TSParameter: 'fg'
