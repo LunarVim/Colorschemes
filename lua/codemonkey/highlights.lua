@@ -83,7 +83,7 @@ local highlights = {
 		SpecialChar = {fg = C.fg, },
 		Tag = {fg = C.blue, },
 		Debug = {fg = C.red, },
-		Delimiter = {fg = C.gray, },
+		Delimiter = {fg = C.fg, },
 		SpecialComment = {fg = C.gray, },
 		Underlined = {style = "underline", },
 		Bold = {style = "bold", },
