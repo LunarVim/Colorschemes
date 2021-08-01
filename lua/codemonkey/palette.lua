@@ -1,8 +1,8 @@
 local colors = {
 	fg = "#D4D4D4",
-	bg = "#282c34",
-	alt_bg = "#252525",
-	dark = "#222222",
+	bg = "#212329",
+	alt_bg = "#282c34",
+	dark = "#282c34",
 	accent = "#BBBBBB",
 	popup_back = "#2D2D30",
 	search_orange = "#613214",
