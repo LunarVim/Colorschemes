@@ -35,7 +35,7 @@ local Treesitter = {
 		TSSymbol = {fg = C.fg, },
 		TSText = {fg = C.fg, },
 		TSPunctDelimiter = {fg = C.light_blue, },
-		TSTagDelimiter = {fg = C.fg, },
+		TSTagDelimiter = {fg = C.gray, },
 		TSPunctBracket = {fg = C.fg, },
 		TSPunctSpecial = {fg = C.fg, },
 		TSString = {fg = C.green, },
