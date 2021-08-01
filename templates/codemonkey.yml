@@ -184,7 +184,7 @@ Treesitter:
   TSParameterReference: 'fg'
   TSSymbol: 'fg'
   TSText: 'fg'
-  TSPunctDelimiter: 'light_blue -'
+  TSPunctDelimiter: 'fg -'
   TSTagDelimiter: 'gray'
   TSPunctBracket: 'fg -'
   TSPunctSpecial: 'fg'
