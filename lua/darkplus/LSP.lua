@@ -70,7 +70,7 @@ local LSP = {
 		StatusLineTerm = {fg = C.alt_bg, },
 		StatusLineTermNC = {fg = C.alt_bg, },
 		CodiVirtualText = {fg = C.hint_blue, },
-		IndentBlanklineContextChar = {fg = C.accent, },
+		IndentBlanklineContextChar = {fg = C.context, },
 		IndentBlanklineChar = {fg = C.dark_gray, },
 		IndentBlanklineSpaceChar = {fg = C.cyan_test, },
 		IndentBlanklineSpaceCharBlankline = {fg = C.info_yellow, },

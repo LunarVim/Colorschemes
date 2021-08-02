@@ -10,6 +10,7 @@ local colors = {
 	white = "#D8DEE9",
 	gray = "#808080",
 	dark_gray = "#3e3e3e",
+	context = "#606060",
 	light_gray = "#c8c9c1",
 	blue = "#569CD6",
 	dark_blue = "#223E55",
