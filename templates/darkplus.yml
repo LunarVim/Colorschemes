@@ -357,6 +357,9 @@ LSP:
   CodiVirtualText: 'hint_blue'
 
   IndentBlanklineContextChar: 'accent'
+  IndentBlanklineChar: 'purple_test'
+  IndentBlanklineSpaceChar: 'cyan_test'
+  IndentBlanklineSpaceCharBlankline: 'info_yellow'
 
   DashboardHeader: 'blue'
   DashboardCenter: 'purple'
