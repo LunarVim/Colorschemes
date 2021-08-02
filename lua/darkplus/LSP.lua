@@ -71,7 +71,7 @@ local LSP = {
 		StatusLineTermNC = {fg = C.alt_bg, },
 		CodiVirtualText = {fg = C.hint_blue, },
 		IndentBlanklineContextChar = {fg = C.accent, },
-		IndentBlanklineChar = {fg = C.purple_test, },
+		IndentBlanklineChar = {fg = C.dark_gray, },
 		IndentBlanklineSpaceChar = {fg = C.cyan_test, },
 		IndentBlanklineSpaceCharBlankline = {fg = C.info_yellow, },
 		DashboardHeader = {fg = C.blue, },

@@ -9,6 +9,7 @@ local colors = {
 	search_blue = "#5e81ac",
 	white = "#D8DEE9",
 	gray = "#808080",
+	dark_gray = "#303030",
 	light_gray = "#c8c9c1",
 	blue = "#569CD6",
 	dark_blue = "#223E55",
