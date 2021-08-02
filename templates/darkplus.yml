@@ -189,6 +189,7 @@ Treesitter:
   TSConditional: 'purple'
   TSException: 'purple'
   TSInclude: 'purple'
+  TSKeywordReturn: 'purple'
   TSKeyword: 'blue'
   TSKeywordFunction: 'blue'
   TSLabel: 'light_blue'
