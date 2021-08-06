@@ -177,7 +177,7 @@ Treesitter:
   TSComment: 'gray'
   TSAnnotation: 'blue'
   TSAttribute: 'cyan'
-  TSConstructor: 'cyan'
+  TSConstructor: 'yellow'
   TSType: 'yellow'
   TSTypeBuiltin: 'yellow'
   TSConditional: 'purple'
