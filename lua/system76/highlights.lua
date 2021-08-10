@@ -13,7 +13,7 @@ local highlights = {
 		PmenuSel = {fg = C.alt_bg, bg = C.blue, },
 		WildMenu = {fg = C.alt_bg, bg = C.blue, },
 		CursorLineNr = {fg = C.light_gray, style = "bold", },
-		Comment = {fg = C.gray, style = "italic", },
+		Comment = {fg = C.context, style = "italic", },
 		Folded = {fg = C.accent, bg = C.alt_bg, },
 		FoldColumn = {fg = C.accent, bg = C.alt_bg, },
 		LineNr = {fg = C.gray, },
