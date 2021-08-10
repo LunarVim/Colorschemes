@@ -29,7 +29,7 @@ palette:
   green: '#6eaa76'
   # cyan: '#99d4c5'
   # cyan: '#6ec589'
-  cyan: '#d3964b'
+  cyan: '#73c48f'
   light_green: '#B5CEA8'
     # --code-00: #333333;
 #   --code-01: #cc0000;
@@ -49,8 +49,8 @@ palette:
 #   --code-0E: #34e2e2;
 #   --code-0F: #eeeeec;
   red: '#f15d22'
-  # orange: '#d3964b'
-  orange: '#73c48f'
+  orange: '#d3964b'
+  # orange: '#73c48f'
   light_red: '#D16969'
   # yellow: '#f3a63b'
   yellow: '#ffce51'
