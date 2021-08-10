@@ -93,7 +93,7 @@ highlights:
   PmenuSel: 'alt_bg blue'
   WildMenu: 'alt_bg blue'
   CursorLineNr: 'light_gray - b'
-  Comment: 'context - i'
+  Comment: 'dark_gray - i'
   Folded: 'accent alt_bg'
   FoldColumn: 'accent alt_bg'
   LineNr: 'gray -'
@@ -165,7 +165,7 @@ highlights:
   Tag: 'blue'
   Debug: 'red'
   Delimiter: 'gray -'
-  SpecialComment: 'gray'
+  SpecialComment: 'context'
   Underlined: '- - u'
   Bold: '- - b'
   Italic: '- - i'
@@ -177,7 +177,7 @@ highlights:
   TabLineFill: 'white alt_bg'
 
 Treesitter:
-  TSComment: 'context'
+  TSComment: 'dark_gray'
   TSAnnotation: 'yellow'
   TSAttribute: 'cyan'
   TSConstructor: 'cyan'
