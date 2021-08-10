@@ -10,6 +10,7 @@ local colors = {
 	white = "#D8DEE9",
 	gray = "#98918d",
 	dark_gray = "#3e3e3e",
+	comment = "#505050",
 	context = "#606060",
 	light_gray = "#c8c9c1",
 	blue = "#48a9c7",
