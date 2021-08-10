@@ -5,10 +5,10 @@ information:
 
 palette:
   fg: '#cccccc'
-  bg: '#272727'
+  bg: '#262626'
 
   alt_bg: '#303030'
-  dark: '#222222'
+  dark: '#242424'
   accent: '#BBBBBB'
   popup_back: '#2D2D30'
   search_orange: '#613214'
@@ -25,7 +25,7 @@ palette:
   dark_blue: '#223E55'
   light_blue: '#81c8d6'
   # green: '#87c194'
-  green: '#d3962b'
+  green: '#6eaa76'
   # cyan: '#99d4c5'
   # cyan: '#6ec589'
   cyan: '#73c48f'
@@ -48,7 +48,7 @@ palette:
 #   --code-0E: #34e2e2;
 #   --code-0F: #eeeeec;
   red: '#f15d22'
-  orange: '#CE9178'
+  orange: '#d3962b'
   light_red: '#D16969'
   # yellow: '#f3a63b'
   yellow: '#ffce51'
@@ -135,7 +135,7 @@ highlights:
   EndOfBuffer: 'bg'
   NonText: 'bg'
   Variable: 'light_blue'
-  String: 'green'
+  String: 'orange'
   Character: 'orange'
   Constant: 'blue'
   Number: 'light_green'
@@ -216,8 +216,8 @@ Treesitter:
   TSTagDelimiter: 'gray'
   TSPunctBracket: 'fg -'
   TSPunctSpecial: 'fg'
-  TSString: 'green'
-  TSStringRegex: 'green'
+  TSString: 'orange'
+  TSStringRegex: 'orange'
   TSStringEscape: 'yellow_orange'
   TSTag: 'blue'
   TSEmphasis: '- - i'
