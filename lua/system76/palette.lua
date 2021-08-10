@@ -18,7 +18,6 @@ local colors = {
 	green = "#6eaa76",
 	cyan = "#d3964b",
 	light_green = "#B5CEA8",
-	red = "#f15d22",
 	orange = "#73c48f",
 	light_red = "#D16969",
 	yellow = "#ffce51",

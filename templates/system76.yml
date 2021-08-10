@@ -47,7 +47,8 @@ palette:
 #   --code-0D: #ad7fa8;
 #   --code-0E: #34e2e2;
 #   --code-0F: #eeeeec;
-  red: '#f15d22'
+  # red: '#f15d22'
+  # red: '#c4a000'
   # orange: '#d3964b'
   orange: '#73c48f'
   light_red: '#D16969'
@@ -139,9 +140,9 @@ highlights:
   String: 'orange'
   Character: 'orange'
   Constant: 'blue'
-  Number: 'red'
+  Number: 'green'
   Boolean: 'blue'
-  Float: 'red'
+  Float: 'green'
   Identifier: 'light_blue'
   Function: 'yellow'
   Operator: 'fg'
@@ -194,8 +195,8 @@ Treesitter:
   TSRepeat: 'purple'
   TSConstant: 'yellow'
   TSConstBuiltin: 'blue'
-  TSFloat: 'red'
-  TSNumber: 'red'
+  TSFloat: 'green'
+  TSNumber: 'green'
   TSBoolean: 'blue'
   TSCharacter: 'orange'
   TSError: 'error_red'
