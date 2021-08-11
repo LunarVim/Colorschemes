@@ -49,15 +49,14 @@ palette:
 #   --code-0E: #34e2e2;
 #   --code-0F: #eeeeec;
   red: '#f15d22'
-  orange: '#ad7fa8'
+  orange: '#d3964b'
   # orange: '#73c48f'
   light_red: '#D16969'
   # yellow: '#f3a63b'
   yellow: '#ffce51'
   yellow_orange: '#D7BA7D'
   # purple: '#bc66bb'
-  # purple: '#ad7fa8'
-  purple: '#d3964b'
+  purple: '#ad7fa8'
   magenta: '#D16D9E'
 
   cursor_fg: '#515052'
