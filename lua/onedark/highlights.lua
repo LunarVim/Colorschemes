@@ -72,7 +72,7 @@ local highlights = {
 		Statement = {fg = C.purple, },
 		Conditional = {fg = C.purple, },
 		Repeat = {fg = C.purple, },
-		Label = {fg = C.purple, },
+		Label = {fg = C.cyan, },
 		Exception = {fg = C.purple, },
 		Include = {fg = C.purple, },
 		PreProc = {fg = C.purple, },
