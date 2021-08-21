@@ -6,7 +6,8 @@ information:
 palette:
   fg: '#cccbca'
   # bg: '#282c34'
-  bg: '#212329'
+  # bg: '#212329'
+  bg: '#181a1f'
 
   alt_bg: '#282c34'
   dark: '#282c34'
