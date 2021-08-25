@@ -206,7 +206,7 @@ Treesitter:
   TSFuncMacro: 'blue'
   TSProperty: 'cyan'
   TSOperator: 'purple'
-  TSField: 'fg'
+  TSField: 'cyan'
   TSParameter: 'red'
   TSParameterReference: 'fg'
   TSVariable: 'fg'
