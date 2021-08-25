@@ -186,7 +186,7 @@ Treesitter:
   TSKeyword: 'purple'
   TSKeywordReturn: 'purple'
   TSKeywordFunction: 'purple'
-  TSLabel: 'fg'
+  TSLabel: 'red'
   TSNone: 'fg'
   TSNamespace: 'purple'
   TSRepeat: 'purple'
