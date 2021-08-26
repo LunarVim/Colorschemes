@@ -1,7 +1,7 @@
 local colors = {
 	fg = "#ABB2BF",
 	bg = "#1f2227",
-	alt_bg = "#2C323C",
+	alt_bg = "#282c34",
 	accent = "#434C5E",
 	context = "#4b5263",
 	white = "#ABB2BF",
@@ -16,7 +16,7 @@ local colors = {
 	light_green = "#B5CEA8",
 	yellow = "#E7cb93",
 	orange = "#c68a75",
-	purple = "#B48EAD",
+	purple = "#8FBCBB",
 	pale_purple = "#7199ee",
 	magenta = "#D16D9E",
 	cursor_fg = "#515052",
