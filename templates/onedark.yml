@@ -204,7 +204,7 @@ Treesitter:
   TSMethod: 'blue'
   TSConstMacro: 'cyan'
   TSFuncMacro: 'blue'
-  TSProperty: 'cyan'
+  TSProperty: 'blue'
   TSOperator: 'purple'
   TSField: 'blue'
   TSParameter: 'red'
