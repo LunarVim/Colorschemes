@@ -24,8 +24,8 @@ palette:
   light_green: '#B5CEA8'
   yellow: '#E7cb93'
   orange: '#c68a75'
-  # purple: '#B48EAD'
-  purple: '#6FBCBB'
+  purple: '#B48EAD'
+  # purple: '#6FBCBB'
   pale_purple: '#7199ee'
   magenta: '#D16D9E'
 
