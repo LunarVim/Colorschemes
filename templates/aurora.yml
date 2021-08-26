@@ -5,14 +5,17 @@ information:
 
 palette:
   fg: '#ABB2BF'
-  bg: '#232731'
+  # bg: '#232731'
+  bg: '#1f2227'
 
   alt_bg: '#2C323C'
   accent: '#434C5E'
+  context: '#4b5263'
 
   white: '#D8DEE9'
   gray: '#9BA1AB'
   light_gray: '#c8c9c1'
+  dark_gray: '#2a3a3e'
   blue: '#5e81ac'
   gray_blue: '#81A1C1'
   cyan: '#88c0d0'
@@ -165,7 +168,7 @@ Treesitter:
   TSMethod: 'yellow'
   TSConstMacro: 'cyan'
   TSFuncMacro: 'cyan'
-  TSVariable: 'white'
+  TSVariable: 'cyan'
   TSVariableBuiltin: 'cyan'
   TSProperty: 'cyan'
   TSOperator: 'gray_blue'
@@ -314,7 +317,10 @@ async:
 
     CodiVirtualText: 'pale_purple'
 
-    IndentBlanklineContextChar: 'accent'
+    IndentBlanklineContextChar: 'context'
+    IndentBlanklineChar: 'dark_gray'
+    IndentBlanklineSpaceChar: 'cyan_test'
+    IndentBlanklineSpaceCharBlankline: 'info_yellow'
 
     DashboardHeader: 'blue'
     DashboardCenter: 'purple'
