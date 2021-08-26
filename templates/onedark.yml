@@ -216,7 +216,7 @@ Treesitter:
   TSTextReference: 'red'
   TSPunctDelimiter: 'fg'
   TSTagDelimiter: 'gray'
-  TSTagAttribute: 'red'
+  TSTagAttribute: 'cyan'
   TSPunctBracket: 'fg'
   TSPunctSpecial: 'fg'
   TSString: 'green'

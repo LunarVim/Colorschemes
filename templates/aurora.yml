@@ -12,7 +12,7 @@ palette:
   accent: '#434C5E'
   context: '#4b5263'
 
-  white: '#D8DEE9'
+  white: '#ABB2BF'
   gray: '#9BA1AB'
   light_gray: '#c8c9c1'
   dark_gray: '#2a3a3e'
@@ -142,7 +142,7 @@ highlights:
   TabLineFill: 'white alt_bg'
 
 Treesitter:
-  TSComment: 'gray'
+  TSComment: 'dark_gray'
   TSAnnotation: 'purple'
   TSAttribute: 'cyan'
   TSConstructor: 'purple'
@@ -161,7 +161,7 @@ Treesitter:
   TSFloat: 'orange'
   TSNumber: 'orange'
   TSBoolean: 'orange'
-  TSCharacter: 'light_green'
+  TSCharacter: 'green'
   TSError: 'error_red'
   TSFunction: 'yellow'
   TSFuncBuiltin: 'yellow'
@@ -172,9 +172,9 @@ Treesitter:
   TSVariableBuiltin: 'cyan'
   TSProperty: 'cyan'
   TSOperator: 'gray_blue'
-  TSField: 'white'
-  TSParameter: 'white'
-  TSParameterReference: 'white'
+  TSField: 'cyan'
+  TSParameter: 'cyan'
+  TSParameterReference: 'cyan'
   TSSymbol: 'white'
   TSText: 'fg'
   TSPunctDelimiter: 'gray -'
@@ -185,9 +185,11 @@ Treesitter:
   TSStringRegex: 'light_green'
   TSStringEscape: 'light_green'
   TSTag: 'blue'
+  TSTagAttribute: ''
   TSEmphasis: '- - i'
   TSUnderline: '- - u'
-  # TSWarning: 'red - bold'
+  TSWarning: 'warning_orange'
+  TSDanger: 'error_red'
   # TSStrike: '- - s'
   TSTitle: 'blue - b'
   TSLiteral: 'green'
@@ -196,6 +198,7 @@ Treesitter:
   TSStructure: 'purple_test'
   TSStrong: 'yellow'
   TSQueryLinterError: 'warning_orange'
+  TSNote: 'red'
 
 async:
   markdown:

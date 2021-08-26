@@ -1,5 +1,5 @@
 local Treesitter = {
-		TSComment = {fg = C.gray, },
+		TSComment = {fg = C.dark_gray, },
 		TSAnnotation = {fg = C.purple, },
 		TSAttribute = {fg = C.cyan, },
 		TSConstructor = {fg = C.purple, },
@@ -18,7 +18,7 @@ local Treesitter = {
 		TSFloat = {fg = C.orange, },
 		TSNumber = {fg = C.orange, },
 		TSBoolean = {fg = C.orange, },
-		TSCharacter = {fg = C.light_green, },
+		TSCharacter = {fg = C.green, },
 		TSError = {fg = C.error_red, },
 		TSFunction = {fg = C.yellow, },
 		TSFuncBuiltin = {fg = C.yellow, },
@@ -29,9 +29,9 @@ local Treesitter = {
 		TSVariableBuiltin = {fg = C.cyan, },
 		TSProperty = {fg = C.cyan, },
 		TSOperator = {fg = C.gray_blue, },
-		TSField = {fg = C.white, },
-		TSParameter = {fg = C.white, },
-		TSParameterReference = {fg = C.white, },
+		TSField = {fg = C.cyan, },
+		TSParameter = {fg = C.cyan, },
+		TSParameterReference = {fg = C.cyan, },
 		TSSymbol = {fg = C.white, },
 		TSText = {fg = C.fg, },
 		TSPunctDelimiter = {fg = C.gray, },
@@ -44,6 +44,8 @@ local Treesitter = {
 		TSTag = {fg = C.blue, },
 		TSEmphasis = {style = "italic", },
 		TSUnderline = {style = "underline", },
+		TSWarning = {fg = C.warning_orange, },
+		TSDanger = {fg = C.error_red, },
 		TSTitle = {fg = C.blue, style = "bold", },
 		TSLiteral = {fg = C.green, },
 		TSURI = {fg = C.cyan, style = "underline", },
@@ -51,6 +53,7 @@ local Treesitter = {
 		TSStructure = {fg = C.purple_test, },
 		TSStrong = {fg = C.yellow, },
 		TSQueryLinterError = {fg = C.warning_orange, },
+		TSNote = {fg = C.red, },
 }
 
 return Treesitter
