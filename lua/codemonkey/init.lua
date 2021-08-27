@@ -9,22 +9,6 @@ vim.g.colors_name = "codemonkey"
 local util = require("codemonkey.util")
 Config = require("codemonkey.config")
 C = require("codemonkey.palette")
-
-local async
-async = vim.loop.new_async(vim.schedule_wrap(function ()
-    
-
-    local skeletons = {
-        
-    }
-
-    for _, skeleton in ipairs(skeletons) do
-        util.initialise(skeleton)
-    end
-
-    async:close()
-end))
-
 local highlights = require("codemonkey.highlights")
 local Treesitter = require("codemonkey.Treesitter")
 local markdown = require("codemonkey.markdown")
@@ -40,5 +24,3 @@ local skeletons = {
 for _, skeleton in ipairs(skeletons) do
     util.initialise(skeleton)
 end
-
-async:send()
