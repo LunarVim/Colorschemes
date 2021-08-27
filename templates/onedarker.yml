@@ -13,7 +13,7 @@ palette:
   # alt_bg: '#1f2227'
   dark: '#282c34'
   accent: '#BBBBBB'
-  dark_gray: '#2a3a3e'
+  dark_gray: '#2a2f3e'
   context: '#4b5263'
   popup_back: '#282c34'
   search_orange: '#613214'
