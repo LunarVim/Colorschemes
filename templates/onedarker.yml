@@ -110,7 +110,7 @@ highlights:
   DiffAdd: 'alt_bg sign_add'
   DiffChange: 'alt_bg sign_change u'
   DiffDelete: 'alt_bg sign_delete'
-  QuickFixLine: '- accent'
+  QuickFixLine: '- dark_gray'
   PmenuSbar: '- alt_bg'
   PmenuThumb: '- gray'
   MatchWord: '- - u'

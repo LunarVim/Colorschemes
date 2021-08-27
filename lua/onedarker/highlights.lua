@@ -30,7 +30,7 @@ local highlights = {
 		DiffAdd = {fg = C.alt_bg, bg = C.sign_add, },
 		DiffChange = {fg = C.alt_bg, bg = C.sign_change, style = "underline", },
 		DiffDelete = {fg = C.alt_bg, bg = C.sign_delete, },
-		QuickFixLine = {bg = C.accent, },
+		QuickFixLine = {bg = C.dark_gray, },
 		PmenuSbar = {bg = C.alt_bg, },
 		PmenuThumb = {bg = C.gray, },
 		MatchWord = {style = "underline", },
