@@ -345,7 +345,7 @@ LSP:
   BufferVisible: 'fg bg'
   BufferVisibleIndex: 'fg bg'
   BufferVisibleMod: 'info_yellow bg'
-  BufferVisibleSign: 'hint_blue bg'
+  BufferVisibleSign: 'gray bg'
   BufferVisibleTarget: 'red bg b'
 
   BufferInactive: 'gray alt_bg'
@@ -372,9 +372,9 @@ LSP:
   DashboardFooter: 'cyan'
 
   ## XML
-  xmlTag: 'cyan'
-  xmlTagName: 'cyan'
-  xmlEndTag: 'cyan'
+  xmlTag: 'blue'
+  xmlTagName: 'blue'
+  xmlEndTag: 'blue'
 
   CompeDocumentation: '- alt_bg'
 
