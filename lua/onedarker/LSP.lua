@@ -97,7 +97,7 @@ local LSP = {
 		diffOldFile = {fg = C.red, },
 		debugPc = {bg = C.cyan, },
 		debugBreakpoint = {fg = C.red, style = "reverse", },
-		FocusedSymbol = {fg = C.search_blue, },
+		FocusedSymbol = {fg = C.purple, style = "bold", },
 		SymbolsOutlineConnector = {fg = C.context, },
 }
 

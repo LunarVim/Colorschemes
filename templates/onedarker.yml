@@ -396,6 +396,6 @@ LSP:
   debugPc: '- cyan'
   debugBreakpoint: 'red - r'
 
-  FocusedSymbol: 'search_blue'
+  FocusedSymbol: 'purple - b'
   SymbolsOutlineConnector: 'context'
 
