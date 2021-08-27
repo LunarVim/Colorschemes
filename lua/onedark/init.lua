@@ -9,22 +9,6 @@ vim.g.colors_name = "onedark"
 local util = require("onedark.util")
 Config = require("onedark.config")
 C = require("onedark.palette")
-
-local async
-async = vim.loop.new_async(vim.schedule_wrap(function ()
-    
-
-    local skeletons = {
-        
-    }
-
-    for _, skeleton in ipairs(skeletons) do
-        util.initialise(skeleton)
-    end
-
-    async:close()
-end))
-
 local highlights = require("onedark.highlights")
 local Treesitter = require("onedark.Treesitter")
 local markdown = require("onedark.markdown")
@@ -40,5 +24,3 @@ local skeletons = {
 for _, skeleton in ipairs(skeletons) do
     util.initialise(skeleton)
 end
-
-async:send()
