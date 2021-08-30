@@ -53,13 +53,8 @@ local highlights = {
 		MoreMsg = {fg = C.orange, },
 		Question = {fg = C.orange, },
 		EndOfBuffer = {fg = C.bg, },
-<<<<<<< HEAD
 		NonText = {fg = C.context, },
 		Variable = {fg = C.cyan, },
-=======
-		NonText = {fg = C.bg, },
-		Variable = {fg = C.fg, },
->>>>>>> d5da116975547d05376637c6930d53adb7e0d8af
 		String = {fg = C.green, },
 		Character = {fg = C.green, },
 		Constant = {fg = C.orange, },
