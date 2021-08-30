@@ -49,7 +49,7 @@ local Treesitter = {
 		TSEmphasis = {style = "italic", },
 		TSUnderline = {style = "underline", },
 		TSNote = {fg = C.info_yellow, style = "bold", },
-		TSWarning = {fg = C.warning_orange, bg = C.-b, },
+		TSWarning = {fg = C.warning_orange, style = "bold", },
 		TSDanger = {fg = C.error_red, style = "bold", },
 		TSTitle = {fg = C.blue, style = "bold", },
 		TSLiteral = {fg = C.green, },

@@ -195,7 +195,7 @@ Treesitter:
   TSEmphasis: '- - i'
   TSUnderline: '- - u'
   TSNote: 'info_yellow - b'
-  TSWarning: 'warning_orange -b'
+  TSWarning: 'warning_orange - b'
   TSDanger: 'error_red - b'
   # TSStrike: '- - s'
   TSTitle: 'blue - b'
