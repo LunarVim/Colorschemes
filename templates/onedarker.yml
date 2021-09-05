@@ -114,7 +114,7 @@ highlights:
   Function: 'blue'
   Operator: 'purple'
   Type: 'yellow'
-  StorageClass: 'yellow'
+  StorageClass: 'cyan'
   Structure: 'purple'
   Typedef: 'purple'
   Keyword: 'purple'
