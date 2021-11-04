@@ -37,6 +37,8 @@ local colors = {
 	purple_test = "#ff007c",
 	cyan_test = "#00dfff",
 	ui_blue = "#264F78",
+	ui2_blue = "#042E48",
+	ui3_blue = "#2082C9",
 }
 
 return colors

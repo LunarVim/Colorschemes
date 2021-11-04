@@ -81,6 +81,8 @@ palette:
   # UiBlue: '#0451A5'
 
   ui_blue: '#264F78'
+  ui2_blue: '#042E48'
+  ui3_blue: '#2082C9'
 
 highlights:
   Normal: 'fg bg'
@@ -94,7 +96,7 @@ highlights:
   SpellRare: 'purple - u'
   NormalNC: 'fg bg'
   Pmenu: 'light_gray popup_back'
-  PmenuSel: 'alt_bg blue'
+  PmenuSel: 'alt_bg ui2_blue'
   WildMenu: 'alt_bg blue'
   CursorLineNr: 'light_gray - b'
   Comment: 'green - i'
@@ -383,6 +385,25 @@ DiffView:
   DiffviewFilePanelInsertion: 'sign_add'
   DiffviewFilePanelDeletion: 'sign_delete'
   DiffviewVertSplit: '- bg'
+
+Cmp:
+  # CmpItemAbbr: ''
+  # The abbr field.
+
+  # CmpItemAbbrDeprecated
+  # The deprecated item's abbr field.
+
+  CmpItemAbbrMatch: 'ui3_blue'
+  # The matched characters highlight.
+
+  CmpItemAbbrMatchFuzzy: 'ui3_blue'
+  # The fuzzy matched characters highlight.
+
+  CmpItemKind: 'purple'
+  # The kind field.
+
+    # CmpItemMenu:
+  # The menu field.
 
 Misc:
   diffAdded: 'sign_add'

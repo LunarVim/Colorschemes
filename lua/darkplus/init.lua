@@ -24,11 +24,12 @@ local StatusLine = require("darkplus.StatusLine")
 local IndentBlankline = require("darkplus.IndentBlankline")
 local Dashboard = require("darkplus.Dashboard")
 local DiffView = require("darkplus.DiffView")
+local Cmp = require("darkplus.Cmp")
 local Misc = require("darkplus.Misc")
 
 
 local skeletons = {
-    highlights, Treesitter, markdown, Whichkey, Git, LSP, Quickscope, Telescope, NvimTree, Lir, Buffer, StatusLine, IndentBlankline, Dashboard, DiffView, Misc
+    highlights, Treesitter, markdown, Whichkey, Git, LSP, Quickscope, Telescope, NvimTree, Lir, Buffer, StatusLine, IndentBlankline, Dashboard, DiffView, Cmp, Misc
 }
 
 for _, skeleton in ipairs(skeletons) do
