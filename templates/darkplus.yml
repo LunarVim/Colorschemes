@@ -316,7 +316,7 @@ Quickscope:
 Telescope:
   TelescopeSelection: 'hint_blue'
   TelescopeMatching: 'info_yellow - b'
-  TelescopeBorder: 'cyan bg'
+  TelescopeBorder: 'blue bg'
 
 NvimTree:
   NvimTreeFolderIcon: 'blue'
@@ -408,6 +408,10 @@ Cmp:
 
   # CmpItemMenu: '#f0f00f'
   # The menu field.
+  #
+SymbolOutline:
+  SymbolsOutlineConnector: '#ff0000'
+  FocusedSymbol: '#00ff00'
 
 Misc:
   diffAdded: 'sign_add'
