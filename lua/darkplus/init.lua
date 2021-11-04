@@ -15,10 +15,20 @@ local markdown = require("darkplus.markdown")
 local Whichkey = require("darkplus.Whichkey")
 local Git = require("darkplus.Git")
 local LSP = require("darkplus.LSP")
+local Quickscope = require("darkplus.Quickscope")
+local Telescope = require("darkplus.Telescope")
+local NvimTree = require("darkplus.NvimTree")
+local Lir = require("darkplus.Lir")
+local Buffer = require("darkplus.Buffer")
+local StatusLine = require("darkplus.StatusLine")
+local IndentBlankline = require("darkplus.IndentBlankline")
+local Dashboard = require("darkplus.Dashboard")
+local DiffView = require("darkplus.DiffView")
+local Misc = require("darkplus.Misc")
 
 
 local skeletons = {
-    highlights, Treesitter, markdown, Whichkey, Git, LSP
+    highlights, Treesitter, markdown, Whichkey, Git, LSP, Quickscope, Telescope, NvimTree, Lir, Buffer, StatusLine, IndentBlankline, Dashboard, DiffView, Misc
 }
 
 for _, skeleton in ipairs(skeletons) do

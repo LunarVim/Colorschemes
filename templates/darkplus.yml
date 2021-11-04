@@ -303,13 +303,16 @@ LSP:
   LspDiagnosticsUnderlineInformation: '- - u'
   LspDiagnosticsUnderlineHint: '- - u'
 
+Quickscope:
   QuickScopePrimary: 'purple_test - u'
   QuickScopeSecondary: 'cyan_test - u'
 
+Telescope:
   TelescopeSelection: 'hint_blue'
   TelescopeMatching: 'info_yellow - b'
   TelescopeBorder: 'cyan bg'
 
+NvimTree:
   NvimTreeFolderIcon: 'blue'
   NvimTreeIndentMarker: 'gray'
   NvimTreeNormal: 'light_gray alt_bg'
@@ -328,11 +331,13 @@ LSP:
   NvimTreeRootFolder: 'fg - b'
   NvimTreeExecFile: 'green'
 
+Lir:
   LirFloatNormal: "light_gray alt_bg"
   LirDir: "blue"
   LirSymLink: "cyan"
   LirEmptyDirText: "blue"
 
+Buffer:
   BufferCurrent: 'fg bg'
   BufferCurrentIndex: 'fg bg'
   BufferCurrentMod: 'info_yellow bg'
@@ -351,30 +356,25 @@ LSP:
   BufferInactiveSign: 'gray alt_bg'
   BufferInactiveTarget: 'red alt_bg b'
 
+StatusLine:
   StatusLine: 'alt_bg'
   StatusLineNC: 'alt_bg'
   StatusLineSeparator: 'alt_bg'
   StatusLineTerm: 'alt_bg'
   StatusLineTermNC: 'alt_bg'
 
-  CodiVirtualText: 'hint_blue'
-
+IndentBlankline:
   IndentBlanklineContextChar: 'context'
   IndentBlanklineChar: 'dark_gray'
   IndentBlanklineSpaceChar: 'cyan_test'
   IndentBlanklineSpaceCharBlankline: 'info_yellow'
 
+Dashboard:
   DashboardHeader: 'blue'
   DashboardCenter: 'purple'
   DashboardFooter: 'cyan'
 
-  ## XML
-  xmlTag: 'cyan'
-  xmlTagName: 'cyan'
-  xmlEndTag: 'cyan'
-
-  CompeDocumentation: '- alt_bg'
-
+DiffView:
   DiffViewNormal: 'gray alt_bg'
   DiffviewStatusAdded: 'sign_add'
   DiffviewStatusModified: 'sign_change'
@@ -384,6 +384,7 @@ LSP:
   DiffviewFilePanelDeletion: 'sign_delete'
   DiffviewVertSplit: '- bg'
 
+Misc:
   diffAdded: 'sign_add'
   diffRemoved: 'sign_delete'
   diffFileId: 'blue - br'
@@ -392,3 +393,12 @@ LSP:
   diffOldFile: 'red'
   debugPc: '- cyan'
   debugBreakpoint: 'red - r'
+
+  CodiVirtualText: 'hint_blue'
+
+  CompeDocumentation: '- alt_bg'
+
+  ## XML
+  xmlTag: 'cyan'
+  xmlTagName: 'cyan'
+  xmlEndTag: 'cyan'

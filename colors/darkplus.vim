@@ -8,6 +8,16 @@ package.loaded['darkplus.markdown'] = nil
 package.loaded['darkplus.Whichkey'] = nil
 package.loaded['darkplus.Git'] = nil
 package.loaded['darkplus.LSP'] = nil
+package.loaded['darkplus.Quickscope'] = nil
+package.loaded['darkplus.Telescope'] = nil
+package.loaded['darkplus.NvimTree'] = nil
+package.loaded['darkplus.Lir'] = nil
+package.loaded['darkplus.Buffer'] = nil
+package.loaded['darkplus.StatusLine'] = nil
+package.loaded['darkplus.IndentBlankline'] = nil
+package.loaded['darkplus.Dashboard'] = nil
+package.loaded['darkplus.DiffView'] = nil
+package.loaded['darkplus.Misc'] = nil
 
 require("darkplus")
 EOF
