@@ -410,8 +410,8 @@ Cmp:
   # The menu field.
   #
 SymbolOutline:
-  SymbolsOutlineConnector: '#ff0000'
-  FocusedSymbol: '#00ff00'
+  SymbolsOutlineConnector: 'green'
+  FocusedSymbol: '- purple'
 
 Misc:
   diffAdded: 'sign_add'
