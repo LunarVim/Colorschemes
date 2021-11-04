@@ -10,7 +10,7 @@ local highlights = {
 		SpellRare = {fg = C.purple, style = "underline", },
 		NormalNC = {fg = C.fg, bg = Config.transparent_background and "NONE" or C.bg, },
 		Pmenu = {fg = C.light_gray, bg = C.popup_back, },
-		PmenuSel = {fg = C.fg, bg = C.ui2_blue, },
+		PmenuSel = {bg = C.ui2_blue, },
 		WildMenu = {fg = C.fg, bg = C.ui2_blue, },
 		CursorLineNr = {fg = C.light_gray, style = "bold", },
 		Comment = {fg = C.green, style = "italic", },

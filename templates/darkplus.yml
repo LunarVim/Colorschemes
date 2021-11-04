@@ -4,35 +4,6 @@ information:
   author: 'Christian Chiarulli <chrisatmachine@gmail.com>'
 
 palette:
-  #   TabCurrent: '#1E1E1E'
-  #   TabOther: '#2D2D2D'
-  #   TabOutside: '#252526'
-  #
-  #   LeftDark: '#252526'
-  #   LeftMid: '#373737'
-  #   LeftLight: '#3F3F46'
-  #
-  #   PopupFront: '#BBBBBB'
-  #   PopupBack: '#2D2D30'
-  #   PopupHighlightBlue: '#073655'
-  #   PopupHighlightGray: '#3D3D40'
-  #
-  #   SplitLight: '#898989'
-  #   SplitDark: '#444444'
-  #   SplitThumb: '#424242'
-  #
-  #   CursorDarkDark: '#222222'
-  #   CursorDark: '#51504F'
-  #   CursorLight: '#AEAFAD'
-  #   Selection: '#264F78'
-  #   LineNumber: '#5A5A5A'
-  #
-  #   DiffRedDark: '#4B1818'
-  #   DiffRedLight: '#6F1313'
-  #   DiffRedLightLight: '#FB0101'
-  #   DiffGreenDark: '#373D29'
-  #   DiffGreenLight: '#4B5632'
-  #   SearchCurrent: '#4B5632'
   fg: '#D4D4D4'
   bg: '#1E1E1E'
 
@@ -96,7 +67,7 @@ highlights:
   SpellRare: 'purple - u'
   NormalNC: 'fg bg'
   Pmenu: 'light_gray popup_back'
-  PmenuSel: 'fg ui2_blue'
+  PmenuSel: '- ui2_blue'
   WildMenu: 'fg ui2_blue'
   CursorLineNr: 'light_gray - b'
   Comment: 'green - i'
