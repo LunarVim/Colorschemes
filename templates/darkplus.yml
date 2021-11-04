@@ -305,6 +305,10 @@ LSP:
   LspDiagnosticsUnderlineInformation: '- - u'
   LspDiagnosticsUnderlineHint: '- - u'
 
+  LspReferenceRead: '#36383F'
+  LspReferenceText: '#36383F'
+  LspReferenceWrite: '#36383f'
+
 Quickscope:
   QuickScopePrimary: 'purple_test - u'
   QuickScopeSecondary: 'cyan_test - u'
