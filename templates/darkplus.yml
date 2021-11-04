@@ -387,10 +387,10 @@ DiffView:
   DiffviewVertSplit: '- bg'
 
 Cmp:
-  # CmpItemAbbr: ''
+  CmpItemAbbr: '#ff0000'
   # The abbr field.
 
-  # CmpItemAbbrDeprecated
+  CmpItemAbbrDeprecated: '#00ff00'
   # The deprecated item's abbr field.
 
   CmpItemAbbrMatch: 'ui3_blue'
@@ -402,7 +402,7 @@ Cmp:
   CmpItemKind: 'purple'
   # The kind field.
 
-    # CmpItemMenu:
+  CmpItemMenu: '#f0f00f'
   # The menu field.
 
 Misc:
