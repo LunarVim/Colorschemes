@@ -203,7 +203,7 @@ Treesitter:
   TSUnderline: '- - u'
   # TSWarning: 'red - bold'
   # TSStrike: '- - s'
-  TSTitle: 'blue - b'
+  TSTitle: 'fg - b'
   TSLiteral: 'yellow_orange'
   TSURI: 'yellow_orange - u'
   TSKeywordOperator: 'blue'
