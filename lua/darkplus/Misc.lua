@@ -13,6 +13,7 @@ local Misc = {
 		xmlTagName = {fg = C.cyan, },
 		xmlEndTag = {fg = C.cyan, },
 		yamlPlainScalar = {fg = C.orange, },
+		yamlTSField = {fg = C.blue, },
 }
 
 return Misc

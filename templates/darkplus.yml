@@ -407,5 +407,8 @@ Misc:
   ## XML
   xmlTag: 'cyan'
   xmlTagName: 'cyan'
+
+  ## YAML
   xmlEndTag: 'cyan'
   yamlPlainScalar: 'orange'
+  yamlTSField: 'blue'
