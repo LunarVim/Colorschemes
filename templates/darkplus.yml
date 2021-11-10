@@ -408,3 +408,4 @@ Misc:
   xmlTag: 'cyan'
   xmlTagName: 'cyan'
   xmlEndTag: 'cyan'
+  yamlPlainScalar: 'orange'
