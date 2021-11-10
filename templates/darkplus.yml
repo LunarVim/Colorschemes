@@ -340,10 +340,10 @@ Buffer:
 
 StatusLine:
   StatusLine: 'alt_bg'
-  StatusLineNC: 'alt_bg'
+  StatusLineNC: 'purple_test alt_bg'
   StatusLineSeparator: 'alt_bg'
   StatusLineTerm: 'alt_bg'
-  StatusLineTermNC: 'alt_bg'
+  StatusLineTermNC: 'cyan_test alt_bg'
 
 IndentBlankline:
   IndentBlanklineContextChar: 'context'
