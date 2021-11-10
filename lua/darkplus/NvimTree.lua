@@ -10,7 +10,7 @@ local NvimTree = {
 		NvimTreeGitStaged = {fg = C.tree_sign_add, },
 		NvimTreeGitNew = {fg = C.tree_sign_add, },
 		NvimTreeGitRenamed = {fg = C.tree_sign_add, },
-		NvimTreeGitDeleted = {fg = C.sign_add, },
+		NvimTreeGitDeleted = {fg = C.sign_delete, },
 		NvimTreeGitMerge = {fg = C.tree_sign_change, },
 		NvimTreeGitDirty = {fg = C.tree_sign_change, },
 		NvimTreeSymlink = {fg = C.cyan, },
