@@ -342,7 +342,7 @@ StatusLine:
 
 IndentBlankline:
   IndentBlanklineContextChar: 'context'
-  IndentBlanklineContextStart: 'context'
+  IndentBlanklineContextStart: '- - u'
   IndentBlanklineChar: 'dark_gray'
   IndentBlanklineSpaceChar: 'cyan_test'
   IndentBlanklineSpaceCharBlankline: 'info_yellow'
