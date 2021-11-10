@@ -304,10 +304,10 @@ NvimTree:
 
   NvimTreeGitStaged: 'tree_sign_add'
   NvimTreeGitNew: 'tree_sign_add'
-  NvimTreeGitDirty: 'tree_sign_add'
+  NvimTreeGitRenamed: 'tree_sign_add'
   NvimTreeGitDeleted: 'sign_delete'
   NvimTreeGitMerge: 'tree_sign_change'
-  NvimTreeGitRenamed: 'tree_sign_change'
+  NvimTreeGitDirty: 'tree_sign_change'
 
   NvimTreeSymlink: 'cyan'
   NvimTreeRootFolder: 'fg - b'
