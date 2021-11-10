@@ -342,7 +342,7 @@ StatusLine:
   StatusLine: 'alt_bg'
   StatusLineNC: 'purple_test alt_bg'
   StatusLineSeparator: 'alt_bg'
-  StatusLineTerm: 'alt_bg'
+  StatusLineTerm: 'purple_test alt_bg'
   StatusLineTermNC: 'cyan_test alt_bg'
 
 IndentBlankline:
