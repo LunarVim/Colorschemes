@@ -1,6 +1,5 @@
 local markdown = {
 		markdownBlockquote = {fg = C.green, },
-		markdownBold = {fg = C.blue, style = "bold", },
 		markdownCode = {fg = C.orange, },
 		markdownCodeBlock = {fg = C.orange, },
 		markdownCodeDelimiter = {fg = C.orange, },
@@ -16,7 +15,9 @@ local markdown = {
 		markdownIdDeclaration = {fg = C.blue, },
 		markdownIdDelimiter = {fg = C.light_gray, },
 		markdownLinkDelimiter = {fg = C.light_gray, },
+		markdownBold = {fg = C.blue, style = "bold", },
 		markdownItalic = {style = "italic", },
+		markdownBoldItalic = {fg = C.yellow_orange, style = "bold,italic", },
 		markdownListMarker = {fg = C.blue, },
 		markdownOrderedListMarker = {fg = C.blue, },
 		markdownRule = {fg = C.accent, },

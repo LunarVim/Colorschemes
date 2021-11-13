@@ -215,7 +215,6 @@ Treesitter:
 
 markdown:
   markdownBlockquote: 'green'
-  markdownBold: 'blue - b'
   markdownCode: 'orange'
   markdownCodeBlock: 'orange'
   markdownCodeDelimiter: 'orange'
@@ -231,7 +230,9 @@ markdown:
   markdownIdDeclaration: 'blue'
   markdownIdDelimiter: 'light_gray'
   markdownLinkDelimiter: 'light_gray'
+  markdownBold: 'blue - b'
   markdownItalic: '- - i'
+  markdownBoldItalic: 'yellow_orange - bi'
   markdownListMarker: 'blue'
   markdownOrderedListMarker: 'blue'
   markdownRule: 'accent'
