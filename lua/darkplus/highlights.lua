@@ -4,7 +4,7 @@ local highlights = {
 		MsgArea = {fg = C.fg, bg = Config.transparent_background and "NONE" or C.bg, },
 		ModeMsg = {fg = C.fg, bg = C.bg, },
 		MsgSeparator = {fg = C.fg, bg = C.bg, },
-		SpellBad = {fg = C.error_red, style = "underline", },
+		SpellBad = {fg = C.light_red, style = "underline", },
 		SpellCap = {fg = C.yellow, style = "underline", },
 		SpellLocal = {fg = C.green, style = "underline", },
 		SpellRare = {fg = C.purple, style = "underline", },
