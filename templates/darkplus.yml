@@ -381,7 +381,7 @@ Bqf:
   # BqfPreviewFloat: 'fg'
   BqfPreviewBorder: 'fg'
   # BqfPreviewCursor: ''
-  BqfPreviewRange: 'ui2_blue'
+  BqfPreviewRange: '- ui2_blue'
   # BqfSign: ''
 
 Cmp:
