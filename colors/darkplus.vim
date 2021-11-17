@@ -17,6 +17,7 @@ package.loaded['darkplus.StatusLine'] = nil
 package.loaded['darkplus.IndentBlankline'] = nil
 package.loaded['darkplus.Dashboard'] = nil
 package.loaded['darkplus.DiffView'] = nil
+package.loaded['darkplus.Bookmarks'] = nil
 package.loaded['darkplus.Cmp'] = nil
 package.loaded['darkplus.SymbolOutline'] = nil
 package.loaded['darkplus.Misc'] = nil

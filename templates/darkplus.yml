@@ -371,6 +371,12 @@ DiffView:
   DiffviewFilePanelDeletion: 'sign_delete'
   DiffviewVertSplit: '- bg'
 
+Bookmarks:
+  BookmarkSign: 'sign_change'
+  BookmarkAnnotationSign: 'yellow_orange'
+  BookmarkLine: 'ui2_blue'
+  BookmarkAnnotationLine: 'ui2_blue'
+
 Cmp:
   # CmpItemAbbr: '#ff0000'
   # The abbr field.
