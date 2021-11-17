@@ -343,14 +343,11 @@ Buffer:
   BufferInactiveTarget: 'red alt_bg b'
 
 StatusLine:
-  StatusLine: 'alt_bg'
-  StatusLineNC: 'alt_bg'
-  # StatusLineSeparator: 'alt_bg'
-  # StatusLineTerm: 'alt_bg'
-  # StatusLineTermNC: 'alt_bg'
-  StatusLineSeparator: '#ff00ff'
-  StatusLineTerm: '#ff00ff'
-  StatusLineTermNC: '#ff00ff'
+  StatusLine: 'alt_bg fg'
+  StatusLineNC: 'alt_bg fg'
+  StatusLineSeparator: 'alt_bg'
+  StatusLineTerm: 'alt_bg'
+  StatusLineTermNC: 'alt_bg'
 
 IndentBlankline:
   IndentBlanklineContextChar: 'context'
