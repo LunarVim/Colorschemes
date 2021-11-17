@@ -343,8 +343,8 @@ Buffer:
   BufferInactiveTarget: 'red alt_bg b'
 
 StatusLine:
-  StatusLine: 'alt_bg fg'
-  StatusLineNC: 'alt_bg fg'
+  StatusLine: 'alt_bg gray'
+  StatusLineNC: 'alt_bg gray'
   StatusLineSeparator: 'alt_bg'
   StatusLineTerm: 'alt_bg'
   StatusLineTermNC: 'alt_bg'
