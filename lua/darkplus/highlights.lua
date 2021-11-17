@@ -48,7 +48,7 @@ local highlights = {
 		Title = {fg = C.blue, style = "bold", },
 		ErrorMsg = {fg = C.error_red, bg = C.bg, style = "bold", },
 		Search = {fg = C.light_gray, bg = C.search_blue, },
-		IncSearch = {fg = C.search_orange, },
+		IncSearch = {fg = C.light_gray, bg = C.search_blue, },
 		Substitute = {fg = C.light_gray, bg = C.search_orange, },
 		MoreMsg = {fg = C.orange, },
 		Question = {fg = C.orange, },
