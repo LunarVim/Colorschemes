@@ -1,9 +1,9 @@
 local StatusLine = {
-		StatusLine = {fg = C.alt_bg, },
-		StatusLineNC = {fg = C.alt_bg, },
-		StatusLineSeparator = {fg = C.alt_bg, },
-		StatusLineTerm = {fg = C.alt_bg, },
-		StatusLineTermNC = {fg = C.alt_bg, },
+		StatusLine = {fg = "#ff00ff", },
+		StatusLineNC = {fg = "#ff00ff", },
+		StatusLineSeparator = {fg = "#ff00ff", },
+		StatusLineTerm = {fg = "#ff00ff", },
+		StatusLineTermNC = {fg = "#ff00ff", },
 }
 
 return StatusLine
