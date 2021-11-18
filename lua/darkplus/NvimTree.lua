@@ -6,7 +6,9 @@ local NvimTree = {
 		NvimTreeFolderName = {fg = C.light_gray, },
 		NvimTreeOpenedFolderName = {fg = C.light_gray, style = "bold,italic", },
 		NvimTreeImageFile = {fg = C.light_gray, },
-		NvimTreeSpecialFile = {fg = "#FF5252", },
+		NvimTreeSpecialFile = {fg = C.yellow_orange, },
+		NvimTreeEndOfBuffer = {fg = C.tree_gray, },
+		NvimTreeCursorLine = {bg = "#2A2D2E", },
 		NvimTreeGitStaged = {fg = C.tree_sign_add, },
 		NvimTreeGitNew = {fg = C.tree_sign_add, },
 		NvimTreeGitRenamed = {fg = C.tree_sign_add, },
@@ -15,7 +17,7 @@ local NvimTree = {
 		NvimTreeGitDirty = {fg = C.tree_sign_change, },
 		NvimTreeSymlink = {fg = C.cyan, },
 		NvimTreeRootFolder = {fg = C.fg, style = "bold", },
-		NvimTreeExecFile = {fg = C.light_green, },
+		NvimTreeExecFile = {fg = "#9FBA89", },
 }
 
 return NvimTree

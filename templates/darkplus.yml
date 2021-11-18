@@ -308,7 +308,11 @@ NvimTree:
   NvimTreeFolderName: 'light_gray'
   NvimTreeOpenedFolderName: 'light_gray - bi'
   NvimTreeImageFile: 'light_gray'
-  NvimTreeSpecialFile: '#FF5252'
+  NvimTreeSpecialFile: 'yellow_orange'
+  NvimTreeEndOfBuffer: 'tree_gray'
+  NvimTreeCursorLine: '- #2A2D2E'
+
+  # NvimTreeIndentMarker: '#585858'
 
   NvimTreeGitStaged: 'tree_sign_add'
   NvimTreeGitNew: 'tree_sign_add'
@@ -319,7 +323,7 @@ NvimTree:
 
   NvimTreeSymlink: 'cyan'
   NvimTreeRootFolder: 'fg - b'
-  NvimTreeExecFile: 'light_green'
+  NvimTreeExecFile: '#9FBA89'
 
 Lir:
   LirFloatNormal: "light_gray alt_bg"
