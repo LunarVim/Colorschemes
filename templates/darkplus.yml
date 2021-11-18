@@ -305,9 +305,9 @@ NvimTree:
   NvimTreeIndentMarker: 'tree_gray'
   NvimTreeNormal: 'light_gray tree_gray'
   NvimTreeVertSplit: 'alt_bg alt_bg'
-  NvimTreeFolderName: 'folder_blue'
-  NvimTreeOpenedFolderName: 'folder_blue - bi'
-  NvimTreeImageFile: '#26A69A'
+  NvimTreeFolderName: 'light_gray'
+  NvimTreeOpenedFolderName: 'light_gray - bi'
+  NvimTreeImageFile: 'light_gray'
   NvimTreeSpecialFile: '#FBC02D'
 
   NvimTreeGitStaged: 'tree_sign_add'
