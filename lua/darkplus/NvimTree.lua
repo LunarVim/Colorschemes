@@ -6,7 +6,7 @@ local NvimTree = {
 		NvimTreeFolderName = {fg = C.light_gray, },
 		NvimTreeOpenedFolderName = {fg = C.light_gray, style = "bold,italic", },
 		NvimTreeImageFile = {fg = C.light_gray, },
-		NvimTreeSpecialFile = {fg = "#FBC02D", },
+		NvimTreeSpecialFile = {fg = "#FF5252", },
 		NvimTreeGitStaged = {fg = C.tree_sign_add, },
 		NvimTreeGitNew = {fg = C.tree_sign_add, },
 		NvimTreeGitRenamed = {fg = C.tree_sign_add, },
