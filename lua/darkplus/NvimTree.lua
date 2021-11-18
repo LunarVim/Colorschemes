@@ -1,6 +1,6 @@
 local NvimTree = {
 		NvimTreeFolderIcon = {fg = C.folder_blue, },
-		NvimTreeIndentMarker = {fg = C.tree_gray, },
+		NvimTreeIndentMarker = {fg = "#c5c5c5", },
 		NvimTreeNormal = {fg = C.light_gray, bg = C.tree_gray, },
 		NvimTreeVertSplit = {fg = C.alt_bg, bg = C.alt_bg, },
 		NvimTreeFolderName = {fg = C.light_gray, },

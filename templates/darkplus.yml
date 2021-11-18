@@ -302,7 +302,7 @@ Telescope:
 
 NvimTree:
   NvimTreeFolderIcon: 'folder_blue'
-  NvimTreeIndentMarker: 'tree_gray'
+  NvimTreeIndentMarker: '#c5c5c5'
   NvimTreeNormal: 'light_gray tree_gray'
   NvimTreeVertSplit: 'alt_bg alt_bg'
   NvimTreeFolderName: 'light_gray'
