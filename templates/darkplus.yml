@@ -18,10 +18,13 @@ palette:
   gray: '#808080'
   dark_gray: '#3e3e3e'
   context: '#606060'
-  light_gray: '#c8c9c1'
+  # light_gray: '#c8c9c1'
+  light_gray: '#cccccc'
+  tree_gray: '#252526'
   blue: '#569CD6'
   vivid_blue: '#4FC1FF'
   dark_blue: '#223E55'
+  folder_blue: '#1976D2'
   light_blue: '#9CDCFE'
   green: '#6A9955'
   cyan: '#4EC9B0'
@@ -33,6 +36,7 @@ palette:
   yellow_orange: '#D7BA7D'
   purple: '#C586C0'
   magenta: '#D16D9E'
+
 
   cursor_fg: '#515052'
   cursor_bg: '#AEAFAD'
@@ -297,14 +301,14 @@ Telescope:
   TelescopeBorder: 'blue bg'
 
 NvimTree:
-  NvimTreeFolderIcon: 'blue'
-  NvimTreeIndentMarker: 'gray'
-  NvimTreeNormal: 'light_gray alt_bg'
+  NvimTreeFolderIcon: 'folder_blue'
+  NvimTreeIndentMarker: 'tree_gray'
+  NvimTreeNormal: 'light_gray tree_gray'
   NvimTreeVertSplit: 'alt_bg alt_bg'
-  NvimTreeFolderName: 'blue'
-  NvimTreeOpenedFolderName: 'cyan - i'
-  NvimTreeImageFile: 'purple'
-  NvimTreeSpecialFile: 'orange'
+  NvimTreeFolderName: 'folder_blue'
+  NvimTreeOpenedFolderName: 'folder_blue - bi'
+  NvimTreeImageFile: '#26A69A'
+  NvimTreeSpecialFile: '#FBC02D'
 
   NvimTreeGitStaged: 'tree_sign_add'
   NvimTreeGitNew: 'tree_sign_add'
@@ -315,7 +319,7 @@ NvimTree:
 
   NvimTreeSymlink: 'cyan'
   NvimTreeRootFolder: 'fg - b'
-  NvimTreeExecFile: 'green'
+  NvimTreeExecFile: 'light_green'
 
 Lir:
   LirFloatNormal: "light_gray alt_bg"
