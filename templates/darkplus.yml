@@ -307,6 +307,7 @@ NvimTree:
   NvimTreeVertSplit: 'alt_bg alt_bg'
   NvimTreeFolderName: 'light_gray'
   NvimTreeOpenedFolderName: 'light_gray - bi'
+  NvimTreeEmptyFolderName: 'gray - i'
   NvimTreeImageFile: 'light_gray'
   NvimTreeSpecialFile: 'light_red'
   NvimTreeEndOfBuffer: 'tree_gray'

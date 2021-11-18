@@ -5,6 +5,7 @@ local NvimTree = {
 		NvimTreeVertSplit = {fg = C.alt_bg, bg = C.alt_bg, },
 		NvimTreeFolderName = {fg = C.light_gray, },
 		NvimTreeOpenedFolderName = {fg = C.light_gray, style = "bold,italic", },
+		NvimTreeEmptyFolderName = {fg = C.gray, style = "italic", },
 		NvimTreeImageFile = {fg = C.light_gray, },
 		NvimTreeSpecialFile = {fg = C.light_red, },
 		NvimTreeEndOfBuffer = {fg = C.tree_gray, },
