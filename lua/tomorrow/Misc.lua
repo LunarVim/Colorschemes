@@ -17,6 +17,7 @@ local Misc = {
 		cssTSProperty = {fg = C.yellow, },
 		cssTSString = {fg = C.orange, },
 		cssTSType = {fg = C.red, },
+		javascriptTSKeyword = {fg = C.blue, },
 }
 
 return Misc

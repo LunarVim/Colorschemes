@@ -444,6 +444,9 @@ Misc:
   cssTSString: 'orange'
   cssTSType: 'red' 
 
+  ## Javascript
+  javascriptTSKeyword: 'blue'
+
 
 
 
