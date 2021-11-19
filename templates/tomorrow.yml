@@ -1,0 +1,695 @@
+information:
+  name: tomorrow
+  background: dark
+  author: 'Christian Chiarulli <chrisatmachine@gmail.com>'
+
+# 				<string>#CED1CF</string>
+# 				<string>#969896</string>
+# 				<key>caret</key>
+# 				<key>foreground</key>
+# 				<key>invisibles</key>
+# 				<string>#4B4E55</string>
+# 				<key>lineHighlight</key>
+# 				<string>#282A2E</string>
+# 				<key>selection</key>
+# 				<string>#373B41</string>
+# 				<key>fontStyle</key>
+# 				<string></string>
+# 				<key>foreground</key>
+# 				<string>#CED2CF</string>
+# 				<key>foreground</key>
+# 				<string>#CED2CF</string>
+# 				<key>fontStyle</key>
+# 				<string></string>
+# 				<key>foreground</key>
+# 				<string>#CED2CF</string>
+
+palette:
+  fg: '#CED2CF'
+  bg: '#1D1F21'
+  # bg: '#1C1F20'
+
+  alt_bg: '#282A2E'
+  dark: '#222222'
+  accent: '#AEAFAD'
+  popup_back: '#2D2D30'
+  search_orange: '#613214'
+
+  search_blue: '#5e81ac'
+  white: '#D8DEE9'
+  gray: '#969896'
+  dark_gray: '#373B41'
+  context: '#4B4E55'
+  # light_gray: '#c8c9c1'
+  light_gray: '#C5C8C6'
+  tree_gray: '#282A2E'
+  blue: '#81A2BE'
+  vivid_blue: '#82A3BF'
+  dark_blue: '#223E55'
+  folder_blue: '#42A5F5'
+  light_blue: '#9CDCFE'
+  green: '#B5BD68'
+  cyan: '#8ABEB7'
+  light_green: '#B5CEA8'
+  red: '#CC6666'
+  orange: '#DE935F'
+  light_red: '#DF5F5F'
+  yellow: '#F0C674'
+  yellow_orange: '#D7BA7D'
+  purple: '#B294BB'
+  magenta: '#B798BF'
+
+
+  cursor_fg: '#515052'
+  cursor_bg: '#AEAFAD'
+
+  sign_add: '#587c0c'
+  sign_change: '#0c7d9d'
+  sign_delete: '#94151b'
+  tree_sign_add: "#73C991"
+  tree_sign_change: "#CCA700"
+
+  error_red: '#F44747'
+  warning_orange: '#ff8800'
+  info_yellow: '#FFCC66'
+  hint_blue: '#4FC1FF'
+
+  purple_test: '#ff007c'
+  cyan_test: '#00dfff'
+
+  # aViolet: '#646695'
+  # UiBlue: '#0451A5'
+
+  ui_blue: '#264F78'
+  ui2_blue: '#042E48'
+  ui3_blue: '#2082C9'
+
+highlights:
+  Normal: 'fg bg'
+  SignColumn: '- bg'
+  MsgArea: 'fg bg'
+  ModeMsg: 'fg bg'
+  MsgSeparator: 'fg bg'
+  SpellBad: 'light_red - u'
+  SpellCap: 'yellow - u'
+  SpellLocal: 'green - u'
+  SpellRare: 'purple - u'
+  NormalNC: 'fg bg'
+  Pmenu: 'light_gray popup_back'
+  PmenuSel: '- ui2_blue'
+  WildMenu: 'fg ui2_blue'
+  CursorLineNr: 'light_gray - b'
+  Comment: 'green - i'
+  Folded: 'accent alt_bg'
+  FoldColumn: 'accent alt_bg'
+  LineNr: 'gray -'
+  FloatBoder: 'gray alt_bg'
+  Whitespace: 'bg -'
+  VertSplit: 'bg gray'
+  CursorLine: '- dark'
+  CursorColumn: '- dark'
+  ColorColumn: '- dark'
+  NormalFloat: '- dark'
+  Visual: '- ui_blue'
+  VisualNOS: '- alt_bg'
+  WarningMsg: 'error_red bg'
+  # DiffText: '- -'
+  DiffAdd: 'alt_bg sign_add'
+  DiffChange: 'alt_bg sign_change u'
+  DiffDelete: 'alt_bg sign_delete'
+  QuickFixLine: '- ui2_blue'
+  PmenuSbar: '- alt_bg'
+  PmenuThumb: '- gray'
+  MatchWord: '- - u'
+  MatchParen: 'hint_blue bg u'
+  MatchWordCur: '- - u'
+  MatchParenCur: '- - u'
+  Cursor: 'cursor_fg cursor_bg'
+  lCursor: 'cursor_fg cursor_bg'
+  CursorIM: 'cursor_fg cursor_bg'
+  TermCursor: 'cursor_fg cursor_bg'
+  TermCursorNC: 'cursor_fg cursor_bg'
+  Conceal: 'accent'
+  Directory: 'blue'
+  SpecialKey: 'blue - b'
+  Title: 'blue - b'
+  ErrorMsg: 'error_red bg b'
+  Search: 'light_gray search_blue'
+  IncSearch: 'light_gray search_blue'
+  Substitute: 'light_gray search_orange'
+  MoreMsg: 'orange'
+  Question: 'orange'
+  EndOfBuffer: 'bg'
+  NonText: 'bg'
+  Variable: 'light_blue'
+  String: 'orange'
+  Character: 'orange'
+  Constant: 'vivid_blue'
+  Number: 'light_green'
+  Boolean: 'blue'
+  Float: 'light_green'
+  Identifier: 'light_blue'
+  Function: 'yellow'
+  Operator: 'fg'
+  Type: 'blue'
+  StorageClass: 'blue'
+  Structure: 'blue'
+  Typedef: 'blue'
+  Keyword: 'purple'
+  Statement: 'purple'
+  Conditional: 'blue'
+  Repeat: 'purple'
+  Label: 'purple'
+  Exception: 'purple'
+  Include: 'purple'
+  PreProc: 'purple'
+  Define: 'purple'
+  Macro: 'purple'
+  PreCondit: 'purple'
+  Special: 'orange'
+  SpecialChar: 'white'
+  Tag: 'blue'
+  Debug: 'red'
+  Delimiter: 'gray -'
+  SpecialComment: 'gray'
+  Underlined: '- - u'
+  Bold: '- - b'
+  Italic: '- - i'
+  Ignore: 'cyan bg b'
+  Todo: 'red bg b'
+  Error: 'error_red bg b'
+  TabLine: 'light_gray alt_bg'
+  TabLineSel: 'white alt_bg'
+  TabLineFill: 'white alt_bg'
+
+Treesitter:
+  TSComment: 'green'
+  TSAnnotation: 'yellow'
+  TSAttribute: 'cyan'
+  TSConstructor: 'cyan'
+  TSType: 'cyan'
+  TSTypeBuiltin: 'blue'
+  TSConditional: 'blue'
+  TSException: 'purple'
+  TSInclude: 'purple'
+  TSKeywordReturn: 'purple'
+  TSKeyword: 'blue'
+  TSKeywordFunction: 'blue'
+  TSLabel: 'light_blue'
+  TSNamespace: 'cyan'
+  TSRepeat: 'purple'
+  TSConstant: 'vivid_blue'
+  TSConstBuiltin: 'vivid_blue'
+  TSFloat: 'light_green'
+  TSNumber: 'light_green'
+  TSBoolean: 'blue'
+  TSCharacter: 'orange'
+  TSError: 'error_red'
+  TSFunction: 'yellow'
+  TSFuncBuiltin: 'yellow'
+  TSMethod: 'yellow'
+  TSConstMacro: 'cyan'
+  TSFuncMacro: 'yellow'
+  TSVariable: 'light_blue'
+  TSVariableBuiltin: 'cyan'
+  TSProperty: 'light_blue'
+  TSOperator: 'fg'
+  TSField: 'light_blue'
+  TSParameter: 'light_blue'
+  TSParameterReference: 'light_blue'
+  TSSymbol: 'light_blue'
+  TSText: 'fg'
+  TSPunctDelimiter: 'fg -'
+  TSTagDelimiter: 'gray'
+  TSPunctBracket: 'fg -'
+  TSPunctSpecial: 'fg'
+  TSString: 'orange'
+  TSStringRegex: 'orange'
+  TSStringEscape: 'yellow_orange'
+  TSTag: 'blue'
+  TSEmphasis: '- - i'
+  TSUnderline: '- - u'
+  # TSWarning: 'red - bold'
+  # TSStrike: '- - s'
+  TSTitle: 'fg - b'
+  TSLiteral: 'yellow_orange'
+  TSURI: 'yellow_orange - u'
+  TSKeywordOperator: 'blue'
+  TSStructure: 'light_blue'
+  TSStrong: 'yellow_orange'
+  TSQueryLinterError: 'warning_orange'
+
+markdown:
+  markdownBlockquote: 'green'
+  markdownCode: 'orange'
+  markdownCodeBlock: 'orange'
+  markdownCodeDelimiter: 'orange'
+  markdownH1: 'vivid_blue'
+  markdownH2: 'vivid_blue'
+  markdownH3: 'vivid_blue'
+  markdownH4: 'vivid_blue'
+  markdownH5: 'vivid_blue'
+  markdownH6: 'vivid_blue'
+  markdownHeadingDelimiter: 'vivid_blue'
+  markdownHeadingRule: 'fg - b'
+  markdownId: 'purple'
+  markdownIdDeclaration: 'blue'
+  markdownIdDelimiter: 'light_gray'
+  markdownLinkDelimiter: 'light_gray'
+  markdownBold: 'blue - b'
+  markdownItalic: '- - i'
+  markdownBoldItalic: 'yellow_orange - bi'
+  markdownListMarker: 'blue'
+  markdownOrderedListMarker: 'blue'
+  markdownRule: 'accent'
+  markdownUrl: 'cyan - u'
+  markdownLinkText: 'blue'
+  markdownFootnote: 'orange'
+  markdownFootnoteDefinition : 'orange'
+  markdownEscape  : 'yellow_orange'
+
+Whichkey:
+  WhichKey: 'purple'
+  WhichKeySeperator: 'green'
+  WhichKeyGroup: 'blue'
+  WhichKeyDesc: 'light_blue'
+  WhichKeyFloat: '- dark'
+
+Git:
+  SignAdd: 'sign_add'
+  SignChange: 'sign_change'
+  SignDelete: 'sign_delete'
+  GitSignsAdd: 'sign_add'
+  GitSignsChange: 'sign_change'
+  GitSignsDelete: 'sign_delete'
+
+LSP:
+  LspDiagnosticsDefaultError: 'error_red'
+  LspDiagnosticsDefaultWarning: 'warning_orange'
+  LspDiagnosticsDefaultInformation: 'info_yellow'
+  LspDiagnosticsDefaultHint: 'hint_blue'
+  LspDiagnosticsVirtualTextError: 'error_red'
+  LspDiagnosticsVirtualTextWarning: 'warning_orange'
+  LspDiagnosticsVirtualTextInformation: 'info_yellow'
+  LspDiagnosticsVirtualTextHint: 'hint_blue'
+  LspDiagnosticsFloatingError: 'error_red'
+  LspDiagnosticsFloatingWarning: 'warning_orange'
+  LspDiagnosticsFloatingInformation: 'info_yellow'
+  LspDiagnosticsFloatingHint: 'hint_blue'
+  LspDiagnosticsSignError: 'error_red'
+  LspDiagnosticsSignWarning: 'warning_orange'
+  LspDiagnosticsSignInformation: 'info_yellow'
+  LspDiagnosticsSignHint: 'hint_blue'
+  LspDiagnosticsError: 'error_red'
+  LspDiagnosticsWarning: 'warning_orange'
+  LspDiagnosticsInformation: 'info_yellow'
+  LspDiagnosticsHint: 'hint_blue'
+  LspDiagnosticsUnderlineError: '- - u'
+  LspDiagnosticsUnderlineWarning: '- - u'
+  LspDiagnosticsUnderlineInformation: '- - u'
+  LspDiagnosticsUnderlineHint: '- - u'
+
+  LspReferenceRead: '- #36383F'
+  LspReferenceText: '- #36383F'
+  LspReferenceWrite: '- #36383f'
+
+Quickscope:
+  QuickScopePrimary: 'purple_test - u'
+  QuickScopeSecondary: 'cyan_test - u'
+
+Telescope:
+  TelescopeSelection: 'hint_blue'
+  TelescopeMatching: 'info_yellow - b'
+  TelescopeBorder: 'blue bg'
+
+NvimTree:
+  NvimTreeFolderIcon: 'folder_blue'
+  NvimTreeIndentMarker: '#c5c5c5'
+  # NvimTreeIndentMarker: '#39393A'
+  NvimTreeNormal: 'light_gray tree_gray'
+  NvimTreeVertSplit: 'alt_bg alt_bg'
+  NvimTreeFolderName: 'light_gray'
+  NvimTreeOpenedFolderName: 'light_gray - bi'
+  NvimTreeEmptyFolderName: 'gray - i'
+  NvimTreeGitIgnored: 'gray - i'
+  NvimTreeImageFile: 'light_gray'
+  NvimTreeSpecialFile: 'light_red'
+  NvimTreeEndOfBuffer: 'tree_gray'
+  NvimTreeCursorLine: '- #2A2D2E'
+  NvimTreeGitignoreIcon: '#E64A19'
+
+  # NvimTreeIndentMarker: '#585858'
+
+  NvimTreeGitStaged: 'tree_sign_add'
+  NvimTreeGitNew: 'tree_sign_add'
+  NvimTreeGitRenamed: 'tree_sign_add'
+  NvimTreeGitDeleted: 'sign_delete'
+  NvimTreeGitMerge: 'tree_sign_change'
+  NvimTreeGitDirty: 'tree_sign_change'
+
+  NvimTreeSymlink: 'cyan'
+  NvimTreeRootFolder: 'fg - b'
+  NvimTreeExecFile: '#9FBA89'
+
+Lir:
+  LirFloatNormal: "light_gray alt_bg"
+  LirDir: "blue"
+  LirSymLink: "cyan"
+  LirEmptyDirText: "blue"
+
+Buffer:
+  BufferCurrent: 'fg bg'
+  BufferCurrentIndex: 'fg bg'
+  BufferCurrentMod: 'info_yellow bg'
+  BufferCurrentSign: 'hint_blue bg'
+  BufferCurrentTarget: 'red bg b'
+
+  BufferVisible: 'fg bg'
+  BufferVisibleIndex: 'fg bg'
+  BufferVisibleMod: 'info_yellow bg'
+  BufferVisibleSign: 'gray bg'
+  BufferVisibleTarget: 'red bg b'
+
+  BufferInactive: 'gray alt_bg'
+  BufferInactiveIndex: 'gray alt_bg'
+  BufferInactiveMod: 'info_yellow alt_bg'
+  BufferInactiveSign: 'gray alt_bg'
+  BufferInactiveTarget: 'red alt_bg b'
+
+StatusLine:
+  StatusLine: 'alt_bg gray'
+  StatusLineNC: 'alt_bg gray'
+  StatusLineSeparator: 'alt_bg'
+  StatusLineTerm: 'alt_bg'
+  StatusLineTermNC: 'alt_bg'
+
+IndentBlankline:
+  IndentBlanklineContextChar: 'context'
+  IndentBlanklineContextStart: '- - u'
+  IndentBlanklineChar: 'dark_gray'
+  IndentBlanklineSpaceChar: 'cyan_test'
+  IndentBlanklineSpaceCharBlankline: 'info_yellow'
+
+Dashboard:
+  DashboardHeader: 'blue'
+  DashboardCenter: 'purple'
+  DashboardFooter: 'cyan'
+
+DiffView:
+  DiffViewNormal: 'gray alt_bg'
+  DiffviewStatusAdded: 'sign_add'
+  DiffviewStatusModified: 'sign_change'
+  DiffviewStatusRenamed: 'sign_change'
+  DiffviewStatusDeleted: 'sign_delete'
+  DiffviewFilePanelInsertion: 'sign_add'
+  DiffviewFilePanelDeletion: 'sign_delete'
+  DiffviewVertSplit: '- bg'
+
+Bookmarks:
+  BookmarkSign: 'sign_change'
+  BookmarkAnnotationSign: 'yellow_orange'
+  BookmarkLine: 'ui2_blue'
+  BookmarkAnnotationLine: 'ui2_blue'
+
+Bqf:
+  # BqfPreviewFloat: 'fg'
+  BqfPreviewBorder: 'fg'
+  # BqfPreviewCursor: ''
+  BqfPreviewRange: '- ui2_blue'
+  # BqfSign: ''
+
+Cmp:
+  # CmpItemAbbr: '#ff0000'
+  # The abbr field.
+
+  CmpItemAbbrDeprecated: '#ui3_blue'
+  # The deprecated item's abbr field.
+
+  CmpItemAbbrMatch: 'ui3_blue'
+  # The matched characters highlight.
+
+  CmpItemAbbrMatchFuzzy: 'ui3_blue'
+  # The fuzzy matched characters highlight.
+
+  CmpItemKind: 'purple'
+  # The kind field.
+
+  # CmpItemMenu: '#f0f00f'
+  # The menu field.
+  #
+SymbolOutline:
+  SymbolsOutlineConnector: 'gray'
+  FocusedSymbol: '- #36383F'
+
+Misc:
+  diffAdded: 'sign_add'
+  diffRemoved: 'sign_delete'
+  diffFileId: 'blue - br'
+  diffFile: 'alt_bg'
+  diffNewFile: 'green'
+  diffOldFile: 'red'
+  debugPc: '- cyan'
+  debugBreakpoint: 'red - r'
+
+  CodiVirtualText: 'hint_blue'
+
+  CompeDocumentation: '- alt_bg'
+
+  ## XML
+  xmlTag: 'cyan'
+  xmlTagName: 'cyan'
+
+  ## YAML
+  xmlEndTag: 'cyan'
+  yamlPlainScalar: 'orange'
+  yamlTSField: 'blue'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# <?xml version="1.0" encoding="UTF-8"?>
+# <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+# <plist version="1.0">
+# <dict>
+# 	<key>comment</key>
+# 	<string>http://chriskempson.com</string>
+# 	<key>name</key>
+# 	<string>Tomorrow Night</string>
+# 	<key>settings</key>
+# 	<array>
+# 		<dict>
+# 			<key>settings</key>
+# 			<dict>
+# 				<key>background</key>
+# 				<string>#1D1F21</string>
+# 				<key>caret</key>
+# 				<string>#AEAFAD</string>
+# 				<key>foreground</key>
+# 				<string>#C5C8C6</string>
+# 				<key>invisibles</key>
+# 				<string>#4B4E55</string>
+# 				<key>lineHighlight</key>
+# 				<string>#282A2E</string>
+# 				<key>selection</key>
+# 				<string>#373B41</string>
+# 			</dict>
+# 		</dict>
+# 		<dict>
+# 			<key>name</key>
+# 			<string>Comment</string>
+# 			<key>scope</key>
+# 			<string>comment</string>
+# 			<key>settings</key>
+# 			<dict>
+# 				<key>foreground</key>
+# 				<string>#969896</string>
+# 			</dict>
+# 		</dict>
+# 		<dict>
+# 			<key>name</key>
+# 			<string>Foreground</string>
+# 			<key>scope</key>
+# 			<string>keyword.operator.class, constant.other, source.php.embedded.line</string>
+# 			<key>settings</key>
+# 			<dict>
+# 				<key>fontStyle</key>
+# 				<string></string>
+# 				<key>foreground</key>
+# 				<string>#CED1CF</string>
+# 			</dict>
+# 		</dict>
+# 		<dict>
+# 			<key>name</key>
+# 			<string>Variable, String Link, Regular Expression, Tag Name</string>
+# 			<key>scope</key>
+# 			<string>variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag</string>
+# 			<key>settings</key>
+# 			<dict>
+# 				<key>foreground</key>
+# 				<string>#CC6666</string>
+# 			</dict>
+# 		</dict>
+# 		<dict>
+# 			<key>name</key>
+# 			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
+# 			<key>scope</key>
+# 			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded, keyword.other.unit</string>
+# 			<key>settings</key>
+# 			<dict>
+# 				<key>fontStyle</key>
+# 				<string></string>
+# 				<key>foreground</key>
+# 				<string>#DE935F</string>
+# 			</dict>
+# 		</dict>
+# 		<dict>
+# 			<key>name</key>
+# 			<string>Class, Support</string>
+# 			<key>scope</key>
+# 			<string>entity.name.class, entity.name.type.class, support.type, support.class</string>
+# 			<key>settings</key>
+# 			<dict>
+# 				<key>fontStyle</key>
+# 				<string></string>
+# 				<key>foreground</key>
+# 				<string>#F0C674</string>
+# 			</dict>
+# 		</dict>
+# 		<dict>
+# 			<key>name</key>
+# 			<string>String, Symbols, Inherited Class, Markup Heading</string>
+# 			<key>scope</key>
+# 			<string>string, constant.other.symbol, entity.other.inherited-class, markup.heading</string>
+# 			<key>settings</key>
+# 			<dict>
+# 				<key>fontStyle</key>
+# 				<string></string>
+# 				<key>foreground</key>
+# 				<string>#B5BD68</string>
+# 			</dict>
+# 		</dict>
+# 		<dict>
+# 			<key>name</key>
+# 			<string>Operator, Misc</string>
+# 			<key>scope</key>
+# 			<string>keyword.operator, constant.other.color</string>
+# 			<key>settings</key>
+# 			<dict>
+# 				<key>foreground</key>
+# 				<string>#8ABEB7</string>
+# 			</dict>
+# 		</dict>
+# 		<dict>
+# 			<key>name</key>
+# 			<string>Function, Special Method, Block Level</string>
+# 			<key>scope</key>
+# 			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level</string>
+# 			<key>settings</key>
+# 			<dict>
+# 				<key>fontStyle</key>
+# 				<string></string>
+# 				<key>foreground</key>
+# 				<string>#81A2BE</string>
+# 			</dict>
+# 		</dict>
+# 		<dict>
+# 			<key>name</key>
+# 			<string>Keyword, Storage</string>
+# 			<key>scope</key>
+# 			<string>keyword, storage, storage.type, entity.name.tag.css</string>
+# 			<key>settings</key>
+# 			<dict>
+# 				<key>fontStyle</key>
+# 				<string></string>
+# 				<key>foreground</key>
+# 				<string>#B294BB</string>
+# 			</dict>
+# 		</dict>
+# 		<dict>
+# 			<key>name</key>
+# 			<string>Invalid</string>
+# 			<key>scope</key>
+# 			<string>invalid</string>
+# 			<key>settings</key>
+# 			<dict>
+# 				<key>background</key>
+# 				<string>#DF5F5F</string>
+# 				<key>fontStyle</key>
+# 				<string></string>
+# 				<key>foreground</key>
+# 				<string>#CED2CF</string>
+# 			</dict>
+# 		</dict>
+# 		<dict>
+# 			<key>name</key>
+# 			<string>Separator</string>
+# 			<key>scope</key>
+# 			<string>meta.separator</string>
+# 			<key>settings</key>
+# 			<dict>
+# 				<key>background</key>
+# 				<string>#82A3BF</string>
+# 				<key>foreground</key>
+# 				<string>#CED2CF</string>
+# 			</dict>
+# 		</dict>
+# 		<dict>
+# 			<key>name</key>
+# 			<string>Deprecated</string>
+# 			<key>scope</key>
+# 			<string>invalid.deprecated</string>
+# 			<key>settings</key>
+# 			<dict>
+# 				<key>background</key>
+# 				<string>#B798BF</string>
+# 				<key>fontStyle</key>
+# 				<string></string>
+# 				<key>foreground</key>
+# 				<string>#CED2CF</string>
+# 			</dict>
+# 		</dict>
+# 	</array>
+# 	<key>uuid</key>
+# 	<string>F96223EB-1A60-4617-92F3-D24D4F13DB09</string>
+# </dict>
+# </plist>
