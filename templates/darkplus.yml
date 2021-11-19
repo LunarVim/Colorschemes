@@ -199,6 +199,7 @@ Treesitter:
   TSText: 'fg'
   TSPunctDelimiter: 'fg -'
   TSTagDelimiter: 'gray'
+  TSTagAttribute: 'light_blue'
   TSPunctBracket: 'fg -'
   TSPunctSpecial: 'fg'
   TSString: 'orange'
