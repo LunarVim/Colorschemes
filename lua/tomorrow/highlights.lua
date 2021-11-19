@@ -70,7 +70,7 @@ local highlights = {
 		Typedef = {fg = C.purple, },
 		Keyword = {fg = C.purple, },
 		Statement = {fg = C.purple, },
-		Conditional = {fg = C.blue, },
+		Conditional = {fg = C.yellow, },
 		Repeat = {fg = C.purple, },
 		Label = {fg = C.purple, },
 		Exception = {fg = C.purple, },
