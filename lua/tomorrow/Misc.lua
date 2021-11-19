@@ -15,6 +15,8 @@ local Misc = {
 		yamlPlainScalar = {fg = C.orange, },
 		yamlTSField = {fg = C.blue, },
 		cssTSProperty = {fg = C.yellow, },
+		cssTSString = {fg = C.orange, },
+		cssTSType = {fg = C.red, },
 }
 
 return Misc
