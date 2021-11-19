@@ -129,7 +129,7 @@ highlights:
   Identifier: 'light_blue'
   Function: 'yellow'
   Operator: 'fg'
-  Type: 'blue'
+  Type: 'cyan'
   StorageClass: 'blue'
   Structure: 'blue'
   Typedef: 'blue'
