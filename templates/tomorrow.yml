@@ -186,7 +186,7 @@ Treesitter:
   TSFuncMacro: 'blue'
   TSVariable: 'red'
   TSVariableBuiltin: 'cyan'
-  TSProperty: 'red'
+  TSProperty: 'yellow'
   TSOperator: 'cyan'
   TSField: 'red'
   TSParameter: 'orange'
