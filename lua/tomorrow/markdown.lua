@@ -17,7 +17,7 @@ local markdown = {
 		markdownLinkDelimiter = {fg = C.light_gray, },
 		markdownBold = {fg = C.blue, style = "bold", },
 		markdownItalic = {style = "italic", },
-		markdownBoldItalic = {fg = C.yellow_orange, style = "bold,italic", },
+		markdownBoldItalic = {fg = C.orange, style = "bold,italic", },
 		markdownListMarker = {fg = C.blue, },
 		markdownOrderedListMarker = {fg = C.blue, },
 		markdownRule = {fg = C.accent, },
@@ -25,7 +25,7 @@ local markdown = {
 		markdownLinkText = {fg = C.blue, },
 		markdownFootnote = {fg = C.orange, },
 		markdownFootnoteDefinition = {fg = C.orange, },
-		markdownEscape = {fg = C.yellow_orange, },
+		markdownEscape = {fg = C.orange, },
 }
 
 return markdown
