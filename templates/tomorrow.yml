@@ -186,7 +186,7 @@ Treesitter:
   TSFuncMacro: 'blue'
   TSVariable: 'red'
   TSVariableBuiltin: 'cyan'
-  TSProperty: 'yellow'
+  TSProperty: 'fg'
   TSOperator: 'cyan'
   TSField: 'red'
   TSParameter: 'orange'
@@ -438,6 +438,9 @@ Misc:
   xmlEndTag: 'cyan'
   yamlPlainScalar: 'orange'
   yamlTSField: 'blue'
+
+  ## CSS
+  cssTSProperty: 'yellow' 
 
 
 
