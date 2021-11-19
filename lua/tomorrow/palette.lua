@@ -17,7 +17,6 @@ local colors = {
 	vivid_blue = "#82A3BF",
 	dark_blue = "#223E55",
 	folder_blue = "#42A5F5",
-	light_blue = "#9CDCFE",
 	green = "#B5BD68",
 	cyan = "#8ABEB7",
 	light_green = "#B5CEA8",

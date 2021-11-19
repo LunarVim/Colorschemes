@@ -3,27 +3,6 @@ information:
   background: dark
   author: 'Christian Chiarulli <chrisatmachine@gmail.com>'
 
-# 				<string>#CED1CF</string>
-# 				<string>#969896</string>
-# 				<key>caret</key>
-# 				<key>foreground</key>
-# 				<key>invisibles</key>
-# 				<string>#4B4E55</string>
-# 				<key>lineHighlight</key>
-# 				<string>#282A2E</string>
-# 				<key>selection</key>
-# 				<string>#373B41</string>
-# 				<key>fontStyle</key>
-# 				<string></string>
-# 				<key>foreground</key>
-# 				<string>#CED2CF</string>
-# 				<key>foreground</key>
-# 				<string>#CED2CF</string>
-# 				<key>fontStyle</key>
-# 				<string></string>
-# 				<key>foreground</key>
-# 				<string>#CED2CF</string>
-
 palette:
   fg: '#CED2CF'
   bg: '#1D1F21'
@@ -40,14 +19,12 @@ palette:
   gray: '#969896'
   dark_gray: '#373B41'
   context: '#4B4E55'
-  # light_gray: '#c8c9c1'
   light_gray: '#C5C8C6'
   tree_gray: '#282A2E'
   blue: '#81A2BE'
   vivid_blue: '#82A3BF'
   dark_blue: '#223E55'
   folder_blue: '#42A5F5'
-  light_blue: '#9CDCFE'
   green: '#B5BD68'
   cyan: '#8ABEB7'
   light_green: '#B5CEA8'
@@ -99,7 +76,7 @@ highlights:
   PmenuSel: '- ui2_blue'
   WildMenu: 'fg ui2_blue'
   CursorLineNr: 'light_gray - b'
-  Comment: 'green - i'
+  Comment: 'gray - i'
   Folded: 'accent alt_bg'
   FoldColumn: 'accent alt_bg'
   LineNr: 'gray -'
@@ -141,14 +118,14 @@ highlights:
   Question: 'orange'
   EndOfBuffer: 'bg'
   NonText: 'bg'
-  Variable: 'light_blue'
+  Variable: 'red'
   String: 'orange'
   Character: 'orange'
   Constant: 'vivid_blue'
   Number: 'light_green'
   Boolean: 'blue'
   Float: 'light_green'
-  Identifier: 'light_blue'
+  Identifier: 'red'
   Function: 'yellow'
   Operator: 'fg'
   Type: 'blue'
@@ -168,7 +145,7 @@ highlights:
   PreCondit: 'purple'
   Special: 'orange'
   SpecialChar: 'white'
-  Tag: 'blue'
+  Tag: 'red'
   Debug: 'red'
   Delimiter: 'gray -'
   SpecialComment: 'gray'
@@ -183,7 +160,7 @@ highlights:
   TabLineFill: 'white alt_bg'
 
 Treesitter:
-  TSComment: 'green'
+  TSComment: 'gray'
   TSAnnotation: 'yellow'
   TSAttribute: 'cyan'
   TSConstructor: 'cyan'
@@ -195,7 +172,7 @@ Treesitter:
   TSKeywordReturn: 'purple'
   TSKeyword: 'blue'
   TSKeywordFunction: 'blue'
-  TSLabel: 'light_blue'
+  TSLabel: 'red'
   TSNamespace: 'cyan'
   TSRepeat: 'purple'
   TSConstant: 'vivid_blue'
@@ -210,14 +187,14 @@ Treesitter:
   TSMethod: 'yellow'
   TSConstMacro: 'cyan'
   TSFuncMacro: 'yellow'
-  TSVariable: 'light_blue'
+  TSVariable: 'red'
   TSVariableBuiltin: 'cyan'
-  TSProperty: 'light_blue'
+  TSProperty: 'yellow'
   TSOperator: 'fg'
-  TSField: 'light_blue'
-  TSParameter: 'light_blue'
-  TSParameterReference: 'light_blue'
-  TSSymbol: 'light_blue'
+  TSField: 'red'
+  TSParameter: 'red'
+  TSParameterReference: 'red'
+  TSSymbol: 'red'
   TSText: 'fg'
   TSPunctDelimiter: 'fg -'
   TSTagDelimiter: 'gray'
@@ -226,7 +203,7 @@ Treesitter:
   TSString: 'orange'
   TSStringRegex: 'orange'
   TSStringEscape: 'yellow_orange'
-  TSTag: 'blue'
+  TSTag: 'red'
   TSEmphasis: '- - i'
   TSUnderline: '- - u'
   # TSWarning: 'red - bold'
@@ -235,7 +212,7 @@ Treesitter:
   TSLiteral: 'yellow_orange'
   TSURI: 'yellow_orange - u'
   TSKeywordOperator: 'blue'
-  TSStructure: 'light_blue'
+  TSStructure: 'red'
   TSStrong: 'yellow_orange'
   TSQueryLinterError: 'warning_orange'
 
@@ -272,7 +249,7 @@ Whichkey:
   WhichKey: 'purple'
   WhichKeySeperator: 'green'
   WhichKeyGroup: 'blue'
-  WhichKeyDesc: 'light_blue'
+  WhichKeyDesc: 'red'
   WhichKeyFloat: '- dark'
 
 Git:
