@@ -442,3 +442,7 @@ Misc:
   xmlEndTag: 'cyan'
   yamlPlainScalar: 'orange'
   yamlTSField: 'blue'
+
+  ## lua
+  luaFunc: 'yellow'
+  luaFunction: 'blue'
