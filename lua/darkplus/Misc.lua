@@ -14,6 +14,8 @@ local Misc = {
 		xmlEndTag = {fg = C.cyan, },
 		yamlPlainScalar = {fg = C.orange, },
 		yamlTSField = {fg = C.blue, },
+		luaFunc = {fg = C.yellow, },
+		luaFunction = {fg = C.blue, },
 }
 
 return Misc
