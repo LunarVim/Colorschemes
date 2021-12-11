@@ -64,7 +64,7 @@ local highlights = {
 		Identifier = {fg = C.light_blue, },
 		Function = {fg = C.yellow, },
 		Operator = {fg = C.fg, },
-		Type = {fg = C.blue, },
+		Type = {fg = C.cyan, },
 		StorageClass = {fg = C.blue, },
 		Structure = {fg = C.blue, },
 		Typedef = {fg = C.blue, },
@@ -93,7 +93,7 @@ local highlights = {
 		Error = {fg = C.error_red, bg = C.bg, style = "bold", },
 		TabLine = {fg = C.light_gray, bg = C.alt_bg, },
 		TabLineSel = {fg = C.white, bg = C.alt_bg, },
-		TabLineFill = {fg = C.white, bg = C.alt_bg, },
+		TabLineFill = {fg = C.alt_bg, },
 }
 
 return highlights

@@ -158,7 +158,7 @@ highlights:
   Error: 'error_red bg b'
   TabLine: 'light_gray alt_bg'
   TabLineSel: 'white alt_bg'
-  TabLineFill: 'white alt_bg'
+  TabLineFill: 'alt_bg'
 
 Treesitter:
   TSComment: 'green'
