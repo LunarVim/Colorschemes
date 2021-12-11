@@ -13,7 +13,7 @@ local LSP = {
 		LspDiagnosticsFloatingHint = {fg = C.hint_blue, },
 		DiagnosticSignError = {fg = C.error_red, },
 		DiagnosticSignWarning = {fg = C.warning_orange, },
-		DiagnosticSignInformation = {fg = C.info_yellow, },
+		DiagnosticSignInfo = {fg = C.info_yellow, },
 		DiagnosticSignHint = {fg = C.hint_blue, },
 		LspDiagnosticsSignError = {fg = C.error_red, },
 		LspDiagnosticsSignWarning = {fg = C.warning_orange, },

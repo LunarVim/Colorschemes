@@ -277,7 +277,7 @@ LSP:
   LspDiagnosticsFloatingHint: 'hint_blue'
   DiagnosticSignError: 'error_red'
   DiagnosticSignWarning: 'warning_orange'
-  DiagnosticSignInformation: 'info_yellow'
+  DiagnosticSignInfo: 'info_yellow'
   DiagnosticSignHint: 'hint_blue'
   LspDiagnosticsSignError: 'error_red'
   LspDiagnosticsSignWarning: 'warning_orange'
