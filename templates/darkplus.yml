@@ -323,7 +323,7 @@ NvimTree:
   NvimTreeEmptyFolderName: 'gray - i'
   NvimTreeGitIgnored: 'gray - i'
   NvimTreeImageFile: 'light_gray'
-  NvimTreeSpecialFile: 'light_red'
+  NvimTreeSpecialFile: 'orange'
   NvimTreeEndOfBuffer: 'tree_gray'
   NvimTreeCursorLine: '- #2A2D2E'
   NvimTreeGitignoreIcon: '#E64A19'
