@@ -133,7 +133,7 @@ highlights:
   StorageClass: 'blue'
   Structure: 'blue'
   Typedef: 'blue'
-  Keyword: 'purple'
+  Keyword: 'blue'
   Statement: 'purple'
   Conditional: 'blue'
   Repeat: 'purple'
