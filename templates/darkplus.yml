@@ -154,7 +154,7 @@ highlights:
   Bold: '- - b'
   Italic: '- - i'
   Ignore: 'cyan bg b'
-  Todo: 'red bg b'
+  Todo: 'magenta bg b'
   Error: 'error_red bg b'
   TabLine: 'light_gray alt_bg'
   TabLineSel: 'white alt_bg'
@@ -412,7 +412,7 @@ Cmp:
   # CmpItemAbbr: '#ff0000'
   # The abbr field.
 
-  CmpItemAbbrDeprecated: '#ui3_blue'
+  CmpItemAbbrDeprecated: 'ui3_blue'
   # The deprecated item's abbr field.
 
   CmpItemAbbrMatch: 'ui3_blue'
@@ -421,12 +421,20 @@ Cmp:
   CmpItemAbbrMatchFuzzy: 'ui3_blue'
   # The fuzzy matched characters highlight.
 
-  CmpItemKind: 'purple'
+  # CmpItemKind: 'purple'
   # The kind field.
 
   # CmpItemMenu: '#f0f00f'
   # The menu field.
-  #
+  
+# CmpItemAbbrMatch: "blue"     guibg=NONE guifg=#569CD6
+# CmpItemAbbrMatchFuzzy: guibg=NONE guifg=#569CD6
+# TODO: finish this later
+  CmpItemKindFunction: "purple"
+  CmpItemKindMethod: "purple"
+  CmpItemKindVariable: "light_blue"
+  CmpItemKindKeyword:  "fg"
+
 SymbolOutline:
   SymbolsOutlineConnector: 'gray'
   FocusedSymbol: '- #36383F'
