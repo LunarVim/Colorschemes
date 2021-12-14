@@ -430,8 +430,8 @@ Cmp:
 # CmpItemAbbrMatch: "blue"     guibg=NONE guifg=#569CD6
 # CmpItemAbbrMatchFuzzy: guibg=NONE guifg=#569CD6
 # TODO: finish this later
-  CmpItemKindFunction: "yellow"
-  CmpItemKindMethod: "yellow"
+  CmpItemKindFunction: "purple"
+  CmpItemKindMethod: "purple"
   CmpItemKindConstructor: "cyan"
   CmpItemKindClass: "cyan"
   CmpItemKindInterface: "cyan"
