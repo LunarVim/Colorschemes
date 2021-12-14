@@ -412,7 +412,7 @@ Cmp:
   # CmpItemAbbr: '#ff0000'
   # The abbr field.
 
-  CmpItemAbbrDeprecated: 'ui3_blue'
+  CmpItemAbbrDeprecated: 'gray - s'
   # The deprecated item's abbr field.
 
   CmpItemAbbrMatch: 'ui3_blue'
@@ -430,10 +430,30 @@ Cmp:
 # CmpItemAbbrMatch: "blue"     guibg=NONE guifg=#569CD6
 # CmpItemAbbrMatchFuzzy: guibg=NONE guifg=#569CD6
 # TODO: finish this later
-  CmpItemKindFunction: "purple"
-  CmpItemKindMethod: "purple"
+  CmpItemKindFunction: "yellow"
+  CmpItemKindMethod: "yellow"
+  CmpItemKindConstructor: "cyan"
+  CmpItemKindClass: "cyan"
+  CmpItemKindInterface: "cyan"
+  CmpItemKindEnum: "cyan"
+  CmpItemKindStruct: "cyan"
+  CmpItemKindEvent: "purple"
   CmpItemKindVariable: "light_blue"
-  CmpItemKindKeyword:  "fg"
+  CmpItemKindField: "light_blue"
+  CmpItemKindProperty: "light_blue"
+  CmpItemKindEnumMember: "light_blue"
+  CmpItemKindKeyword: "blue"
+  CmpItemKindConstant: "blue"
+  CmpItemKindValue: "fg"
+  CmpItemKindUnit: "fg"
+  CmpItemKindText: "fg"
+  CmpItemKindSnippet: "fg"
+  CmpItemKindFile: "fg"
+  CmpItemKindFolder: "fg"
+  CmpItemKindColor: "fg"
+  CmpItemKindReference: "fg"
+  CmpItemKindOperator: "fg"
+  CmpItemKindTypeParameter: "fg"
 
 SymbolOutline:
   SymbolsOutlineConnector: 'gray'

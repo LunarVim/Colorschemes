@@ -192,7 +192,8 @@ if __name__ == "__main__":
         'i': 'italic',
         'b': 'bold',
         'u': 'underline',
-        'r': 'reverse'
+        'r': 'reverse',
+        's': 'strikethrough'
     }
     colorscheme = obj['information']['name']
     author = obj['information']['author']
