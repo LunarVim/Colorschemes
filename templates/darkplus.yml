@@ -442,7 +442,7 @@ Cmp:
   CmpItemKindField: "light_blue"
   CmpItemKindProperty: "light_blue"
   CmpItemKindEnumMember: "light_blue"
-  CmpItemKindKeyword: "blue"
+  CmpItemKindKeyword: "yellow_orange"
   CmpItemKindConstant: "blue"
   CmpItemKindValue: "fg"
   CmpItemKindUnit: "fg"
