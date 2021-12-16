@@ -20,6 +20,7 @@ package.loaded['darkplus.DiffView'] = nil
 package.loaded['darkplus.Bookmarks'] = nil
 package.loaded['darkplus.Bqf'] = nil
 package.loaded['darkplus.Cmp'] = nil
+package.loaded['darkplus.Packer'] = nil
 package.loaded['darkplus.SymbolOutline'] = nil
 package.loaded['darkplus.Misc'] = nil
 

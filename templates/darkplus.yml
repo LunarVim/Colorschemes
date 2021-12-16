@@ -37,20 +37,20 @@ palette:
   purple: '#C586C0'
   magenta: '#D16D9E'
 
-
   cursor_fg: '#515052'
   cursor_bg: '#AEAFAD'
 
   sign_add: '#587c0c'
   sign_change: '#0c7d9d'
   sign_delete: '#94151b'
-  tree_sign_add: "#73C991"
-  tree_sign_change: "#CCA700"
+  tree_sign_add: '#73C991'
+  tree_sign_change: '#CCA700'
 
   error_red: '#F44747'
   warning_orange: '#ff8800'
   info_yellow: '#FFCC66'
   hint_blue: '#4FC1FF'
+  success_green: '#14C50B'
 
   purple_test: '#ff007c'
   cyan_test: '#00dfff'
@@ -61,11 +61,10 @@ palette:
   ui_blue: '#264F78'
   ui2_blue: '#042E48'
   ui3_blue: '#0195F7'
+  ui4_blue: '#75BEFF'
   # ui3_blue: '#2082C9'
-
-  cmp_light_blue: '#75BEFF'
-  cmp_orange: '#E8AB53'
-  cmp_purple: '#B180D7'
+  ui_orange: '#E8AB53'
+  ui_purple: '#B180D7'
 
 highlights:
   Normal: 'fg bg'
@@ -249,8 +248,8 @@ markdown:
   markdownUrl: 'cyan - u'
   markdownLinkText: 'blue'
   markdownFootnote: 'orange'
-  markdownFootnoteDefinition : 'orange'
-  markdownEscape  : 'yellow_orange'
+  markdownFootnoteDefinition: 'orange'
+  markdownEscape: 'yellow_orange'
 
 Whichkey:
   WhichKey: 'purple'
@@ -347,10 +346,10 @@ NvimTree:
   NvimTreeExecFile: '#9FBA89'
 
 Lir:
-  LirFloatNormal: "light_gray alt_bg"
-  LirDir: "blue"
-  LirSymLink: "cyan"
-  LirEmptyDirText: "blue"
+  LirFloatNormal: 'light_gray alt_bg'
+  LirDir: 'blue'
+  LirSymLink: 'cyan'
+  LirEmptyDirText: 'blue'
 
 Buffer:
   BufferCurrent: 'fg bg'
@@ -431,35 +430,42 @@ Cmp:
 
   # CmpItemMenu: '#f0f00f'
   # The menu field.
-  
-# CmpItemAbbrMatch: "blue"     guibg=NONE guifg=#569CD6
-# CmpItemAbbrMatchFuzzy: guibg=NONE guifg=#569CD6
-# TODO: finish this later
-  CmpItemKindFunction: "cmp_purple"
-  CmpItemKindMethod: "cmp_purple"
-  CmpItemKindConstructor: "cmp_orange"
-  CmpItemKindClass: "cmp_orange"
-  CmpItemKindEnum: "cmp_orange"
-  CmpItemKindEvent: "cmp_purple"
-  CmpItemKindInterface: "light_blue"
-  CmpItemKindStruct: "cmp_light_blue"
-  CmpItemKindVariable: "cmp_light_blue"
-  CmpItemKindField: "cmp_light_blue"
-  CmpItemKindProperty: "cmp_light_blue"
-  CmpItemKindEnumMember: "light_blue"
-  CmpItemKindConstant: "cmp_light_blue"
-  CmpItemKindKeyword: "fg"
-  CmpItemKindModule: "fg"
-  CmpItemKindValue: "fg"
-  CmpItemKindUnit: "fg"
-  CmpItemKindText: "fg"
-  CmpItemKindSnippet: "fg"
-  CmpItemKindFile: "fg"
-  CmpItemKindFolder: "fg"
-  CmpItemKindColor: "fg"
-  CmpItemKindReference: "fg"
-  CmpItemKindOperator: "fg"
-  CmpItemKindTypeParameter: "fg"
+
+  # CmpItemAbbrMatch: "blue"     guibg=NONE guifg=#569CD6
+  # CmpItemAbbrMatchFuzzy: guibg=NONE guifg=#569CD6
+  # TODO: finish this later
+  CmpItemKindFunction: 'ui_purple'
+  CmpItemKindMethod: 'ui_purple'
+  CmpItemKindConstructor: 'ui_orange'
+  CmpItemKindClass: 'ui_orange'
+  CmpItemKindEnum: 'ui_orange'
+  CmpItemKindEvent: 'ui_purple'
+  CmpItemKindInterface: 'light_blue'
+  CmpItemKindStruct: 'ui4_blue'
+  CmpItemKindVariable: 'ui4_blue'
+  CmpItemKindField: 'ui4_blue'
+  CmpItemKindProperty: 'ui4_blue'
+  CmpItemKindEnumMember: 'light_blue'
+  CmpItemKindConstant: 'ui4_blue'
+  CmpItemKindKeyword: 'fg'
+  CmpItemKindModule: 'fg'
+  CmpItemKindValue: 'fg'
+  CmpItemKindUnit: 'fg'
+  CmpItemKindText: 'fg'
+  CmpItemKindSnippet: 'fg'
+  CmpItemKindFile: 'fg'
+  CmpItemKindFolder: 'fg'
+  CmpItemKindColor: 'fg'
+  CmpItemKindReference: 'fg'
+  CmpItemKindOperator: 'fg'
+  CmpItemKindTypeParameter: 'fg'
+
+Packer:
+  packerString: 'ui_orange'
+  packerHash: 'ui4_blue'
+  packerOutput: 'ui_purple'
+  packerRelDate: 'gray'
+  packerSuccess: 'success_green'
 
 SymbolOutline:
   SymbolsOutlineConnector: 'gray'
