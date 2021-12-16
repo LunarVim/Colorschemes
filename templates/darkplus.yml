@@ -117,7 +117,7 @@ highlights:
   SpecialKey: 'blue - b'
   Title: 'blue - b'
   ErrorMsg: 'error_red bg b'
-  Search: 'light_gray search_orange'
+  Search: '#36383F'
   IncSearch: 'light_gray search_orange'
   Substitute: 'light_gray search_orange'
   MoreMsg: 'orange'

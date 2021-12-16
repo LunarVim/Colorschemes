@@ -47,7 +47,7 @@ local highlights = {
 		SpecialKey = {fg = C.blue, style = "bold", },
 		Title = {fg = C.blue, style = "bold", },
 		ErrorMsg = {fg = C.error_red, bg = C.bg, style = "bold", },
-		Search = {fg = C.light_gray, bg = C.search_orange, },
+		Search = {fg = "#36383F", },
 		IncSearch = {fg = C.light_gray, bg = C.search_orange, },
 		Substitute = {fg = C.light_gray, bg = C.search_orange, },
 		MoreMsg = {fg = C.orange, },
