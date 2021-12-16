@@ -60,7 +60,12 @@ palette:
 
   ui_blue: '#264F78'
   ui2_blue: '#042E48'
-  ui3_blue: '#2082C9'
+  ui3_blue: '#0195F7'
+  # ui3_blue: '#2082C9'
+
+  cmp_light_blue: '#75BEFF'
+  cmp_orange: '#E8AB53'
+  cmp_purple: '#B180D7'
 
 highlights:
   Normal: 'fg bg'
@@ -430,20 +435,20 @@ Cmp:
 # CmpItemAbbrMatch: "blue"     guibg=NONE guifg=#569CD6
 # CmpItemAbbrMatchFuzzy: guibg=NONE guifg=#569CD6
 # TODO: finish this later
-  CmpItemKindFunction: "purple"
-  CmpItemKindMethod: "purple"
-  CmpItemKindConstructor: "cyan"
-  CmpItemKindClass: "cyan"
-  CmpItemKindInterface: "cyan"
-  CmpItemKindEnum: "cyan"
-  CmpItemKindStruct: "cyan"
-  CmpItemKindEvent: "purple"
-  CmpItemKindVariable: "light_blue"
-  CmpItemKindField: "light_blue"
-  CmpItemKindProperty: "light_blue"
+  CmpItemKindFunction: "cmp_purple"
+  CmpItemKindMethod: "cmp_purple"
+  CmpItemKindConstructor: "cmp_orange"
+  CmpItemKindClass: "cmp_orange"
+  CmpItemKindEnum: "cmp_orange"
+  CmpItemKindEvent: "cmp_purple"
+  CmpItemKindInterface: "light_blue"
+  CmpItemKindStruct: "cmp_light_blue"
+  CmpItemKindVariable: "cmp_light_blue"
+  CmpItemKindField: "cmp_light_blue"
+  CmpItemKindProperty: "cmp_light_blue"
   CmpItemKindEnumMember: "light_blue"
   CmpItemKindKeyword: "yellow_orange"
-  CmpItemKindConstant: "blue"
+  CmpItemKindConstant: "cmp_light_blue"
   CmpItemKindValue: "fg"
   CmpItemKindUnit: "fg"
   CmpItemKindText: "fg"
