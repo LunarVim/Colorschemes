@@ -466,6 +466,7 @@ Packer:
   packerOutput: 'ui_purple'
   packerRelDate: 'gray'
   packerSuccess: 'success_green'
+  packerStatusSuccess: 'ui4_blue'
 
 SymbolOutline:
   SymbolsOutlineConnector: 'gray'
