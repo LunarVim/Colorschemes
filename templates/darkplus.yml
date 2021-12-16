@@ -118,7 +118,7 @@ highlights:
   Title: 'blue - b'
   ErrorMsg: 'error_red bg b'
   Search: 'light_gray search_orange'
-  IncSearch: 'search_blue light_gray'
+  IncSearch: 'ui_blue -'
   Substitute: 'light_gray search_orange'
   MoreMsg: 'orange'
   Question: 'orange'
