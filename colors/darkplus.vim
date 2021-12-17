@@ -22,6 +22,7 @@ package.loaded['darkplus.Bqf'] = nil
 package.loaded['darkplus.Cmp'] = nil
 package.loaded['darkplus.Packer'] = nil
 package.loaded['darkplus.SymbolOutline'] = nil
+package.loaded['darkplus.Notify'] = nil
 package.loaded['darkplus.Misc'] = nil
 
 require("darkplus")
