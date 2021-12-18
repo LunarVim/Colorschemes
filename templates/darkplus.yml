@@ -221,6 +221,7 @@ Treesitter:
   TSStructure: 'light_blue'
   TSStrong: 'blue - b'
   TSQueryLinterError: 'warning_orange'
+  TreesitterContext: '- tree_gray'
 
 markdown:
   markdownBlockquote: 'green'
