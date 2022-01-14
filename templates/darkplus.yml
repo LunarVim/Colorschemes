@@ -214,7 +214,7 @@ Treesitter:
   TSUnderline: '- - u'
   # TSWarning: 'red - bold'
   # TSStrike: '- - s'
-  TSTitle: 'vivid_blue - b'
+  TSTitle: 'fg - b'
   TSLiteral: 'orange'
   TSURI: 'cyan - u'
   TSKeywordOperator: 'blue'
