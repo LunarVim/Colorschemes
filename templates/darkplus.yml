@@ -521,3 +521,12 @@ Misc:
   ## lua
   luaFunc: 'yellow'
   luaFunction: 'blue'
+
+  ## html
+
+  htmlH1: 'fg'
+  htmlH2: 'fg'
+  htmlH3: 'fg'
+  htmlH4: 'fg'
+  htmlH5: 'fg'
+  htmlH6: 'fg'
