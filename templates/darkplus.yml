@@ -523,10 +523,32 @@ Misc:
   luaFunction: 'blue'
 
   ## html
-
   htmlH1: 'fg'
   htmlH2: 'fg'
   htmlH3: 'fg'
   htmlH4: 'fg'
   htmlH5: 'fg'
   htmlH6: 'fg'
+
+  ## css
+  cssBraces: 'fg'
+  cssInclude: 'purple'
+  cssTagName: 'yellow_orange'
+  cssClassName: 'yellow_orange'
+  cssPseudoClass: 'yellow_orange'
+  cssPseudoClassId: 'yellow_orange'
+  cssPseudoClassLang: 'yellow_orange'
+  cssIdentifier: 'yellow_orange'
+  cssProp: 'light_blue'
+  cssDefinition: 'light_blue'
+  cssAttr: 'orange'
+  cssAttrRegion: 'orange' 
+  cssColor: 'orange' 
+  cssFunction: 'orange' 
+  cssFunctionName: 'orange' 
+  cssVendor: 'orange' 
+  cssValueNumber: 'orange' 
+  cssValueLength: 'orange' 
+  cssUnitDecorators: 'orange' 
+  cssStyle: 'light_blue'
+  cssImportant: 'blue'
