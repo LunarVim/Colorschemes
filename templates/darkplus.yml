@@ -536,6 +536,7 @@ Misc:
   htmlTagN: 'blue'
   htmlTagName: 'blue'
   htmlComment: 'green'
+  htmlLink: 'orange - u'
 
   ## css
   cssBraces: 'fg'
