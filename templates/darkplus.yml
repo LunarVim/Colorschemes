@@ -216,7 +216,7 @@ Treesitter:
   # TSStrike: '- - s'
   TSTitle: 'fg - -'
   TSLiteral: 'orange'
-  TSURI: 'cyan - u'
+  TSURI: 'orange - u'
   TSKeywordOperator: 'blue'
   TSStructure: 'light_blue'
   TSStrong: 'blue - b'

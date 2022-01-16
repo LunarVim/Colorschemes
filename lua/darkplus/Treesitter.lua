@@ -48,7 +48,7 @@ local Treesitter = {
 		TSUnderline = {style = "underline", },
 		TSTitle = {fg = C.fg, },
 		TSLiteral = {fg = C.orange, },
-		TSURI = {fg = C.cyan, style = "underline", },
+		TSURI = {fg = C.orange, style = "underline", },
 		TSKeywordOperator = {fg = C.blue, },
 		TSStructure = {fg = C.light_blue, },
 		TSStrong = {fg = C.blue, style = "bold", },
