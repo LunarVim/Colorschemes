@@ -529,6 +529,13 @@ Misc:
   htmlH4: 'fg'
   htmlH5: 'fg'
   htmlH6: 'fg'
+  htmlHead: 'fg'
+  htmlTitle: 'fg'
+  htmlArg: 'light_blue'
+  htmlTag: 'blue'
+  htmlTagN: 'blue'
+  htmlTagName: 'blue'
+  htmlComment: 'green'
 
   ## css
   cssBraces: 'fg'
