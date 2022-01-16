@@ -46,7 +46,7 @@ local Treesitter = {
 		TSTag = {fg = C.blue, },
 		TSEmphasis = {style = "italic", },
 		TSUnderline = {style = "underline", },
-		TSTitle = {fg = C.fg, style = "bold", },
+		TSTitle = {fg = C.fg, },
 		TSLiteral = {fg = C.orange, },
 		TSURI = {fg = C.cyan, style = "underline", },
 		TSKeywordOperator = {fg = C.blue, },
