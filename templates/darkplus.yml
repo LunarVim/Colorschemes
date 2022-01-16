@@ -549,6 +549,6 @@ Misc:
   cssVendor: 'orange' 
   cssValueNumber: 'light_green' 
   cssValueLength: 'light_green' 
-  cssUnitDecorators: 'purple' 
+  cssUnitDecorators: 'light_green' 
   cssStyle: 'light_blue'
   cssImportant: 'blue'
