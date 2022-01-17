@@ -44,7 +44,7 @@ local Misc = {
 		cssAttrRegion = {fg = C.orange, },
 		cssColor = {fg = C.orange, },
 		cssFunction = {fg = C.purple, },
-		cssFunctionName = {fg = C.light_green, },
+		cssFunctionName = {fg = C.yellow, },
 		cssVendor = {fg = C.orange, },
 		cssValueNumber = {fg = C.light_green, },
 		cssValueLength = {fg = C.light_green, },
