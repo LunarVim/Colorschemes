@@ -55,6 +55,8 @@ local Misc = {
 		cssUnitDecorators = {fg = C.light_green, },
 		cssStyle = {fg = C.light_blue, },
 		cssImportant = {fg = C.blue, },
+		jsonKeyword = {fg = C.light_blue, },
+		yamlBlockMappingKey = {fg = C.blue, },
 }
 
 return Misc

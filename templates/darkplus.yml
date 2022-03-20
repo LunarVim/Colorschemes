@@ -564,3 +564,10 @@ Misc:
   cssUnitDecorators: 'light_green'
   cssStyle: 'light_blue'
   cssImportant: 'blue'
+
+  ## json
+  jsonKeyword: 'light_blue'
+
+  ## yaml
+  yamlBlockMappingKey: 'blue'
+
