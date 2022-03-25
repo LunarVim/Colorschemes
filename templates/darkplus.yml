@@ -308,6 +308,9 @@ LSP:
   LspReferenceText: '- #36383F'
   LspReferenceWrite: '- #36383f'
 
+  LspCodeLens: 'context - i'
+  LspCodeLensSeparator: 'context - i'
+
 Quickscope:
   QuickScopePrimary: 'purple_test - u'
   QuickScopeSecondary: 'cyan_test - u'
