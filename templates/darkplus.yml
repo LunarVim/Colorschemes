@@ -70,7 +70,7 @@ highlights:
   Normal: 'fg bg'
   SignColumn: '- bg'
   MsgArea: 'fg bg'
-  ModeMsg: 'fg popup_back'
+  ModeMsg: 'fg dark'
   MsgSeparator: 'fg bg'
   SpellBad: 'light_red - u'
   SpellCap: 'yellow - u'
