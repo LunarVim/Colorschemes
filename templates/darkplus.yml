@@ -87,7 +87,7 @@ highlights:
   LineNr: 'gray -'
   FloatBoder: 'gray alt_bg'
   Whitespace: 'bg -'
-  VertSplit: 'bg gray'
+  VertSplit: 'gray bg'
   CursorLine: '- dark'
   CursorColumn: '- dark'
   ColorColumn: '- dark'
