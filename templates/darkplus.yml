@@ -604,3 +604,27 @@ Misc:
   ## yaml
   yamlBlockMappingKey: 'blue'
 
+Crates:
+  # CratesNvimPopupPillText:
+  # CratesNvimPopupPillBorder:
+  # CratesNvimPopupDescription:
+  # CratesNvimPopupLabel:
+  # CratesNvimPopupVersion:
+  # CratesNvimPopupPreRelease:
+  # CratesNvimPopupYanked:
+  # CratesNvimPopupVersionDate:
+  # CratesNvimPopupFeature:
+  # CratesNvimPopupEnabled:
+  # CratesNvimPopupTransitive:
+  # CratesNvimPopupDependency:
+  # CratesNvimPopupOptional:
+  # CratesNvimPopupDependencyVersion:
+  # CratesNvimPopupLoading:
+
+  CratesNvimLoading: "hint_blue"
+  CratesNvimVersion: "hint_blue"
+  # CratesNvimPreRelease:
+  # CratesNvimYanked:
+  # CratesNvimNoMatch:
+  # CratesNvimUpgrade:
+  # CratesNvimError:
