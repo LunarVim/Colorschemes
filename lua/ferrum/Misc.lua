@@ -58,6 +58,7 @@ local Misc = {
 		cssImportant = {fg = C.blue, },
 		jsonKeyword = {fg = C.light_blue, },
 		yamlBlockMappingKey = {fg = C.blue, },
+		tomlTSProperty = {fg = C.blue, },
 }
 
 return Misc
