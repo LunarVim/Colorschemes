@@ -1,6 +1,6 @@
 information:
-  name: ferrum
-  background: dark
+  name: darkplus
+  background: ferrum
   author: 'Christian Chiarulli <chrisatmachine@gmail.com>'
 
 palette:
@@ -21,18 +21,22 @@ palette:
   # light_gray: '#c8c9c1'
   light_gray: '#cccccc'
   tree_gray: '#252526'
-  blue: '#569CD6'
-  vivid_blue: '#4FC1FF'
+  blue: '#81a2be'
+  vivid_blue: '#D16969'
   dark_blue: '#223E55'
   folder_blue: '#42A5F5'
-  light_blue: '#81a2be'
-  green: '#b5bd68'
-  cyan: '#8abeb7'
+  # light_blue: '#81a2be'
+  light_blue: '#c3c6c4'
+  # green: '#b5bd68'
+  green: '#969896'
+  cyan: '#de935f'
   light_green: '#B5CEA8'
   red: '#F44747'
-  orange: '#de935f'
+  # orange: '#de935f'
+  orange: '#b5bd68'
   light_red: '#D16969'
-  yellow: '#DCDCAA'
+  # yellow: '#DCDCAA'
+  yellow: '#8abeb7'
   yellow_orange: '#D7BA7D'
   purple: '#b294bb'
   magenta: '#D16D9E'
@@ -304,9 +308,9 @@ LSP:
   LspDiagnosticsUnderlineInfo: '- - u'
   LspDiagnosticsUnderlineHint: '- - u'
 
-  LspReferenceRead: '- #36383F'
-  LspReferenceText: '- #36383F'
-  LspReferenceWrite: '- #36383f'
+  LspReferenceRead: '- #35373b'
+  LspReferenceText: '- #35373b'
+  LspReferenceWrite: '- #35373b'
 
   LspCodeLens: 'context - i'
   LspCodeLensSeparator: 'context - i'
@@ -604,6 +608,9 @@ Misc:
   ## yaml
   yamlBlockMappingKey: 'blue'
 
+  ## toml
+  tomlTSProperty: 'blue'
+
 Crates:
   # CratesNvimPopupPillText:
   # CratesNvimPopupPillBorder:
@@ -628,3 +635,5 @@ Crates:
   # CratesNvimNoMatch:
   # CratesNvimUpgrade:
   # CratesNvimError:
+
+
