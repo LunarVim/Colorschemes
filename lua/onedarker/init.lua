@@ -15,10 +15,28 @@ local markdown = require("onedarker.markdown")
 local Whichkey = require("onedarker.Whichkey")
 local Git = require("onedarker.Git")
 local LSP = require("onedarker.LSP")
+local Quickscope = require("onedarker.Quickscope")
+local Telescope = require("onedarker.Telescope")
+local NvimTree = require("onedarker.NvimTree")
+local Lir = require("onedarker.Lir")
+local Buffer = require("onedarker.Buffer")
+local StatusLine = require("onedarker.StatusLine")
+local IndentBlankline = require("onedarker.IndentBlankline")
+local Dashboard = require("onedarker.Dashboard")
+local DiffView = require("onedarker.DiffView")
+local Bookmarks = require("onedarker.Bookmarks")
+local Bqf = require("onedarker.Bqf")
+local Cmp = require("onedarker.Cmp")
+local Gps = require("onedarker.Gps")
+local Packer = require("onedarker.Packer")
+local SymbolOutline = require("onedarker.SymbolOutline")
+local Notify = require("onedarker.Notify")
+local Misc = require("onedarker.Misc")
+local Crates = require("onedarker.Crates")
 
 
 local skeletons = {
-    highlights, Treesitter, markdown, Whichkey, Git, LSP
+    highlights, Treesitter, markdown, Whichkey, Git, LSP, Quickscope, Telescope, NvimTree, Lir, Buffer, StatusLine, IndentBlankline, Dashboard, DiffView, Bookmarks, Bqf, Cmp, Gps, Packer, SymbolOutline, Notify, Misc, Crates
 }
 
 for _, skeleton in ipairs(skeletons) do
