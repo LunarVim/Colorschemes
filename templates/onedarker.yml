@@ -175,7 +175,7 @@ Treesitter:
   TSInclude: 'purple'
   TSKeywordReturn: 'purple'
   TSKeyword: 'purple'
-  TSKeywordFunction: 'blue'
+  TSKeywordFunction: 'purple'
   TSLabel: 'light_blue'
   TSNamespace: 'cyan'
   TSRepeat: 'yellow'
