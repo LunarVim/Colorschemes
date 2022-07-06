@@ -194,8 +194,8 @@ Treesitter:
   TSVariable: 'light_blue'
   TSVariableBuiltin: 'orange'
   TSProperty: 'red'
-  TSOperator: 'fg'
-  TSField: 'red'
+  TSOperator: 'red'
+  TSField: 'fg'
   TSParameter: 'red'
   TSParameterReference: 'red'
   TSSymbol: 'light_blue'
@@ -216,7 +216,7 @@ Treesitter:
   TSTitle: 'fg - -'
   TSLiteral: 'orange'
   TSURI: 'orange - u'
-  TSKeywordOperator: 'blue'
+  TSKeywordOperator: 'purple'
   TSStructure: 'light_blue'
   TSStrong: 'blue - b'
   TSQueryLinterError: 'warning_orange'
@@ -630,5 +630,6 @@ Crates:
   # CratesNvimNoMatch:
   # CratesNvimUpgrade:
   # CratesNvimError:
+
 
 
