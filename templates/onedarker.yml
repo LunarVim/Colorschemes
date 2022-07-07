@@ -192,7 +192,7 @@ Treesitter:
   TSConstMacro: 'orange'
   TSFuncMacro: 'blue'
   TSVariable: 'light_blue'
-  TSVariableBuiltin: 'orange'
+  TSVariableBuiltin: 'red'
   TSProperty: 'red'
   TSField: 'fg'
   TSParameter: 'red'
