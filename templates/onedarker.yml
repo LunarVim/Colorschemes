@@ -27,7 +27,8 @@ palette:
   dark_blue: '#223E55'
   folder_blue: '#42A5F5'
   light_blue: '#abb2bf'
-  green: '#88b369'
+  # green: '#88b369'
+  green: '#7da869'
   cyan: '#46a6b2'
   light_green: '#c18a56'
   red: '#d05c65'
@@ -624,15 +625,10 @@ Crates:
   # CratesNvimPopupDependencyVersion:
   # CratesNvimPopupLoading:
 
-  CratesNvimLoading: "hint_blue"
-  CratesNvimVersion: "hint_blue"
+  CratesNvimLoading: 'hint_blue'
+  CratesNvimVersion: 'hint_blue'
   # CratesNvimPreRelease:
   # CratesNvimYanked:
   # CratesNvimNoMatch:
   # CratesNvimUpgrade:
   # CratesNvimError:
-
-
-
-
-
