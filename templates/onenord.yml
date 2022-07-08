@@ -5,7 +5,7 @@ information:
 
 
 palette:
-  fg: '#D8DEE9'
+  fg: '#abb2bf'
   bg: '#1e222a'
 
   alt_bg: '#252b37'
@@ -193,19 +193,19 @@ Treesitter:
   TSConstMacro: 'orange'
   TSFuncMacro: 'blue'
   TSVariable: 'light_blue'
-  TSVariableBuiltin: 'orange'
-  TSProperty: 'red'
+  TSVariableBuiltin: 'red'
+  TSProperty: 'fg'
   TSOperator: 'fg'
-  TSField: 'red'
+  TSField: 'fg'
   TSParameter: 'red'
-  TSParameterReference: 'red'
+  TSParameterReference: 'fg'
   TSSymbol: 'light_blue'
   TSText: 'fg'
   TSPunctDelimiter: 'fg -'
   TSTagDelimiter: 'gray'
   TSTagAttribute: 'orange'
   TSPunctBracket: 'fg -'
-  TSPunctSpecial: 'red'
+  TSPunctSpecial: 'purple'
   TSString: 'green'
   TSStringRegex: 'green'
   TSStringEscape: 'green'
