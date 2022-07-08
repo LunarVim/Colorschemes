@@ -34,9 +34,9 @@ local LSP = {
 		LspDiagnosticsUnderlineInformation = {style = "underline", },
 		LspDiagnosticsUnderlineInfo = {style = "underline", },
 		LspDiagnosticsUnderlineHint = {style = "underline", },
-		LspReferenceRead = {bg = "#2a2c38", },
-		LspReferenceText = {bg = "#2a2c38", },
-		LspReferenceWrite = {bg = "#2a2c38", },
+		LspReferenceRead = {bg = "#2e303b", },
+		LspReferenceText = {bg = "#2e303b", },
+		LspReferenceWrite = {bg = "#2e303b", },
 		LspCodeLens = {fg = C.context, style = "italic", },
 		LspCodeLensSeparator = {fg = C.context, style = "italic", },
 }

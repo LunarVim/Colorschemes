@@ -305,9 +305,9 @@ LSP:
   LspDiagnosticsUnderlineInfo: '- - u'
   LspDiagnosticsUnderlineHint: '- - u'
 
-  LspReferenceRead: '- #2a2c38'
-  LspReferenceText: '- #2a2c38'
-  LspReferenceWrite: '- #2a2c38'
+  LspReferenceRead: '- #2e303b'
+  LspReferenceText: '- #2e303b'
+  LspReferenceWrite: '- #2e303b'
 
   LspCodeLens: 'context - i'
   LspCodeLensSeparator: 'context - i'
