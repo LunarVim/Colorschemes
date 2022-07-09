@@ -528,9 +528,9 @@ Notify:
   # NotifyTRACEBody: Normal
 
 Hop:
-  HopNextKey: '#68a0b0'
-  HopNextKey1: '#946EaD'
-  HopNextKey2: '#744E8D'
+  HopNextKey: '#a8e0f0'
+  HopNextKey1: '#d4aEeD'
+  HopNextKey2: '#b48EcD'
   HopUnmatched: 'gray'
   HopPreview: '#c7aA6D'
   # HopCursor: ''
