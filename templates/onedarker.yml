@@ -528,11 +528,11 @@ Notify:
   # NotifyTRACEBody: Normal
 
 Hop:
-  HopNextKey: '#a8e0f0'
-  HopNextKey1: '#d4aEeD'
-  HopNextKey2: '#b48EcD'
+  HopNextKey: '#8ae0ff'
+  HopNextKey1: '#d48EeD'
+  HopNextKey2: '#b46EcD'
   HopUnmatched: 'gray'
-  HopPreview: '#c7aA6D'
+  HopPreview: '#c7bA7D'
   # HopCursor: ''
 
 Misc:
