@@ -203,7 +203,7 @@ Treesitter:
   TSText: 'alt_fg'
   TSOperator: 'alt_fg'
   TSPunctDelimiter: 'alt_fg -'
-  TSTagDelimiter: 'alt_bg'
+  TSTagDelimiter: 'alt_fg'
   TSTagAttribute: 'orange'
   TSPunctBracket: 'alt_fg -'
   TSPunctSpecial: 'purple'
