@@ -31,12 +31,13 @@ local Gps = require("onedarker.Gps")
 local Packer = require("onedarker.Packer")
 local SymbolOutline = require("onedarker.SymbolOutline")
 local Notify = require("onedarker.Notify")
+local Hop = require("onedarker.Hop")
 local Misc = require("onedarker.Misc")
 local Crates = require("onedarker.Crates")
 
 
 local skeletons = {
-    highlights, Treesitter, markdown, Whichkey, Git, LSP, Quickscope, Telescope, NvimTree, Lir, Buffer, StatusLine, IndentBlankline, Dashboard, DiffView, Bookmarks, Bqf, Cmp, Gps, Packer, SymbolOutline, Notify, Misc, Crates
+    highlights, Treesitter, markdown, Whichkey, Git, LSP, Quickscope, Telescope, NvimTree, Lir, Buffer, StatusLine, IndentBlankline, Dashboard, DiffView, Bookmarks, Bqf, Cmp, Gps, Packer, SymbolOutline, Notify, Hop, Misc, Crates
 }
 
 for _, skeleton in ipairs(skeletons) do

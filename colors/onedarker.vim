@@ -24,6 +24,7 @@ package.loaded['onedarker.Gps'] = nil
 package.loaded['onedarker.Packer'] = nil
 package.loaded['onedarker.SymbolOutline'] = nil
 package.loaded['onedarker.Notify'] = nil
+package.loaded['onedarker.Hop'] = nil
 package.loaded['onedarker.Misc'] = nil
 package.loaded['onedarker.Crates'] = nil
 

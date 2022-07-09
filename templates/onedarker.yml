@@ -526,6 +526,14 @@ Notify:
   # NotifyDEBUGBody: Normal
   # NotifyTRACEBody: Normal
 
+Hop:
+  HopNextKey: '#68a0b0'
+  HopNextKey1: '#946EaD'
+  HopNextKey2: '#744E8D'
+  HopUnmatched: 'gray'
+  HopPreview: '#c7aA6D'
+  # HopCursor: ''
+
 Misc:
   diffAdded: 'sign_add'
   diffRemoved: 'sign_delete'
