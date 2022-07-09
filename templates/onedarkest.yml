@@ -1,5 +1,5 @@
 information:
-  name: onedarker
+  name: onedarkest
   background: dark
   author: 'Christian Chiarulli <chrisatmachine@gmail.com>'
 
@@ -7,7 +7,7 @@ palette:
   fg: '#abb2bf'
   bg: '#1e222a'
 
-  alt_fg: '#8b92a8'
+  alt_fg: '#7b8298'
   alt_bg: '#1b1f27'
   dark: '#1b1f27'
   accent: '#545862'
@@ -16,26 +16,25 @@ palette:
   line: '#282C34'
 
   search_blue: '#083C5A'
-  white: '#abb2bf'
+  white: '#9ba2af'
   gray: '#545862'
   dark_gray: '#3e4451'
   context: '#545862'
   light_gray: '#c8ccd4'
   tree_gray: '#1b1f27'
-  blue: '#519fdf'
+  blue: '#418fcf'
   vivid_blue: '#4FC1FF'
   dark_blue: '#223E55'
-  folder_blue: '#42A5F5'
+  folder_blue: '#3295d5'
   light_blue: '#abb2bf'
-  # green: '#88b369'
-  green: '#7da869'
-  cyan: '#46a6b2'
-  light_green: '#c18a56'
-  red: '#d05c65'
-  orange: '#c18a56'
-  light_red: '#d05c65'
-  yellow: '#d5b06b'
-  purple: '#b668cd'
+  green: '#78a379'
+  cyan: '#3696a2'
+  light_green: '#b17a46'
+  red: '#c04c55'
+  orange: '#b17a46'
+  light_red: '#c04c55'
+  yellow: '#c5a05b'
+  purple: '#a658bd'
   magenta: '#D16D9E'
 
   cursor_fg: '#515052'
@@ -527,14 +526,6 @@ Notify:
   # NotifyDEBUGBody: Normal
   # NotifyTRACEBody: Normal
 
-Hop:
-  HopNextKey: '#68a0b0'
-  HopNextKey1: '#946EaD'
-  HopNextKey2: '#744E8D'
-  HopUnmatched: 'gray'
-  HopPreview: '#c7aA6D'
-  # HopCursor: ''
-
 Misc:
   diffAdded: 'sign_add'
   diffRemoved: 'sign_delete'
@@ -633,10 +624,15 @@ Crates:
   # CratesNvimPopupDependencyVersion:
   # CratesNvimPopupLoading:
 
-  CratesNvimLoading: 'hint_blue'
-  CratesNvimVersion: 'hint_blue'
+  CratesNvimLoading: "hint_blue"
+  CratesNvimVersion: "hint_blue"
   # CratesNvimPreRelease:
   # CratesNvimYanked:
   # CratesNvimNoMatch:
   # CratesNvimUpgrade:
   # CratesNvimError:
+
+
+
+
+
