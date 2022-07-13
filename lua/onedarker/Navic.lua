@@ -16,6 +16,12 @@ local Navic = {
 		NavicIconsString = {fg = C.green, },
 		NavicIconsNumber = {fg = C.orange, },
 		NavicIconsBoolean = {fg = C.orange, },
+		NavicIconsArray = {fg = C.cyan, },
+		NavicIconsObject = {fg = C.cyan, },
+		NavicIconsKey = {fg = C.purple, },
+		NavicIconsKeyword = {fg = C.purple, },
+		NavicIconsNull = {fg = C.orange, },
+		NavicIconsEnumMember = {fg = C.orange, },
 }
 
 return Navic
