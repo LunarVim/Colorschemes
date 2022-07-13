@@ -497,7 +497,7 @@ Navic:
   NavicIconsOperator: 'fg'     
 
   NavicIconsTypeParameter: 'red'
-  # NavicText: 'Context'              
+  NavicText: 'Context'             
   # NavicSeparator: 'Context'         
 
 Gps:
