@@ -465,13 +465,13 @@ Cmp:
   CmpItemKindOperator: 'fg'
   CmpItemKindTypeParameter: 'red'
 
-# Navic:
-#   NavicIconsFile: 'fg'          
-#   NavicIconsModule: 'cyan'        
-#   NavicIconsNamespace: 'fg'     
-#   NavicIconsPackage: 'fg'       
-#   NavicIconsClass: 'cyan'         
-#   NavicIconsMethod: 'blue'        
+Navic:
+  NavicIconsFile: 'fg'         
+  NavicIconsModule: 'cyan'       
+  NavicIconsNamespace: 'fg'    
+  NavicIconsPackage: 'fg'      
+  NavicIconsClass: 'cyan'        
+  NavicIconsMethod: 'blue'       
 #   NavicIconsProperty: 'red'      
 #   NavicIconsField: 'red'         
 #   NavicIconsConstructor: 'cyan'   

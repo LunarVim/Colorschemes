@@ -27,6 +27,7 @@ local DiffView = require("onedarker.DiffView")
 local Bookmarks = require("onedarker.Bookmarks")
 local Bqf = require("onedarker.Bqf")
 local Cmp = require("onedarker.Cmp")
+local Navic = require("onedarker.Navic")
 local Gps = require("onedarker.Gps")
 local Packer = require("onedarker.Packer")
 local SymbolOutline = require("onedarker.SymbolOutline")
@@ -37,7 +38,7 @@ local Crates = require("onedarker.Crates")
 
 
 local skeletons = {
-    highlights, Treesitter, markdown, Whichkey, Git, LSP, Quickscope, Telescope, NvimTree, Lir, Buffer, StatusLine, IndentBlankline, Dashboard, DiffView, Bookmarks, Bqf, Cmp, Gps, Packer, SymbolOutline, Notify, Hop, Misc, Crates
+    highlights, Treesitter, markdown, Whichkey, Git, LSP, Quickscope, Telescope, NvimTree, Lir, Buffer, StatusLine, IndentBlankline, Dashboard, DiffView, Bookmarks, Bqf, Cmp, Navic, Gps, Packer, SymbolOutline, Notify, Hop, Misc, Crates
 }
 
 for _, skeleton in ipairs(skeletons) do
