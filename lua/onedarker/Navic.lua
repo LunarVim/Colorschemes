@@ -26,6 +26,8 @@ local Navic = {
 		NavicIconsEvent = {fg = C.yellow, },
 		NavicIconsOperator = {fg = C.fg, },
 		NavicIconsTypeParameter = {fg = C.red, },
+		NavicText = {fg = C.context, },
+		NavicSeparator = {fg = C.context, },
 }
 
 return Navic

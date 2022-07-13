@@ -472,7 +472,6 @@ Navic:
   NavicIconsPackage: 'fg'      
   NavicIconsClass: 'cyan'        
   NavicIconsMethod: 'blue'       
-
   NavicIconsProperty: 'red'     
   NavicIconsField: 'red'        
   NavicIconsConstructor: 'cyan'  
@@ -484,21 +483,18 @@ Navic:
   NavicIconsString: 'green'       
   NavicIconsNumber: 'orange'       
   NavicIconsBoolean: 'orange'      
-
   NavicIconsArray: 'cyan'        
   NavicIconsObject: 'cyan'       
   NavicIconsKey: 'purple'          
   NavicIconsKeyword: 'purple'          
   NavicIconsNull: 'orange'         
   NavicIconsEnumMember: 'orange'   
-
   NavicIconsStruct: 'cyan'       
   NavicIconsEvent: 'yellow'        
   NavicIconsOperator: 'fg'     
-
   NavicIconsTypeParameter: 'red'
-  # NavicText: 'Context'             
-  # NavicSeparator: 'Context'        
+  NavicText: 'context'            
+  NavicSeparator: 'context'       
 
 Gps:
   GpsNormal: 'gray #1d1d1d'
