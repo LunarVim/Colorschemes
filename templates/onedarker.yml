@@ -492,9 +492,10 @@ Navic:
   NavicIconsNull: 'orange'         
   NavicIconsEnumMember: 'orange'   
 
-#   NavicIconsStruct: 'cyan'        
-#   NavicIconsEvent: 'yellow'         
-#   NavicIconsOperator: 'fg'      
+  NavicIconsStruct: 'cyan'       
+  NavicIconsEvent: 'yellow'        
+  NavicIconsOperator: 'fg'     
+
 #   NavicIconsTypeParameter: 'red' 
 #   NavicText: 'Context'               
 #   NavicSeparator: 'Context'          
