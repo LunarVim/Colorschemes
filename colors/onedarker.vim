@@ -20,7 +20,6 @@ package.loaded['onedarker.DiffView'] = nil
 package.loaded['onedarker.Bookmarks'] = nil
 package.loaded['onedarker.Bqf'] = nil
 package.loaded['onedarker.Cmp'] = nil
-package.loaded['onedarker.Navic'] = nil
 package.loaded['onedarker.Gps'] = nil
 package.loaded['onedarker.Packer'] = nil
 package.loaded['onedarker.SymbolOutline'] = nil
