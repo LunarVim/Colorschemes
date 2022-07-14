@@ -599,6 +599,9 @@ Misc:
   luaFunc: 'yellow'
   luaFunction: 'blue'
 
+  ## hcl
+  hclTSPunctSpecial: 'fg'
+
   ## html
   htmlH1: 'fg'
   htmlH2: 'fg'

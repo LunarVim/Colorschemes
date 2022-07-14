@@ -21,6 +21,7 @@ local Misc = {
 		yamlTSField = {fg = C.blue, },
 		luaFunc = {fg = C.yellow, },
 		luaFunction = {fg = C.blue, },
+		hclTSPunctSpecial = {fg = C.fg, },
 		htmlH1 = {fg = C.fg, },
 		htmlH2 = {fg = C.fg, },
 		htmlH3 = {fg = C.fg, },
