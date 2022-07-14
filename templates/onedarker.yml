@@ -600,7 +600,7 @@ Misc:
   luaFunction: 'blue'
 
   ## hcl
-  hclTSPunctSpecial: 'fg'
+  hclTSPunctSpecial: 'alt_fg'
 
   ## html
   htmlH1: 'fg'
