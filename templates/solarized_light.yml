@@ -40,6 +40,13 @@ palette:
   cyan: '#2aa198'
   green: '#859900'
 
+  diff_red_bg: '#f9e6d5'
+  diff_red_bg_dark: '#eec4b5'
+  diff_red_fg: '#b7461a'
+  diff_green_bg: '#eff5d6'
+  diff_green_bg_dark: '#dae2ae'
+  diff_green_fg: '#95a23c'
+
   fg: '#657b83'
   bg: '#fdf6e3'
 
@@ -71,7 +78,7 @@ palette:
 
   sign_add: '#859900'
   sign_change: '#2aa198'
-  sign_delete: '#cb4b16'
+  sign_delete: '#d33682'
   tree_sign_add: '#859900'
   tree_sign_change: '#2aa198'
 
@@ -124,10 +131,10 @@ highlights:
   Visual: '- base2'
   VisualNOS: '- alt_bg'
   WarningMsg: 'error_red bg'
-  # DiffText: '- -'
-  DiffAdd: 'alt_bg sign_add'
-  DiffChange: 'alt_bg sign_change u'
-  DiffDelete: 'alt_bg sign_delete'
+  DiffText: '- diff_green_bg_dark'
+  DiffAdd: '- diff_green_bg'
+  DiffChange: '- diff_green_bg'
+  DiffDelete: 'diff_red_fg diff_red_bg'
   QuickFixLine: '- ui2_blue'
   PmenuSbar: '- alt_bg'
   PmenuThumb: '- gray'
