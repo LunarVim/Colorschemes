@@ -63,7 +63,7 @@ highlights:
   Folded: 'accent alt_bg'
   FoldColumn: 'accent alt_bg'
   LineNr: 'gray -'
-  FloatBoder: 'gray alt_bg'
+  FloatBorder: 'gray alt_bg'
   Whitespace: 'gray -'
   VertSplit: 'bg accent'
   CursorLine: '- alt_bg'
